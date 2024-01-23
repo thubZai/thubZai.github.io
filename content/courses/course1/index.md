@@ -1,9 +1,9 @@
 ---
-title: "Course Title 1"
+title: "Course Name 1"
 date: 2022-03-10
 tags: ["keyword 1","keyword 2","keyword 3"]
 author: "Prof. Name"
-description: "This graduate course presents things." 
+sdescription: "This graduate course presents things." 
 summary: "This graduate course presents various methods and results." 
 cover:
     image: "course1.png"

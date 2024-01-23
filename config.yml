@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Prof. Name
+baseURL: "https://rosavandenende.com/" 
+title: Rosa van den Ende 
 paginate: 20
 theme: PaperMod
 
@@ -11,22 +11,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
+        - name: Publications
           url: papers/
           weight: 1
-        - name: Courses
-          url: courses/
+        - name: Talks
+          url: talks/
           weight: 2
-        - name: Data
-          url: data/
+        - name: Resume
+          url: cv_rosa.pdf
           weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+        # - name: Photography
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
+    description: "I am a PhD Candidate in Mathematical and Environmental Economics."
     author: Name
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -50,44 +49,48 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
+          title: Rosa van den Ende
+          subtitle: "Hi! I am a PhD candidate in Mathematical and Environmental Economics at Université Paris I Panthéon-Sorbonne and Universität Bielefeld, 
+          under the supervision of Agnieszka Rusinowska and Manuel Foerster. I apply game theory and network theory to construct models that can shape effective climate policy. 
+          I am mostly interested in environmental allocation questions - who has the right to what - and on how to capture the concept of distributive climate justice in mathematics. "
+          imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
+          imageTitle: Rosa van den Ende
           buttons:
-            - name: Papers
+            - name: Publications
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+           # - name: Newsletter
+           #   url: https://pmichaillat.substack.com
+            # - name: Tags
+            #   url: tags/
+            - name: Talks
+              url: talks/
+            - name: Resume
+              url: cv_rosa.pdf
+            #- name: Archive
+            #  url: archive/
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        # - name: CV
+        #   url: cv_rosa.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:rosa.van-den-ende@univ-paris1.fr
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
+    
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://scholar.google.com/citations?user=jwrYE5sAAAAJ&hl=fr
+        - name: LinkedIn
+          url: https://linkedin.com/in/rosavandenende
+        # - name: GitHub
+        #   url: https://github.com/pmichaillat
+        - name: ORCID
+          url: https://orcid.org/0000-0002-9417-1075
+      
 
     assets:
         disableHLJS: true
@@ -96,7 +99,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Rosa van den Ende"
       icon: favicon.ico
       iconHeight: 18
 
