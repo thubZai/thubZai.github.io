@@ -2,7 +2,7 @@
 title: "The quantum state reduction of general intital states through spontaneous unitarity violation" 
 #date: 2022-01-15
 tags: ["quantum mechanics","measurement problem","spontaneous unitarity violation"]
-author: ["Aritro Mukherjee, Srinivas Gotur, Jelle Aalberts, Rosa van den Ende, Lotte Mertens, Jasper van Wezel, 2023"]
+author: ["Aritro Mukherjee, Srinivas Gotur, Jelle Aalberts, Rosa van den Ende, Lotte Mertens, Jasper van Wezel (2023)"]
 description: "This paper shows other things. Published in Journal Name, 2015." 
 summary: "From when I was still in Theoretical Physics." 
 cover:

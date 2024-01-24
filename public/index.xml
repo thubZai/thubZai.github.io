@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rosa van den Ende</title>
-    <link>https://rosavandenende.com/</link>
+    <link>https://rosavandenende.github.io/</link>
     <description>Recent content on Rosa van den Ende</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosavandenende.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosavandenende.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dataset Title</title>
-      <link>https://rosavandenende.com/data/data1/</link>
+      <link>https://rosavandenende.github.io/data/data1/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/data/data1/</guid>
+      <guid>https://rosavandenende.github.io/data/data1/</guid>
       <description>This dataset contains things.</description>
     </item>
     
     <item>
       <title>Course Name 1</title>
-      <link>https://rosavandenende.com/courses/course1/</link>
+      <link>https://rosavandenende.github.io/courses/course1/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/courses/course1/</guid>
+      <guid>https://rosavandenende.github.io/courses/course1/</guid>
       <description>This graduate course presents various methods and results.</description>
     </item>
     
     <item>
       <title>Course Title 2</title>
-      <link>https://rosavandenende.com/courses/course2/</link>
+      <link>https://rosavandenende.github.io/courses/course2/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/courses/course2/</guid>
+      <guid>https://rosavandenende.github.io/courses/course2/</guid>
       <description>This undergraduate course presents many new things.</description>
     </item>
     
     
     <item>
       <title>Location</title>
-      <link>https://rosavandenende.com/location/</link>
+      <link>https://rosavandenende.github.io/location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/location/</guid>
+      <guid>https://rosavandenende.github.io/location/</guid>
       <description>Office address Centre d&amp;rsquo;Économie de la Sorbonne (office 503) Université Paris I Panthéon-Sorbonne 106-112 Boulevard de l&amp;rsquo;Hôpital, 75013 Paris France
 On the map: </description>
     </item>
     
     <item>
       <title>Network-based allocation of responsibility for GHG emissions</title>
-      <link>https://rosavandenende.com/papers/paper2/</link>
+      <link>https://rosavandenende.github.io/papers/paper2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/papers/paper2/</guid>
+      <guid>https://rosavandenende.github.io/papers/paper2/</guid>
       <description>In this paper we allocate responsibilities for GHG emissions in a network.</description>
     </item>
     
     <item>
       <title>Office Hours</title>
-      <link>https://rosavandenende.com/officehours/</link>
+      <link>https://rosavandenende.github.io/officehours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/officehours/</guid>
+      <guid>https://rosavandenende.github.io/officehours/</guid>
       <description>Schedule and location for office hours.</description>
     </item>
     
     <item>
       <title>Responsibility value on digraphs</title>
-      <link>https://rosavandenende.com/papers/paper1/</link>
+      <link>https://rosavandenende.github.io/papers/paper1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/papers/paper1/</guid>
+      <guid>https://rosavandenende.github.io/papers/paper1/</guid>
       <description>[Work in progress] We take a mathematical and cooperative game theoretical approach at an upstream responsibility value.</description>
     </item>
     
     <item>
       <title>The quantum state reduction of general intital states through spontaneous unitarity violation</title>
-      <link>https://rosavandenende.com/papers/paper3/</link>
+      <link>https://rosavandenende.github.io/papers/paper3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.com/papers/paper3/</guid>
+      <guid>https://rosavandenende.github.io/papers/paper3/</guid>
       <description>This paper shows other things. Published in Journal Name, 2015.</description>
     </item>
     

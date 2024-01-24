@@ -50,9 +50,9 @@ params:
     profileMode:
           enabled: true
           title: Rosa van den Ende
-          subtitle: "Hi! I am a PhD candidate in Mathematical and Environmental Economics at Université Paris I Panthéon-Sorbonne and Universität Bielefeld, 
-          under the supervision of Agnieszka Rusinowska and Manuel Foerster. I apply game theory and network theory to construct models that can shape effective climate policy. 
-          I am mostly interested in environmental allocation questions - who has the right to what - and on how to capture the concept of distributive climate justice in mathematics. "
+          subtitle: "I am a PhD candidate in Mathematical and Environmental Economics at Université Paris I Panthéon-Sorbonne and Universität Bielefeld, 
+          under the supervision of Agnieszka Rusinowska and Manuel Förster. I apply game theory and network theory to construct models that can shape effective climate policy. 
+          I am mostly interested in environmental allocation questions - who has the right to what - and in how to capture the concept of distributive climate justice in mathematics. "
           imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
