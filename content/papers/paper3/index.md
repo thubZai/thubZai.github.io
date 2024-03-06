@@ -2,9 +2,9 @@
 title: "The quantum state reduction of general intital states through spontaneous unitarity violation" 
 #date: 2022-01-15
 tags: ["quantum mechanics","measurement problem","spontaneous unitarity violation"]
-author: ["Aritro Mukherjee, Srinivas Gotur, Jelle Aalberts, Rosa van den Ende, Lotte Mertens, Jasper van Wezel (2023)"]
+author: ["Aritro Mukherjee, Srinivas Gotur, Jelle Aalberts, Rosa van den Ende, Lotte Mertens, Jasper van Wezel (2024)"]
 description: "This paper shows other things. Published in Journal Name, 2015." 
-summary: "From when I was still in Theoretical Physics." 
+summary: "Published in Entropy, 26(2), 131. From when I was still in Theoretical Physics." 
 cover:
     image: "paper3.png"
     alt: "The dynamics of quantum state reduction."
@@ -25,7 +25,7 @@ The inability of Schrödinger’s unitary time evolution to describe measurement
 
 ##### Download
 
-+ [You can find the paper here.](https://arxiv.org/pdf/2301.03233.pdf)
++ [You can find the paper here.](https://www.mdpi.com/1099-4300/26/2/131)
 
 <!-- + [Download it here:](paper3.pdf)
 + [Online appendix](appendix3.pdf)

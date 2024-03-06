@@ -4,7 +4,7 @@ description: "Given talks at conferences and seminars"
 ---
 
 ### Upon invitation
-- (forthcoming) [Complexity Economics Seminar](https://www.inet.ox.ac.uk/events/network-based-allocation-responsibility-ghg-emissions/), Institute for New Economic Thinking - Oxford, United Kingdom, January 31, 2024
+- [Complexity Economics Seminar](https://www.inet.ox.ac.uk/events/network-based-allocation-responsibility-ghg-emissions/), Institute for New Economic Thinking - Oxford, United Kingdom, January 31, 2024
 - 22nd annual conference Society for the Advancement of Economic Theory [SAET](https://sites.google.com/view/saet2023/home) -  Paris, France, July 17-21, 2023
 - 29th International Conference Computing in Economics and Finance [(CEF)](https://comp-econ.com/29th-conference/) - Nice, France, July 03-06, 2023
 - [NEGOCLIM](https://sites.google.com/view/negoclim/home/june-2023-workshop): Modeling and Simulating Climate Negotiations - June 2023 Workshop - Paris, France, June 19, 2023
