@@ -71,7 +71,7 @@ params:
             - name: Talks
               url: talks/
             - name: Resume
-              url: cv_rosa.pdf
+              url: Rosa_CV_feb24.pdf
             #- name: Archive
             #  url: archive/
     socialIcons:
