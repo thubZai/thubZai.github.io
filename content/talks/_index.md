@@ -6,7 +6,10 @@ description: "Given talks at conferences and seminars"
 
 
 ## 2024
--  [Networks and Games Seminar](https://sites.google.com/site/cesworkinggroupnetworks/home), Université Paris I Panthéon-Sorbonne - Paris, France, June 2024
+- International Conference Economic Policy in Complex Environments 2O24 [(EPOC)](https://epoc-itn.eu/en/international-conference/), Milan, Italy, July 15-17, 2024
+- 19th European Meeting on Game Theory [(SING)](https://univfcomte.wixsite.com/sing19) - Besançon, France, July 08-10, 2024
+- Journée de l'UFR 27 Mathématiques et Informatique, Université Paris 1 Panthéon-Sorbonne, Paris, France, June 27, 2024
+- [Networks and Games Seminar](https://sites.google.com/site/cesworkinggroupnetworks/home), Université Paris I Panthéon-Sorbonne - Paris, France, June 20, 2024
 - International Conference Public Economic Theory 2024 [(PET)](https://pet2024.sciencesconf.org), Lyon, France, June 10-12, 2024
 - [Complexity Economics Seminar](https://www.inet.ox.ac.uk/events/network-based-allocation-responsibility-ghg-emissions/), Institute for New Economic Thinking - Oxford, United Kingdom, January 31, 2024 (upon invitation)
 
