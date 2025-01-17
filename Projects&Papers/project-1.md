@@ -89,7 +89,7 @@ By the end of 40 epochs, the ViT reached over 92% validation accuracy on MNIST. 
 Here’s how I understand it now: Think of an image as a jigsaw puzzle. Each piece (patch) contains part of the image, but only by understanding how all the pieces fit together can you see the full picture. ViTs break images into patches, treat them like puzzle pieces, and use a Transformer to figure out their relationships. This global view sets them apart from CNNs, which focus more on local details.
 
 ## ✅Key Concepts I Learned from the ViT Paper
-https://arxiv.org/abs/2010.11929
+[https://arxiv.org/abs/2010.11929](https://arxiv.org/abs/2010.11929)
 
 ✔️Image as Patches: ViTs break it into fixed-size patches like 16x16 instead of processing an image pixel by pixel.
 
