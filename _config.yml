@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/mstile-70x70.png"
+  avatar           : "images\Profile.png"
   name             : "Yash Thube"
   pronouns         : # example: "she/her"  
   bio              : "Multimodality, VLM's & chAI☕"
