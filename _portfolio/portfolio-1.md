@@ -1,5 +1,5 @@
 ---
-title: "Vision Transformers (ViTs)"
+title: "💡Vision Transformers (ViTs)"
 excerpt: "And what I learned while implementing them!"
 collection: Projects & Papers💡
 ---
