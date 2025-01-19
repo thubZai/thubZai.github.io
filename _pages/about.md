@@ -20,7 +20,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 🌿 Outside of work, you’ll find me clicking random pictures, or exploring nature and stargazing. I love playing and watching sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
 ## 🔧Personal AI Toolkit
-#### Here’s a curated list of my go-to tools and libraries, grouped by purpose:
+ Here’s a curated list of my go-to tools and libraries, grouped by purpose:
 
 ### **For Vision Tasks🖼️**
 📌**OpenCV**: Versatile for image preprocessing and augmentation.   
