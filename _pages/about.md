@@ -19,9 +19,9 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 
 🌿 Outside of work, you’ll find me clicking random pictures, or exploring nature and stargazing. I love playing and watching sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
-# 🔧Personal AI Toolkit
+## 🔧Personal AI Toolkit
  Here’s a curated list of my go-to tools and libraries, grouped by purpose:
-## **For Vision Tasks🖼️**
+### **For Vision Tasks🖼️**
 📌**OpenCV**: Versatile for image preprocessing and augmentation.   
 📦**PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
 🚀**YOLO (You Only Look Once)**: My favorite for real-time object detection, especially in sports analytics.  
@@ -29,18 +29,18 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 📸**Scikit-Image**: Ideal for advanced image processing tasks like segmentation and denoising.  
 🖌️**Pillow**: Perfect for quick image transformations like resizing, cropping, and format conversion.
 
-## **For NLP Tasks📝**
+### **For NLP Tasks📝**
 💬**Hugging Face Transformers**: Simplifies using state-of-the-art NLP models like BERT and GPT.  
 ✂️**NLTK & SpaCy**: Handy for preprocessing and annotating text data efficiently.
 
-## **For Experiment Tracking📊**
+### **For Experiment Tracking📊**
 ✔️**Weights & Biases (W&B)**: Makes model tracking and optimization seamless with intuitive visualizations.
 
-## **For Deployment🚀**
+### **For Deployment🚀**
 🌐**Hugging Face Spaces**: Allows me to create interactive demos with ease.  
 ☁️**AWS SageMaker**: Simplifies scaling ML experiments to production.  
 
-# 👇What Keeps Me Inspired
+## 👇What Keeps Me Inspired
 
 ### **All things ML**
 📖Understanding Deep Learning by Simon J.D. Prince.  
