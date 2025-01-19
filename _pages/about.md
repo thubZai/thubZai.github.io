@@ -21,7 +21,6 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 
 # 🔧Personal AI Toolkit
  Here’s a curated list of my go-to tools and libraries, grouped by purpose:
-
 ## **For Vision Tasks🖼️**
 📌**OpenCV**: Versatile for image preprocessing and augmentation.   
 📦**PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
@@ -40,7 +39,6 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ## **For Deployment🚀**
 🌐**Hugging Face Spaces**: Allows me to create interactive demos with ease.  
 ☁️**AWS SageMaker**: Simplifies scaling ML experiments to production.  
-
 
 # 👇What Keeps Me Inspired
 
