@@ -39,7 +39,8 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 
 ## **For Deployment🚀**
 🌐**Hugging Face Spaces**: Allows me to create interactive demos with ease.  
-☁️**AWS SageMaker**: Simplifies scaling ML experiments to production.
+☁️**AWS SageMaker**: Simplifies scaling ML experiments to production.  
+
 
 # 👇What Keeps Me Inspired
 

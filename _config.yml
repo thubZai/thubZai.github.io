@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "thubZ Homepage📍"
+title                    : "**thubZ Homepage📍**"
 title_separator          : "-"
 name                     : &name "Yash Thube"
 description              : &description "personal description"
