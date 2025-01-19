@@ -45,7 +45,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ### **All things ML**
 📖Understanding Deep Learning by Simon J.D. Prince.  
 📰Newsletters like The Batch (Deeplearning.AI) and TL;DR AI.  
-🎥Channels like Deeplearning.TV, Two Minute Papers, Stanford Online, 3Blue1Brown and Machine Learning University.  
+🎥Channels like DeeplearningAI, Two Minute Papers, Stanford Online, 3Blue1Brown, WorldofAI and many more.  
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Yann LeCun, Lex Fridman and so many moree!
 
 ### **Beyond ML**
