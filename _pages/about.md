@@ -49,8 +49,8 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Yann LeCun, Lex Fridman and so many moree!
 
 ### **Beyond ML**
-📚Books like Eat That Frog!, The Alchemist, Ikigai and Atomic Habits.   
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, Veritasium and The Bright Side.  
+📚Books(have read and recommended!): Eat That Frog, The Alchemist, Ikigai, Brave New World, Fahrenheit 451.   
+🎥Channels like Kurzgesagt, StarTalk, TED, Hamza, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
 🌟People like Ratan Tata, Lionel Messi, Stephen Hawking, MS Dhoni, Arijit Singh, Carl Sagan and so many moree!  
 
 
