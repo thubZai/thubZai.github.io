@@ -1,5 +1,5 @@
 ---
-title: 'Understanding ResNets'
+title: 'Understanding ResNets👀'
 date: 2024-01-07
 permalink: /posts/understanding-resnets/
 
