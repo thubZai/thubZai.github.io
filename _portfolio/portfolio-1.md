@@ -1,7 +1,7 @@
 ---
 title: "💡Vision Transformers (ViTs)"
 excerpt: "And what I learned while implementing them!"
-collection: Projects & Papers💡
+collection: Projects
 ---
 
 Transformers have revolutionized natural language processing (NLP), powering models like GPT and BERT. But recently, they’ve also been making waves in computer vision. Enter Vision Transformers (ViTs), an approach to image classification that treats images like sequences of patches, similar to tokens in text.

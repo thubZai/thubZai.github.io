@@ -1,7 +1,7 @@
 ---
 title: "💡VGG16 and Transfer Learning"
-excerpt: "How I used them to classify medical images!"
-collection: Projects & Papers💡
+excerpt: "How I used them to classify medical images!" 
+collection: Projects 
 ---
 
 Deep learning has transformed computer vision, and VGG16 is one of those architectures proving its worth. In this project, I combined VGG16 with transfer learning to classify medical images, specifically focusing on detecting brain tumors in MRI scans. Here's what I did and learned, and how this approach can be applied to real-world problems.
