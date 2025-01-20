@@ -1,5 +1,5 @@
 ---
-title: "💡VGG16 and Transfer Learning"
+title: "VGG16 and Transfer Learning"
 excerpt: "How I used them to classify medical images!" 
 collection: Projects 
 ---
