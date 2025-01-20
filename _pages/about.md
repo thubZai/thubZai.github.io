@@ -22,28 +22,28 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ## 🔧Personal AI Toolkit
  Here’s a curated list of my go-to tools and libraries, grouped by purpose:
 ### **For Vision Tasks🖼️**
-📌**OpenCV**: Versatile for image preprocessing and augmentation.   
-📦**PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
-🚀**YOLO (You Only Look Once)**: My favorite for real-time object detection, especially in sports analytics.  
-⚡**TensorFlow & Keras**: Excellent for rapid prototyping and deploying pre-trained models.  
-📸**Scikit-Image**: Ideal for advanced image processing tasks like segmentation and denoising.  
-🖌️**Pillow**: Perfect for quick image transformations like resizing, cropping, and format conversion.
+- **OpenCV**: Versatile for image preprocessing and augmentation.   
+- **PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
+- **YOLO (You Only Look Once)**: My favorite for real-time object detection, especially in sports analytics.  
+- **TensorFlow & Keras**: Excellent for rapid prototyping and deploying pre-trained models.  
+- **Scikit-Image**: Ideal for advanced image processing tasks like segmentation and denoising.  
+- **Pillow**: Perfect for quick image transformations like resizing, cropping, and format conversion.
 
 ### **For NLP Tasks📝**
-💬**Hugging Face Transformers**: Simplifies using state-of-the-art NLP models like BERT and GPT.  
-✂️**NLTK & SpaCy**: Handy for preprocessing and annotating text data efficiently.
+- **Hugging Face Transformers**: Simplifies using state-of-the-art NLP models like BERT and GPT.  
+- **NLTK & SpaCy**: Handy for preprocessing and annotating text data efficiently.
 
 ### **For Experiment Tracking📊**
-✔️**Weights & Biases (W&B)**: Makes model tracking and optimization seamless with intuitive visualizations.
+- **Weights & Biases (W&B)**: Makes model tracking and optimization seamless with intuitive visualizations.
 
 ### **For Deployment🚀**
-🌐**Hugging Face Spaces**: Allows me to create interactive demos with ease.  
-☁️**AWS SageMaker**: Simplifies scaling ML experiments to production.  
+- **Hugging Face Spaces**: Allows me to create interactive demos with ease.  
+- **AWS SageMaker**: Simplifies scaling ML experiments to production.  
 
 ## 👇What Keeps Me Inspired
 
 ### **All things ML**
-📖Understanding Deep Learning by Simon J.D. Prince.  
+📖Understanding Deep Learning by Simon Prince and Machine Learning Specialization by Stanford.  
 📰Newsletters like The Batch (Deeplearning.AI) and TL;DR AI.  
 🎥Channels like DeeplearningAI, Two Minute Papers, Stanford Online, 3Blue1Brown, WorldofAI and many more.  
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Yann LeCun, Lex Fridman and so many moree!
