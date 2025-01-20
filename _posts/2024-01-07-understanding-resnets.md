@@ -41,7 +41,7 @@ The result? Layers learn to make small tweaks to the input rather than starting 
 Network Depth
 ResNets allow for extremely deep architectures, with successful implementations reaching over 1000 layers, thanks to their effective handling of optimization challenges.
 
-![alt text](image.png)    
+![alt text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*C8jf92MeHZnxnbpMkz6jkQ.png)    
 
 ### 📌Key Achievements of ResNets
 - Overcoming Degradation: They enable the training of deep networks without the accuracy degradation problem.
