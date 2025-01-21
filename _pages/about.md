@@ -51,7 +51,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ### **Beyond ML**
 📚Books(have read and recommended!): Eat That Frog, The Alchemist, Ikigai, Brave New World, Fahrenheit 451.   
 🎥Channels like Kurzgesagt, StarTalk, TED, Hamza, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
-🌟People like Ratan Tata, Lionel Messi, Stephen Hawking, MS Dhoni, Arijit Singh, Carl Sagan and so many moree!  
+  
 
 
 
