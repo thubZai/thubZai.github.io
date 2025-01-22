@@ -51,7 +51,19 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ### **Beyond ML**
 📚Books(have read and recommended!): Eat That Frog, The Alchemist, Ikigai, Brave New World, Fahrenheit 451.   
 🎥Channels like Kurzgesagt, StarTalk, TED, Hamza, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
-  
+
+## 👇Interesting Podcasts/Documentries/Projects
+
+- [Andrej Karpathy (Lex Fridman Podcast)](https://youtu.be/cdiD-9MMpb0?si=1PtizFt-uvhkE9o-)
+
+- [AlphaGo Documentary](https://youtu.be/WXuK6gekU1Y?si=DqVB_ogiDWzB_wLA)
+
+- [Ilya Sutskever (Lex Fridman Podcast)](https://youtu.be/13CZPWmke6A?si=A9eFIilC--d4eWWn)
+
+- [Yann Lecun (Lex Fridman Podcast)](https://youtu.be/5t1vTLU7s40?si=jeSK8GB-ffm6yvzY)
+
+- [PyTorch Documentary](https://youtu.be/rgP_LBtaUEc?si=VzII-WzJGbvncgyX)
+
 
 
 
