@@ -64,7 +64,10 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 
 - [PyTorch Documentary](https://youtu.be/rgP_LBtaUEc?si=VzII-WzJGbvncgyX)
 
+- [Deepmind's Project Astra](https://deepmind.google/technologies/project-astra/)
 
+- [Diffusion for World Modeling:
+Visual Details Matter in Atari](https://diamond-wm.github.io/)
 
 
 
