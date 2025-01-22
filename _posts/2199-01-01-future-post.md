@@ -1,6 +1,6 @@
 ---
 title: 'Bridging Vision and Language Through Contrastive Learning (CLIP)👀'
-date: 2024-02-17
+date: 2024-07-17
 permalink: /posts/2012/08/blog-post-4/
 
 ---
