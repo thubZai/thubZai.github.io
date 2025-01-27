@@ -17,7 +17,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 
 ✍️ Breaking down complex concepts through blogs is my jam. You can find my posts on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/) and [InPlainEnglish](https://plainenglish.io/author/yash-thube).
 
-🌿 Outside of work, you’ll find me clicking random pictures, or exploring nature and stargazing. I love playing and watching sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
+🌿 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
 ## 🔧Personal AI Toolkit
  Here’s a curated list of my go-to tools and libraries, grouped by purpose:
@@ -49,7 +49,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
 
 ### **Beyond ML**
-📚Books(have read and recommended!): Eat That Frog, The Alchemist, Ikigai, Brave New World, Fahrenheit 451.   
+📚Books(have read and recommended!): Eat That Frog, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry.   
 🎥Channels like Kurzgesagt, StarTalk, TED, Hamza, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
 
 ## 👇Interesting Podcasts/Documentries/Projects
@@ -72,3 +72,4 @@ Visual Details Matter in Atari](https://diamond-wm.github.io/)
 
 
 
+  
