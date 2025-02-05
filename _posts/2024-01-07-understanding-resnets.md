@@ -4,7 +4,7 @@ date: 2024-08-07
 permalink: /posts/2024-01-07-understanding-resnets/
 
 ---
-[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+### [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 
 **Deep Residual Networks (ResNets)** are a development in deep learning, designed to address the challenges associated with training deep neural networks. This architecture is pivotal in advancing image recognition and other tasks by enabling deeper networks to achieve better performance without succumbing to optimization difficulties. Here's a breakdown of ResNets.
 
