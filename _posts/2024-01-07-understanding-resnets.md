@@ -1,7 +1,7 @@
 ---
 title: 'Understanding ResNets👀'
 date: 2024-08-07
-permalink: _posts/2024-01-07-understanding-resnets.md
+permalink: /posts/2024-01-07-understanding-resnets/
 
 ---
 [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
