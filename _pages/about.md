@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![multimodality](robot.png){: .align-right width="995px"}
+![multimodality](robot.png){: .align-right width="1111px"}
 
 ### How are you guys doing?
 Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
