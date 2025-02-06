@@ -4,14 +4,6 @@ title: "Projects & Implementations💡"
 permalink: /portfolio/
 author_profile: true
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +17,14 @@ author_profile: true
     </style>
 </head>
 <body>
-    <img src="_pages/image.jpg" class="align-right" style="width: 1111px;">
+    <img src="_pages/image.jpg" alt="portfoli" class="align-right" style="width: 1111px;">
 </body>
 </html>
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
