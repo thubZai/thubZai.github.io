@@ -40,7 +40,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 - **Hugging Face Spaces**: Allows me to create interactive demos with ease.  
 - **AWS SageMaker**: Simplifies scaling ML experiments to production.  
 
-## 👇What Keeps Me Inspired
+## 🤔What Keeps Me Inspired
 
 ### **All things ML**
 📖Understanding Deep Learning by Simon Prince and Machine Learning Specialization by Stanford.  
