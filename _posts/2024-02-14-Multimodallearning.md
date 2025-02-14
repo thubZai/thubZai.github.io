@@ -6,7 +6,7 @@ permalink: /posts/2024-02-14-Multimodallearning/
 ---
 ### Generative Distribution Prediction!
 
-![alt text](image-1.png){: .align-center width="750px"}
+![alt text](_posts/image-1.png)
 
 We live in a world of multimodal data. Think about it: a restaurant review isn't just text; it's accompanied by images of the food, the ambiance, and maybe even the menu. This combination of text, images, and ratings is multimodal data, and it's everywhere. Traditional machine learning models often struggle with this kind of data because each "mode" (text, image, rating) has its own unique structure and characteristics. A picture is high-dimensional, text is sequential, and a rating is just a number. How do we effectively combine these disparate data types to make better predictions?
 
