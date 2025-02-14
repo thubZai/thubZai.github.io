@@ -24,7 +24,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ### **For Vision Tasks🖼️**
 - **OpenCV**: Versatile for image preprocessing and augmentation.   
 - **PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
-- **YOLO (You Only Look Once)**: My favorite for real-time object detection, especially in sports analytics.  
+- **YOLO**: My favorite for real-time object detection, especially in sports analytics.  
 - **TensorFlow & Keras**: Excellent for rapid prototyping and deploying pre-trained models.  
 - **Scikit-Image**: Ideal for advanced image processing tasks like segmentation and denoising.  
 - **Pillow**: Perfect for quick image transformations like resizing, cropping, and format conversion.
