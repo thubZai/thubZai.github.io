@@ -30,7 +30,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 - **Pillow**: Perfect for quick image transformations like resizing, cropping, and format conversion.
 
 ### **For NLP Tasks📝**
-- **Hugging Face Transformers**: Simplifies using state-of-the-art NLP models like BERT and GPT.  
+- **Hugging Face Transformers**: Simplifies using SOTA NLP models like BERT and GPT.  
 - **NLTK & SpaCy**: Handy for preprocessing and annotating text data efficiently.
 
 ### **For Experiment Tracking📊**
