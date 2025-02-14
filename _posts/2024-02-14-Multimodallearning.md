@@ -1,6 +1,6 @@
 ---
 title: 'A Unified Approach to Multimodal Learning👀'
-date: 2024-01-14
+date: 2025-02-14
 permalink: /posts/2024-02-14-Multimodallearning/
 
 ---
