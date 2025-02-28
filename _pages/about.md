@@ -11,11 +11,11 @@ redirect_from:
 ### How are you guys doing?
 Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
 
-🧠 I’m captivated by the ever-evolving world of Machine Learning, with a deep curiosity and research interests in exploring **Multimodal Learning**, with insights from **Computer Vision**, **Natural Language Processing (NLP)** and **Deep Reinforcement Learning (RL)**.
+🧠 I'm deeply curious with research interests in exploring **Multimodal Learning**, with insights from **Computer Vision**, **Natural Language Processing (NLP)** and **Deep Reinforcement Learning (RL)**.
 
-📚 I have a borderline obsession with research papers - reading, reimplementing, and occasionally losing sleep over them. Check out my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
+📚 I have a borderline obsession with research papers. Check out my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
 
-✍️ Breaking down complex concepts through blogs is my jam. You can find my posts on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/) and [InPlainEnglish](https://plainenglish.io/author/yash-thube).
+✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/) and [InPlainEnglish](https://plainenglish.io/author/yash-thube).
 
 🌿 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
