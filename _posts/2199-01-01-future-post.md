@@ -4,7 +4,7 @@ date: 2024-07-17
 permalink: /posts/2012/08/blog-post-4/
 
 ---
-### [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020)
+### Learning Transferable Visual Models From Natural Language Supervision
 
 In recent years, the integration of computer vision and natural language processing has led to amazing advancements. One such innovation is OpenAI’s CLIP (Contrastive Language–Image Pre-training), which combines visual and textual understanding to tackle a variety of tasks without needing task-specific training. Here’s a comprehensive yet simplified exploration of CLIP’s inner workings, features, and transformative potential.
 
@@ -190,13 +190,14 @@ CLIP is revolutionizing multimodal learning, with exciting potential in fields l
 Future research aims to address it’s current limitations, improve its interpretability, and unlock new applications.
 
 ### 📌Implementation Resources
-[CLIP GitHub Repository](https://github.com/OpenAI/CLIP)   
-[Hugging Face Integration](https://huggingface.co/openai/clip-vit-base-patch32)  
+- [Paper](https://arxiv.org/pdf/2103.00020)   
+- [CLIP GitHub Repository](https://github.com/OpenAI/CLIP)   
+- [Hugging Face Integration](https://huggingface.co/openai/clip-vit-base-patch32)  
 
 ### 📌Related Technologies
-[Transformer Architecture](https://arxiv.org/abs/1706.03762)  
-[Self-Attention Mechanisms](https://arxiv.org/abs/1706.03762)   
-[Transfer Learning](https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/)  
-[Neural Networks](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414)  
+- [Transformer Architecture](https://arxiv.org/abs/1706.03762)  
+- [Self-Attention Mechanisms](https://arxiv.org/abs/1706.03762)   
+- [Transfer Learning](https://www.analyticsvidhya.com/blog/2021/10/understanding-transfer-learning-for-deep-learning/)  
+- [Neural Networks](https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414)  
 
 ### Stay Curious☺️….see you in the next one!
