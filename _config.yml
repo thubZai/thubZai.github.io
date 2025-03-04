@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "thubZ Homepage📍"
+title                    : "Homepage📍"
 title_separator          : "-"
 name                     : &name "Yash Thube"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "Black Pattern Minimalist LinkedIn Profile Picture (1).png"
   name             : "Yash Thube"
   pronouns         : # example: "she/her"  
-  bio              : "Multimodality, Deep Learning & chAI☕"
+  bio              : "Deep Learning & chAI☕"
   location         : "Pune, India"
   employer         : #"Red Brick University"
   uri              : # URL
