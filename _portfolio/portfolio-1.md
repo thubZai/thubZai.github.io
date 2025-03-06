@@ -1,6 +1,6 @@
 ---
 title: "Vision Transformers (ViTs)"
-excerpt: "And what I learned while implementing them! 1<br/><img src='images/1_hesI2FjNGPyffEOj75-M4A.jpg'>"
+excerpt: "And what I learned while implementing them!"
 collection: Projects
 ---
 
