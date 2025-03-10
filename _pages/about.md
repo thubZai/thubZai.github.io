@@ -20,7 +20,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 🌿 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
 ## 🔧Personal ML Toolkit
- Here’s a curated list of my go-to tools and libraries, grouped by purpose:
+ Here’s a curated list of my go-to tools and libraries:
 ### **For Vision Tasks🖼️**
 - **OpenCV**: Versatile for image preprocessing and augmentation.   
 - **PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
@@ -36,9 +36,9 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ### **For Experiment Tracking📊**
 - **Weights & Biases (W&B)**: Makes model tracking and optimization seamless with intuitive visualizations.
 
-### **For Deployment🚀**
-- **Hugging Face Spaces**: Allows me to create interactive demos with ease.  
-- **AWS SageMaker**: Simplifies scaling ML experiments to production.  
+### **For Deployment🚀**  
+- **AWS SageMaker**: Simplifies scaling ML experiments to production.    
+- **Hugging Face Spaces**: Allows to create interactive demos with ease.
 
 ## 🤔What Keeps Me Inspired
 
