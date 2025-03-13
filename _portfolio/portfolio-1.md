@@ -139,6 +139,6 @@ A Survey of Visual Transformers](https://arxiv.org/abs/2101.01169)
 
 Understanding ViT’s helped me see how they bridge the gap between NLP and vision tasks while offering a fresh perspective on computer vision. If you’re curious about them, I highly recommend diving in!
 
-### [📌Project Code](https://github.com/thubZ09/Vision-Transformer-Implementation)
+### [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/thubZ09/Vision-Transformer-Implementation)
 
 ### Stay Curious☺️….see you in the next one!

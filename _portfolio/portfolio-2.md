@@ -98,6 +98,6 @@ This project opened up new possibilities for me. Next, I plan to explore:
 ResNet and EfficientNet: To compare their performance and efficiency.   
 Challenging Datasets: Testing these methods on more complex medical imaging datasets.
 
-### 📌[Project Code](https://github.com/thubZ09/MRI_Image_Classifier_Tumor)
+### [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/thubZ09/MRI_Image_Classifier_Tumor)
 
 ### Stay Curious☺️….see you in the next one!
