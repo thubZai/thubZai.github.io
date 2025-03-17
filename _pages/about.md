@@ -11,7 +11,7 @@ redirect_from:
 ### How are you guys doing?
 Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
 
-🤖 I have a deep curiosity and research interests in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs)**, **Large Multimodal Models (MLLMs)** & **Diffusion models** with insights from **Computer Vision (CV)** and **Deep Reinforcement Learning (RL)**.
+🔭 I have a deep curiosity and research interests in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs)**, **Large Multimodal Models (MLLMs)** & **Diffusion models** with insights from **Computer Vision (CV)** and **Deep Reinforcement Learning (RL)**.
 
 📚 I have a borderline obsession with research papers. Check out my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
 
