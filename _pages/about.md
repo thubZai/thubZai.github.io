@@ -45,7 +45,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ### **All things ML**
 📖Understanding Deep Learning by Simon Prince and Machine Learning Specialization by Stanford.  
 📰Newsletters like The Batch (Deeplearning.AI) and TL;DR AI.  
-🎥Channels like DeeplearningAI, Two Minute Papers, Stanford Online, 3Blue1Brown, WorldofAI and many more.  
+🎥Channels like Two Minute Papers, Stanford Online, 3Blue1Brown, WorldofAI, Machine Learning Street Talk and many more.  
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
 
 ### **Beyond ML**
