@@ -15,7 +15,7 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 
 📌Check out the repository I've created - [**Vision-Language Models (VLMs) Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
-📚 I have a borderline obsession with research papers. Check out my [**Reading List**](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
+📚 I have a borderline obsession with research papers. Check out my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
 
 ✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/) and [InPlainEnglish](https://plainenglish.io/author/yash-thube).
 
