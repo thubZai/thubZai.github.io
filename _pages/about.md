@@ -24,23 +24,23 @@ Well, I'm doing great just like you...Thanks for asking, btw! 😊 Here’s a gl
 ## 🔧Personal ML Toolkit
  Here’s a curated list of my go-to tools and libraries:
 ### **For Vision Tasks🖼️**
-- **OpenCV**: Versatile for image preprocessing and augmentation.   
-- **PyTorch and torchvision**: Perfect for implementing custom CNNs and Vision Transformers.  
-- **YOLO**: My favorite for real-time object detection, especially in sports analytics.  
-- **TensorFlow & Keras**: Excellent for rapid prototyping and deploying pre-trained models.  
-- **Scikit-Image**: Ideal for advanced image processing tasks like segmentation and denoising.  
-- **Pillow**: Perfect for quick image transformations like resizing, cropping, and format conversion.
+- **OpenCV**   
+- **PyTorch and torchvision** 
+- **YOLO**  
+- **TensorFlow & Keras**  
+- **Scikit-Image**
+- **Pillow**
 
 ### **For NLP Tasks📝**
-- **Hugging Face Transformers**: Simplifies using SOTA NLP models like BERT and GPT.  
-- **NLTK & SpaCy**: Handy for preprocessing and annotating text data efficiently.
+- **Hugging Face Transformers**  
+- **NLTK & SpaCy**
 
 ### **For Experiment Tracking📊**
-- **Weights & Biases (W&B)**: Makes model tracking and optimization seamless with intuitive visualizations.
+- **Weights & Biases (W&B)**
 
 ### **For Deployment🚀**  
-- **AWS SageMaker**: Simplifies scaling ML experiments to production.    
-- **Hugging Face Spaces**: Allows to create interactive demos with ease.
+- **AWS SageMaker**  
+- **Hugging Face Spaces**
 
 ## 🤔What Keeps Me Inspired
 
