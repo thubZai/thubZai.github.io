@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 ![multimodality](robot.png){: .align-right width="1111px"}
 
 ### How are you guys doing?
