@@ -43,7 +43,7 @@ author_profile: true
     <div class="item-meta">
         {{ post.date | date: "%B %Y" }}
         {% if post.tags %}
-        · {{ post.tags | join: ", " }}
+         {{ post.tags | join: ", " }}
         {% endif %}
     </div>
     {% if post.description %}
