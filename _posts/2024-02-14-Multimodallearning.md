@@ -4,7 +4,6 @@ date: 2025-02-19
 permalink: /posts/2024-02-14-Multimodallearning/
 
 ---
-### Generative Distribution Prediction!
 
 ![alt text](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*_sr-c9hmjRC_SkTBLAeWjQ.jpeg)
 

@@ -4,7 +4,6 @@ date: 2024-07-17
 permalink: /posts/2012/08/blog-post-4/
 
 ---
-### Learning Transferable Visual Models From Natural Language Supervision
 
 In recent years, the integration of computer vision and natural language processing has led to amazing advancements. One such innovation is OpenAI’s CLIP (Contrastive Language–Image Pre-training), which combines visual and textual understanding to tackle a variety of tasks without needing task-specific training. Here’s a comprehensive yet simplified exploration of CLIP’s inner workings, features, and transformative potential.
 

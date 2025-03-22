@@ -1,14 +1,52 @@
 ---
 layout: archive
-title: "Projects & Implementations💡"
+title: "Projects & Implementations"
 permalink: /portfolio/
 author_profile: true
 ---
 
+<style>
+.portfolio-item {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
 
-{% include base_path %}
+.portfolio-item:hover {
+    background-color: #f8f9fa;
+}
+
+.item-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.item-meta {
+    color: #666;
+    font-size: 0.95rem;
+    margin: 0.5rem 0;
+}
+
+.item-description {
+    color: #444;
+    line-height: 1.6;
+    margin-top: 0.75rem;
+}
+</style>
 
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="portfolio-item">
+    <a href="{{ post.url }}" class="item-title">💡 {{ post.title }}</a>
+    <div class="item-meta">
+        {{ post.date | date: "%B %Y" }}
+        {% if post.tags %}
+        · {{ post.tags | join: ", " }}
+        {% endif %}
+    </div>
+    {% if post.description %}
+    <p class="item-description">{{ post.description }}</p>
+    {% endif %}
+</div>
 {% endfor %}
-
