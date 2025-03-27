@@ -6,20 +6,22 @@ author_profile: true
 ---
 
 <style>
+/* Tab Styles */
 .category-tabs {
     display: flex;
     gap: 1rem;
     margin: 2rem 0;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .category-tab {
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    background: #f8f9fa;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    background: #f5f5f5;
     cursor: pointer;
     transition: all 0.2s ease;
+    border: none;
+    font-family: 'Inter', sans-serif;
 }
 
 .category-tab.active {
@@ -27,88 +29,105 @@ author_profile: true
     color: white;
 }
 
-.subcategory-section {
-    margin: 2rem 0;
+/* Content Sections */
+.category-content {
     display: none;
+    margin-top: 2rem;
 }
 
-.subcategory-section.active {
+.category-content.active {
     display: block;
 }
 
-.subcategory-header {
-    font-size: 1.3rem;
-    margin: 1.5rem 0 1rem;
-    color: #2d3748;
-    padding-bottom: 0.25rem;
-    border-bottom: 1px solid #eee;
+.subcategory-group {
+    margin: 2rem 0;
 }
 
-.post-list {
-    list-style: none;
-    padding-left: 0;
+.subcategory-header {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: #2d3748;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
 }
 
 .post-item {
-    padding: 1rem;
-    margin: 0.5rem 0;
-    border-left: 3px solid #e2e8f0;
-    transition: all 0.2s ease;
-}
-
-.post-item:hover {
-    border-left-color: #4a5568;
-    background: #f8fafc;
+    padding: 1.25rem;
+    margin: 1rem 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 </style>
 
 <div class="category-tabs">
+    <button class="category-tab active" data-category="all">All</button>
     {% assign categories = site.teaching | map: 'category' | uniq %}
     {% for cat in categories %}
-    <div class="category-tab" data-category="{{ cat | slugify }}">{{ cat }}</div>
+        <button class="category-tab" data-category="{{ cat | slugify }}">{{ cat }}</button>
     {% endfor %}
 </div>
 
-{% assign grouped_by_category = site.teaching | group_by: 'category' %}
-
-{% for category in grouped_by_category %}
-<section class="subcategory-section" id="{{ category.name | slugify }}">
-    <div class="subcategory-header">{{ category.name }}</div>
+<div class="teaching-content">
+    {% assign categories = site.teaching | group_by: 'category' %}
     
-    {% assign subcategories = category.items | group_by: 'subcategory' %}
-    {% for subcat in subcategories %}
-    <div class="subcategory-group">
-        <h3 class="subcategory-title">{{ subcat.name }}</h3>
-        <div class="post-list">
-            {% for post in subcat.items reversed %}
+    <!-- All Posts Section -->
+    <div class="category-content active" id="all">
+        {% for post in site.teaching %}
+        <article class="post-item">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <div class="post-meta">
+                <span class="category-badge">{{ post.category }}</span> • 
+                {{ post.date | date: "%b %Y" }}
+            </div>
+            {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+            {% endif %}
+        </article>
+        {% endfor %}
+    </div>
+
+    <!-- Category Sections -->
+    {% for category in categories %}
+    <div class="category-content" id="{{ category.name | slugify }}">
+        {% assign subcategories = category.items | group_by: 'subcategory' %}
+        
+        {% for subcat in subcategories %}
+        <div class="subcategory-group">
+            <h2 class="subcategory-header">{{ subcat.name }}</h2>
+            {% for post in subcat.items %}
             <article class="post-item">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                <div class="post-meta">{{ post.date | date: "%b %Y" }}</div>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div class="post-meta">
+                    {{ post.date | date: "%b %Y" }}
+                </div>
                 {% if post.excerpt %}
                 <div class="post-excerpt">{{ post.excerpt }}</div>
                 {% endif %}
             </article>
             {% endfor %}
         </div>
+        {% endfor %}
     </div>
     {% endfor %}
-</section>
-{% endfor %}
+</div>
 
 <script>
-document.querySelectorAll('.category-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-        // Remove active classes
-        document.querySelectorAll('.category-tab, .subcategory-section').forEach(el => {
-            el.classList.remove('active');
+document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('.category-tab');
+    const contents = document.querySelectorAll('.category-content');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            // Remove active classes
+            tabs.forEach(t => t.classList.remove('active'));
+            contents.forEach(c => c.classList.remove('active'));
+
+            // Add active classes
+            tab.classList.add('active');
+            const target = document.getElementById(tab.dataset.category);
+            if(target) target.classList.add('active');
         });
-        
-        // Add active classes
-        tab.classList.add('active');
-        document.getElementById(tab.dataset.category).classList.add('active');
     });
 });
-
-// Activate first tab by default
-document.querySelector('.category-tab').click();
 </script>
