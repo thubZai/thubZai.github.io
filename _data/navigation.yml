@@ -11,14 +11,14 @@ main:
   #- title: "Talks"
   #  url: /talks/    
 
-  - title: "Brain Dump🧠"
-    url: /teaching/    
+  #- title: "Brain Dump🧠"
+  #  url: /teaching/    
     
   - title: "Archives📒"
     url: /portfolio/
         
-  #- title: "Brain Dump🧠"
-  #  url: /year-archive/
+  - title: "Brain Dump🧠"
+    url: /year-archive/
     
   - title: "CV📄"
     url: "https://drive.google.com/file/d/12kWDtzUf4xuoJb9nN9l9kb_XtIOaA2L_/view?usp=sharing"
