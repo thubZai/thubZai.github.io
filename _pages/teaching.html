@@ -1,12 +1,114 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Brain Dump🧠"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.category-tabs {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+.category-tab {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.category-tab.active {
+    background: #2d3748;
+    color: white;
+}
+
+.subcategory-section {
+    margin: 2rem 0;
+    display: none;
+}
+
+.subcategory-section.active {
+    display: block;
+}
+
+.subcategory-header {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 1rem;
+    color: #2d3748;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-left: 3px solid #e2e8f0;
+    transition: all 0.2s ease;
+}
+
+.post-item:hover {
+    border-left-color: #4a5568;
+    background: #f8fafc;
+}
+</style>
+
+<div class="category-tabs">
+    {% assign categories = site.teaching | map: 'category' | uniq %}
+    {% for cat in categories %}
+    <div class="category-tab" data-category="{{ cat | slugify }}">{{ cat }}</div>
+    {% endfor %}
+</div>
+
+{% assign grouped_by_category = site.teaching | group_by: 'category' %}
+
+{% for category in grouped_by_category %}
+<section class="subcategory-section" id="{{ category.name | slugify }}">
+    <div class="subcategory-header">{{ category.name }}</div>
+    
+    {% assign subcategories = category.items | group_by: 'subcategory' %}
+    {% for subcat in subcategories %}
+    <div class="subcategory-group">
+        <h3 class="subcategory-title">{{ subcat.name }}</h3>
+        <div class="post-list">
+            {% for post in subcat.items reversed %}
+            <article class="post-item">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <div class="post-meta">{{ post.date | date: "%b %Y" }}</div>
+                {% if post.excerpt %}
+                <div class="post-excerpt">{{ post.excerpt }}</div>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
 {% endfor %}
+
+<script>
+document.querySelectorAll('.category-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        // Remove active classes
+        document.querySelectorAll('.category-tab, .subcategory-section').forEach(el => {
+            el.classList.remove('active');
+        });
+        
+        // Add active classes
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.category).classList.add('active');
+    });
+});
+
+// Activate first tab by default
+document.querySelector('.category-tab').click();
+</script>
