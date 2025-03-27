@@ -19,18 +19,20 @@ redirect_from:
       margin: 1.5rem 0;
   }
   
-  .post-title {
+  /* Force link styling */
+  .post-item a.post-title {
       font-size: 1.25rem;
       font-weight: 500;
       margin: 0;
-      color: #000; /* Changed to black */
-      text-decoration: none; /* Removed underline */
+      color: #000 !important;
+      text-decoration: none !important;
+      display: block;
   }
   
-  /* Add hover effect for better interactivity */
-  .post-title:hover {
-      color: #333; /* Slightly darker on hover */
-      text-decoration: underline; /* Optional: Add underline on hover */
+  /* Hover state */
+  .post-item a.post-title:hover {
+      color: #333 !important;
+      text-decoration: underline !important;
   }
   
   .post-date {
