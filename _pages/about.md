@@ -12,22 +12,22 @@ redirect_from:
 ### How are you guys doing?
 Well, I'm doing great just like you...thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
 
-🔭 I have deep curiosity and research interests in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs), Large Multimodal Models (MLLMs),** with insights from **Computer Vision (CV)** and **Deep Reinforcement Learning (RL)**.
+🔭 I have deep curiosity and research interests in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs), Large Multimodal Models (MLLMs),** with insights from **Computer Vision (CV)** & **Deep Reinforcement Learning (RL)**.
 
 📌Check out the repository I've created - [**Vision-Language Models (VLMs) Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
-📚 I have a borderline obsession with research papers. Check out my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
+📚 I have a borderline obsession with research papers. Here's my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
 
-✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/) and [InPlainEnglish](https://plainenglish.io/author/yash-thube).
+✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/), [InPlainEnglish](https://plainenglish.io/author/yash-thube) or in the brain dump section👆.
 
 🌿 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
 ## 🤔What Keeps Me Inspired
 
 ### **All things ML**
-📖Understanding Deep Learning by Simon Prince and Machine Learning Specialization by Stanford.  
-📰Newsletters like The Batch (Deeplearning.AI) and TL;DR AI.  
-🎥Channels like Two Minute Papers, Stanford Online, 3Blue1Brown, WorldofAI, Machine Learning Street Talk and many more.  
+📖Understanding Deep Learning by Simon Prince, Machine Learning Specialization by Stanford and many more. I like to share all the notes that I find helpful! You can have a look [here](https://github.com/thubZ09/vision-language-model-hub/tree/main/Notes).  
+📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal.  
+🎥Channels like Two Minute Papers, Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Yannic Kilcher, Umar Jamil and many more.  
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
 
 ### **Beyond ML**
