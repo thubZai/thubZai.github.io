@@ -22,27 +22,6 @@ Well, I'm doing great just like you...thanks for asking, btw! 😊 Here’s a gl
 
 🌿 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
-## 🔧Personal ML Toolkit
- Here’s a curated list of my go-to tools and libraries:
-### **For Vision Tasks🖼️**
-- **OpenCV**   
-- **PyTorch and torchvision** 
-- **YOLO**  
-- **TensorFlow & Keras**  
-- **Scikit-Image**
-- **Pillow**
-
-### **For NLP Tasks📝**
-- **Hugging Face Transformers**  
-- **NLTK & SpaCy**
-
-### **For Experiment Tracking📊**
-- **Weights & Biases (W&B)**
-
-### **For Deployment🚀**  
-- **AWS SageMaker**  
-- **Hugging Face Spaces**
-
 ## 🤔What Keeps Me Inspired
 
 ### **All things ML**
