@@ -21,18 +21,22 @@ Well, I'm doing great just like you...thanks for asking, btw! 😊 Here’s a gl
 
 ✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/), [InPlainEnglish](https://plainenglish.io/author/yash-thube) or in the brain dump section👆.
 
-🌿 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
+Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
 ## 🤔What Keeps Me Inspired
 
 ### **All things ML**
 📖Understanding Deep Learning by Simon Prince, Machine Learning Specialization by Stanford and many more. I like to share all the notes that I find helpful! You can have a look [here](https://github.com/thubZ09/vision-language-model-hub/tree/main/Notes).  
-📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal.  
+
+📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal. 
+
 🎥Channels like Two Minute Papers, Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Yannic Kilcher, Umar Jamil and many more.  
+
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
 
 ### **Beyond ML**
-📚Books(have read and recommended!): Eat That Frog, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry.   
+📚Books(have read and recommended!): Eat That Frog, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
+
 🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
 
 ## 👇Interesting Podcasts/Documentries/Projects
