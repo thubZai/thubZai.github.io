@@ -1,5 +1,5 @@
 ---
-title: 'Understanding ResNets👀'
+title: 'Understanding ResNets!'
 date: 2024-08-07
 permalink: /posts/2024-01-07-understanding-resnets/
 
@@ -76,6 +76,6 @@ Imagine assembling a puzzle. Instead of starting from scratch each time you add 
 
 ResNets revolutionized deep learning by making it feasible to train very deep networks. Their simplicity, scalability, and effectiveness have made them foundational in modern AI research and applications.
 
-### [Paper](https://arxiv.org/abs/1512.03385)
+### [![arXiv](https://img.shields.io/badge/arXiv-ResNet-b31b1b.svg)](https://arxiv.org/abs/1512.03385)
 
 ### Stay Curious☺️….see you in the next one!
