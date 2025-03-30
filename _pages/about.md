@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-![multimodality](bd0cb474-993e-4dea-b383-125a0b56fea4.jpg){: .align-right width="1111px"}
+![multimodality](bd0cb474-993e-4dea-b383-125a0b56fea4.jpg){: .align-right width="995px"}
+
 
 ### How are you guys doing?
 Well, I'm doing great just like you...thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
