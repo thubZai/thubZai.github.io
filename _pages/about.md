@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-![multimodality](bd0cb474-993e-4dea-b383-125a0b56fea4.jpg){: .align-right width="995px"}
+![multimodality](bd0cb474-993e-4dea-b383-125a0b56fea4.jpg){: .align-center width="838px"}  
+
 
 
 ### How are you guys doing?
