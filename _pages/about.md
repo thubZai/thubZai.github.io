@@ -5,10 +5,9 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
+---  
 
-![multimodality](bd0cb474-993e-4dea-b383-125a0b56fea4.jpg){: .align-center width="838px"}  
-
+![multimodality](Untitled design.png){: .align-center width="1111px"}  
 
 
 ### How are you guys doing?
