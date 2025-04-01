@@ -40,6 +40,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
 
 ## 👇Interesting Podcasts/Documentries/Projects
+- [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
 - [Andrej Karpathy (Lex Fridman Podcast)](https://youtu.be/cdiD-9MMpb0?si=1PtizFt-uvhkE9o-)
 
