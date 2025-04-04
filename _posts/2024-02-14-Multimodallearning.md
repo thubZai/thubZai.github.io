@@ -1,6 +1,6 @@
 ---
 title: 'Evolution and Magic of Attention!'
-date: 2024-01-19
+date: 2023-07-19
 permalink: /posts/2024-02-14-Multimodallearning/
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Understanding ResNets!'
-date: 2024-04-23
+date: 2023-12-13
 permalink: /posts/2024-01-07-understanding-resnets/
 
 ---
