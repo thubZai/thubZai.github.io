@@ -13,7 +13,7 @@ redirect_from:
 ### How are you guys doing?
 Well, I'm doing great just like you...thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
 
-🔭 I have a deep curiosity and research interests in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs)** & **Large Multimodal Models (MLLMs)** with insights from **Computer Vision (CV)** & **Deep Reinforcement Learning (RL)**.
+🔭 I'm deeply curious in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs)** & **Large Multimodal Models (MLLMs)** with insights from **Computer Vision (CV)** & **Deep Reinforcement Learning (RL)**. I care about **interpretability**, **efficiency**, **alignment & safety**!
 
 📌Check out the repository I've created - [**Vision-Language Models (VLMs) Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
