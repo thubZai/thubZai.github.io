@@ -25,7 +25,6 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 ## 🤔What Keeps Me Inspired
 
-### **All things ML**
 📖Understanding Deep Learning by Simon Prince, Machine Learning Specialization by Stanford and many more. I like to share all the notes that I find helpful! You can have a look [here](https://github.com/thubZ09/vision-language-model-hub/tree/main/Notes).  
 
 📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal. 
@@ -34,8 +33,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
 
-### **Beyond ML**
-📚Books(have read and recommended!): Eat That Frog, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
+📚Books(have read and recommended!): Eat That Frog, Superintelligence by Nick Bostrom, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
 
 🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
 
