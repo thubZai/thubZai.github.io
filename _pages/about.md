@@ -29,13 +29,13 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal. 
 
-🎥Channels like Two Minute Papers, Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Yannic Kilcher, Umar Jamil and many more.  
+🎥Channels (ML) like Two Minute Papers, Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Yannic Kilcher, Umar Jamil and many more.  
 
 🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
 
-📚Books(have read and recommended!): Eat That Frog, Superintelligence by Nick Bostrom, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
+📚Books(have read and recommended!) - Eat That Frog, Superintelligence by Nick Bostrom, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
 
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Infographics Show, Veritasium and Bright Side.  
+🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, MARKO, The Infographics Show, Veritasium and Bright Side.  
 
 ## 👇Interesting Podcasts/Documentries/Projects
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
