@@ -35,7 +35,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 📚Books(have read and recommended!) - Eat That Frog, Superintelligence by Nick Bostrom, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
 
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, MARKO, The Infographics Show, Veritasium and Bright Side.  
+🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, MARKO, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side.  
 
 ## 👇Interesting Podcasts/Documentries/Projects
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
