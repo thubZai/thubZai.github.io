@@ -33,7 +33,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordić and so many moree!
 
-📚Books(have read and recommended!) - **Eat That Frog**, **Superintelligence** by Nick Bostrom, **A Little Life** by Hanya Yanagihara, **Cosmos** by Carl Sagan, **The Dark Forest** by Cixin Liu, **Ikigai**, **Brave New World** by Aldous Huxley, **Astrophysics for people in a hurry** by Neil deGrasse Tyson. 
+📚Books(have read and recommended!) - **Eat That Frog**, **Superintelligence** by Nick Bostrom, **A Little Life** by Hanya Yanagihara, **Cosmos** by Carl Sagan, **The Three-Body Problem** & **The Dark Forest** by Cixin Liu, **Ikigai**, **Brave New World** by Aldous Huxley, **Astrophysics for people in a hurry** by Neil deGrasse Tyson. 
 
 🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side.  
 
