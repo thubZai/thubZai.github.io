@@ -11,7 +11,7 @@ redirect_from:
 
 
 ### How are you guys doing?
-Well, I'm doing great just like you...thanks for asking, btw! 😊 Here’s a glimpse into the things that light up my world!
+Well, I'm doing great just like you...thanks for asking, btw!
 
 🔭 I'm deeply curious in exploring **Multimodal Learning**, particularly **Vision-Language Models (VLMs)** & **Large Multimodal Models (MLLMs)** with insights from **Computer Vision (CV)** & **Deep Reinforcement Learning (RL)**. I care about **interpretability**, **efficiency**, **alignment & safety**!
 
@@ -29,13 +29,13 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal. 
 
-🎥Channels (ML) like Two Minute Papers, Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Yannic Kilcher, Umar Jamil and many more.  
+🎥Channels (ML) like Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Cognitive Revolution "How AI Changes Everything", Lex Fridman, Umar Jamil, Dwarkesh Patel, Yannic Kilcher, Matthew Berman and many more.  
 
-🌟People like Andrew Ng, Aleksa Gordić, Andrej Karpathy, Ilya Sutskever, Yann LeCun, Lex Fridman and so many moree!
+🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordić and so many moree!
 
-📚Books(have read and recommended!) - Eat That Frog, Superintelligence by Nick Bostrom, Cosmos, Ikigai, Brave New World, Fahrenheit 451, Astrophysics for people in a hurry. 
+📚Books(have read and recommended!) - Eat That Frog, Superintelligence by Nick Bostrom, A Little Life by Hanya Yanagihara, Cosmos by Carl Sagan, Ikigai, Brave New World by Aldous Huxley, Astrophysics for people in a hurry by Neil deGrasse Tyson. 
 
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, MARKO, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side.  
+🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side.  
 
 ## 👇Interesting Podcasts/Documentries/Projects
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
