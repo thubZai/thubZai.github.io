@@ -20,7 +20,7 @@ Well, I'm doing great just like you...thanks for asking, btw!
 📚 I have a borderline obsession with research papers. Here's my [Reading List](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) for what’s been keeping me up lately!
 
 ✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/), [InPlainEnglish](https://plainenglish.io/author/yash-thube) or in the brain dump section👆.
-
+  
 Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
 
 ## 🤔What Keeps Me Inspired
@@ -33,9 +33,16 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordić and so many moree!
 
-📚Books(have read and recommended!) - **Eat That Frog**, **Superintelligence** by Nick Bostrom, **A Little Life** by Hanya Yanagihara, **Cosmos** by Carl Sagan, **The Three-Body Problem** & **The Dark Forest** by Cixin Liu, **Ikigai**, **Brave New World** by Aldous Huxley, **Astrophysics for people in a hurry** by Neil deGrasse Tyson. 
+🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side. 
 
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side.  
+### 📚Books(have read and recommended!)
+- **The Three-Body Problem & The Dark Forest** by **Cixin Liu**. These novels explore humanity’s first encounters with alien intelligence, revealing the depths of strategic, evolutionary, and philosophical conflict. They present contemplation of cosmic civilization and have led me rethinking humanity's place in a vast, and often hostile, cosmic arena.
+- **Eat That Frog** by **Brian Tracy**. This book is a cry against procrastination. It urges you to tackle your most daunting tasks first. It argues that by confronting our “frogs” early, we cut through overwhelm and unlock productivity that compounds over time, which I absolutely agree with. I felt like I was reading a manual on time management that invited me to transform small daily victories into a pathway for lasting achievement.
+- **A Little Life** by **Hanya Yanagihara**. This one has taught me a lot! It explores the burden and beauty of trauma, urging us to find meaning in scars and to appreciate the delicate strength of our inner lives. It’s a reflection on how even the most broken spirits can echo with profound grace and empathy.
+- **Superintelligence** by **Nick Bostrom**. How can we effectively encode our complex, multifaceted human values into AI systems so they truly understand and serve our subtle well-being instead of just following literal instructions? How do we ensure that an AI, tasked with goals like "make humans happy" or "solve hard problems," doesn't inadvertently cause harm by misinterpreting these directives?
+- **Cosmos** by **Carl Sagan**. This is Sagan’s love letter to curiosity and a guide to finding awe in the ordinary. We are a way for the cosmos to know itself. The universe is bigger than our worries. Be curious.
+- **Ikigai**. The intersection of what we love, what we’re good at, what the world needs, and what we can be paid for forms the bedrock of a fulfilling life. This book is a reminder to pursue that elusive “reason for being” that makes every day rich with meaning.
+- **Astrophysics for People in a Hurry** by **Neil deGrasse Tyson**. This book simplifies complex astrophysical concepts into smaller insights. You’ll come to appreciate the intricate, often surprising, fabric of space - even if you only have a few minutes to spare.
 
 ## 👇Interesting Podcasts/Documentries/Projects
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
