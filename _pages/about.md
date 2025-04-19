@@ -29,9 +29,9 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 🎥Channels (ML) like Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Cognitive Revolution "How AI Changes Everything", Lex Fridman, Umar Jamil, Dwarkesh Patel, Yannic Kilcher, Matthew Berman and many more.  
 
-🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordić and so many moree!
+🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordic and so many moree!
 
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side. 
+🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Joe Rogan Experience, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side. 
 
 ## 📚Books(have read and recommended!)
 - **The Three-Body Problem & The Dark Forest** by **Cixin Liu**. These novels explore humanity’s first encounters with alien intelligence, revealing the depths of strategic, evolutionary, and philosophical conflict. They present contemplation of cosmic civilization and have led me rethinking humanity's place in a vast, and often hostile, cosmic arena.
@@ -42,16 +42,20 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 - **Ikigai**. The intersection of what we love, what we’re good at, what the world needs, and what we can be paid for forms the bedrock of a fulfilling life. This book is a reminder to pursue that elusive “reason for being” that makes every day rich with meaning.
 - **Cosmic Queries** by **Neil deGrasse Tyson**. It isn’t about the answers we have but about the questions we’ve posed - questions we don’t even know are right or valid. It's about how we investigate and why these investigations matter for our understanding of reality and our place within it.
 
-## 👇Interesting Podcasts/Documentries/Projects
+## 👇Interesting Podcasts/Projects/Blogs
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
-- [Andrej Karpathy (Lex Fridman Podcast)](https://youtu.be/cdiD-9MMpb0?si=1PtizFt-uvhkE9o-)
+- [Brian Cox (Joe Rogan Podcast)](https://youtu.be/Rc7OHXJtWco?si=rojKVixCGHr7Gw1C)
 
-- [AlphaGo Documentary](https://youtu.be/WXuK6gekU1Y?si=DqVB_ogiDWzB_wLA)
+- [Neil deGrasse Tyson (Joe Rogan Podcast)](https://youtu.be/e8_vmWakyn4?si=-RvDHw6_D886rhfw)
+
+- [Andrej Karpathy (Lex Fridman Podcast)](https://youtu.be/cdiD-9MMpb0?si=1PtizFt-uvhkE9o-)
 
 - [Ilya Sutskever (Lex Fridman Podcast)](https://youtu.be/13CZPWmke6A?si=A9eFIilC--d4eWWn)
 
 - [Yann Lecun (Lex Fridman Podcast)](https://youtu.be/5t1vTLU7s40?si=jeSK8GB-ffm6yvzY)
+
+- [AlphaGo Documentary](https://youtu.be/WXuK6gekU1Y?si=DqVB_ogiDWzB_wLA)
 
 - [PyTorch Documentary](https://youtu.be/rgP_LBtaUEc?si=VzII-WzJGbvncgyX)
 
