@@ -25,9 +25,9 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 📖Understanding Deep Learning by Simon Prince, Machine Learning Specialization by Stanford and many more. I like to share all the notes that I find helpful! You can have a look [here](https://github.com/thubZ09/vision-language-model-hub/tree/main/Notes).  
 
-📰Newsletters like The Batch (Deeplearning.AI), TL;DR AI & AlphaSignal. 
+📰Newsletters like The Batch, TL;DR AI & AlphaSignal. 
 
-🎥Channels (ML) like Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Cognitive Revolution "How AI Changes Everything", Lex Fridman, Umar Jamil, Dwarkesh Patel, Yannic Kilcher, Matthew Berman and many more.  
+🎥Channels (ML) like Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Cognitive Revolution - How AI Changes Everything, Lex Fridman, Umar Jamil, Dwarkesh Patel, Yannic Kilcher, Matthew Berman and many more.  
 
 🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordic and so many moree!
 
