@@ -40,7 +40,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 - **Superintelligence** by **Nick Bostrom**. How can we effectively encode our complex, multifaceted human values into AI systems so they truly understand and serve our subtle well-being instead of just following literal instructions? How do we ensure that an AI, tasked with goals like "make humans happy" or "solve hard problems," doesn't inadvertently cause harm by misinterpreting these directives?
 - **Cosmos** by **Carl Sagan**. This is Sagan’s love letter to curiosity and a guide to finding awe in the ordinary. We are a way for the cosmos to know itself. The universe is bigger than our worries. Be curious.
 - **Ikigai**. The intersection of what we love, what we’re good at, what the world needs, and what we can be paid for forms the bedrock of a fulfilling life. This book is a reminder to pursue that elusive “reason for being” that makes every day rich with meaning.
-- **Astrophysics for People in a Hurry** by **Neil deGrasse Tyson**. This book simplifies complex astrophysical concepts into smaller insights. You’ll come to appreciate the intricate, often surprising, fabric of space - even if you only have a few minutes to spare.
+- **Cosmic Queries** by **Neil deGrasse Tyson**. It isn’t about the answers we have but about the questions we’ve posed - questions we don’t even know are right or valid. It's about how we investigate and why these investigations matter for our understanding of reality and our place within it.
 
 ## 👇Interesting Podcasts/Documentries/Projects
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
