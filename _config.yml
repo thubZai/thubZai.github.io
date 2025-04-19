@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "My CoT🔗"
+title                    : "My Chain-of-Thought🔗"
 title_separator          : "-"
 name                     : &name "Yash Thube"
 description              : &description "personal description"
