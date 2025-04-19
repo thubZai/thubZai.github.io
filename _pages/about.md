@@ -33,7 +33,9 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Joe Rogan Experience, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side. 
 
-## 📚Books(have read and recommended!)
+<details>
+<summary><h2>📚 Books (have read and recommended!)</h2></summary>
+
 - **The Three-Body Problem & The Dark Forest** by **Cixin Liu**. These novels explore humanity’s first encounters with alien intelligence, revealing the depths of strategic, evolutionary, and philosophical conflict. They present contemplation of cosmic civilization and have led me rethinking humanity's place in a vast, and often hostile, cosmic arena.
 - **Eat That Frog** by **Brian Tracy**. This book is a cry against procrastination. It urges you to tackle your most daunting tasks first. It argues that by confronting our “frogs” early, we cut through overwhelm and unlock productivity that compounds over time, which I absolutely agree with. I felt like I was reading a manual on time management that invited me to transform small daily victories into a pathway for lasting achievement.
 - **A Little Life** by **Hanya Yanagihara**. This one has taught me a lot! It explores the burden and beauty of trauma, urging us to find meaning in scars and to appreciate the delicate strength of our inner lives. It’s a reflection on how even the most broken spirits can echo with profound grace and empathy.
@@ -41,8 +43,11 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 - **Cosmos** by **Carl Sagan**. This is Sagan’s love letter to curiosity and a guide to finding awe in the ordinary. We are a way for the cosmos to know itself. The universe is bigger than our worries. Be curious.
 - **Ikigai**. The intersection of what we love, what we’re good at, what the world needs, and what we can be paid for forms the bedrock of a fulfilling life. This book is a reminder to pursue that elusive “reason for being” that makes every day rich with meaning.
 - **Cosmic Queries** by **Neil deGrasse Tyson**. It isn’t about the answers we have but about the questions we’ve posed - questions we don’t even know are right or valid. It's about how we investigate and why these investigations matter for our understanding of reality and our place within it.
+</details>
 
-## 👇Interesting Podcasts/Projects/Blogs
+<details>
+<summary><h2>👇 Interesting Podcasts/Projects/Blogs</h2></summary>
+
 - [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
 - [Brian Cox (Joe Rogan Podcast)](https://youtu.be/Rc7OHXJtWco?si=rojKVixCGHr7Gw1C)
