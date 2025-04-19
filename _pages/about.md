@@ -33,7 +33,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 
 🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Joe Rogan Experience, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side. 
 
-## 📚Books(have read and recommended!)
+## 📚Some of my favourite books!
 - **The Three-Body Problem & The Dark Forest** by **Cixin Liu**. These novels explore humanity’s first encounters with alien intelligence, revealing the depths of strategic, evolutionary, and philosophical conflict. They present contemplation of cosmic civilization and have led me rethinking humanity's place in a vast, and often hostile, cosmic arena.
 - **Eat That Frog** by **Brian Tracy**. This book is a cry against procrastination. It urges you to tackle your most daunting tasks first. It argues that by confronting our “frogs” early, we cut through overwhelm and unlock productivity that compounds over time, which I absolutely agree with. I felt like I was reading a manual on time management that invited me to transform small daily victories into a pathway for lasting achievement.
 - **A Little Life** by **Hanya Yanagihara**. This one has taught me a lot! It explores the burden and beauty of trauma, urging us to find meaning in scars and to appreciate the delicate strength of our inner lives. It’s a reflection on how even the most broken spirits can echo with profound grace and empathy.
