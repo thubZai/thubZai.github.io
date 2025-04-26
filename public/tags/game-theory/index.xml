@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>game theory on Rosa van den Ende</title>
+    <link>https://rosavandenende.github.io/tags/game-theory/</link>
+    <description>Recent content in game theory on Rosa van den Ende</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://rosavandenende.github.io/tags/game-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strategic environmental responsibility in networks</title>
+      <link>https://rosavandenende.github.io/papers/paper4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosavandenende.github.io/papers/paper4/</guid>
+      <description>[Work in progress] We evaluate the effect of changing the underlying network structure on the responsibility allocation, and we investigate how we can use this to achieve the emisison reduction goals of the Paris Agreement. </description>
+    </item>
+    
+  </channel>
+</rss>

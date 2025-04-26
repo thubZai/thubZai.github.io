@@ -36,6 +36,15 @@
     
     
     <item>
+      <title>Diffusion in Dynamic Networks with Continuous Inputs to Allocate Responsibility</title>
+      <link>https://rosavandenende.github.io/papers/paper1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosavandenende.github.io/papers/paper1/</guid>
+      <description> We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk.</description>
+    </item>
+    
+    <item>
       <title>Location</title>
       <link>https://rosavandenende.github.io/location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,12 +73,12 @@ On the map: </description>
     </item>
     
     <item>
-      <title>Responsibility value on digraphs</title>
-      <link>https://rosavandenende.github.io/papers/paper1/</link>
+      <title>Strategic environmental responsibility in networks</title>
+      <link>https://rosavandenende.github.io/papers/paper4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rosavandenende.github.io/papers/paper1/</guid>
-      <description>[Work in progress] We take a mathematical and cooperative game theoretical approach at an upstream responsibility value.</description>
+      <guid>https://rosavandenende.github.io/papers/paper4/</guid>
+      <description>[Work in progress] We evaluate the effect of changing the underlying network structure on the responsibility allocation, and we investigate how we can use this to achieve the emisison reduction goals of the Paris Agreement. </description>
     </item>
     
     <item>
