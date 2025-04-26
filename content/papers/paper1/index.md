@@ -3,8 +3,8 @@ title: "Diffusion in Dynamic Networks with Continuous Inputs to Allocate Respons
 #date: 2023-02-01
 tags: ["dynamic networks","Laplacian matrix","responsibility"]
 author: ["Rosa van den Ende and Dylan Laplace Mermoud (2025)"]
-description: " We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk." 
-#summary: " We take a more mathematical and cooperative game theoretical approach at an upstream responsibility value." 
+description: "We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk." 
+summary: "We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk." 
 cover:
     image: "paper1.png"
     alt: "Adjacency matrix A and its corresponding digraph G"
