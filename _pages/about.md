@@ -17,9 +17,9 @@ Well, I'm doing great just like you...thanks for asking, btw!
 
 📌Check out [**Multimodal/VLMs Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
-✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09), [Towards AI](https://pub.towardsai.net/), [InPlainEnglish](https://plainenglish.io/author/yash-thube) or in the brain dump section above. Also, here's my [reading list of papers](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) that have been keeping me up lately!
+✍️ I enjoy jotting down my thoughts. You can find my blogs on [Medium](https://medium.com/@thube09) or in the brain dump section above. Also, here's my [reading list of papers](https://huggingface.co/collections/thubZ9/my-reading-list-677bbae8877a0efbab57392f) that have been keeping me up lately!
   
-Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports. A good book recommendation or a meaningful conversation? I’m all ears!
+Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports.
 
 ## 🤔What keeps me inspired?
 
