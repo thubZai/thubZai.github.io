@@ -13,7 +13,7 @@ redirect_from:
 ### How are you guys doing?
 Well, I'm doing great just like you...thanks for asking, btw!
 
-🔭 My curiosity lies in **Vision-Language modeling**, with a focus on **interpretability**, **efficiency**, **cross-modal generalization**, **multimodal reasoning**, **alignment & safety**!
+🔭 My curiosity lies in **Vision-Language modeling** and its potential to enable multimodal perceptual abilities closer to human cognition, with a focus on **interpretability**, **efficiency**, **cross-modal generalization**, **multimodal reasoning**, **alignment & safety**!
 
 📌Check out [**Multimodal/VLMs Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
