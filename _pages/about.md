@@ -43,7 +43,9 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 - **Cosmic Queries** by **Neil deGrasse Tyson**. It isn’t about the answers we have but about the questions we’ve posed - questions we don’t even know are right or valid. It's about how we investigate and why these investigations matter for our understanding of reality and our place within it.
 
 ## 👇Interesting Podcasts/Projects/Blogs
-- [Tracing the thoughts of a large language model by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
+- [Continuous Thought Machines by Sakana AI](https://sakana.ai/ctm/)
+
+- [Tracing the thoughts of a LLM by Anthropic](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
 - [Brian Cox (Joe Rogan Podcast)](https://youtu.be/Rc7OHXJtWco?si=rojKVixCGHr7Gw1C)
 
