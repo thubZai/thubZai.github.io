@@ -30,8 +30,7 @@ Outside of work, you’ll find me clicking random pictures, exploring astrophysi
 🎥Channels (ML) like Stanford Online, 3Blue1Brown, Machine Learning Street Talk, Cognitive Revolution - How AI Changes Everything, Lex Fridman, Umar Jamil, Dwarkesh Patel, Yannic Kilcher, Matthew Berman and many more.  
 
 🌟People like Andrej Karpathy, Andrew Ng, Ilya Sutskever, Yann LeCun, Aleksa Gordic and so many moree!
-
-🎥Channels like Kurzgesagt, StarTalk, TED, Discover Connection, The Joe Rogan Experience, The Diary Of A CEO, The Infographics Show, Veritasium and Bright Side. 
+ 
 
 ## 📚Some of my favourite books!
 - **The Three-Body Problem & The Dark Forest** by **Cixin Liu**. These novels explore humanity’s first encounters with alien intelligence, revealing the depths of strategic, evolutionary, and philosophical conflict. They present contemplation of cosmic civilization and have led me rethinking humanity's place in a vast, and often hostile, cosmic arena.
