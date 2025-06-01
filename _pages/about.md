@@ -17,9 +17,9 @@ Well, I'm doing great just like you...thanks for asking, btw!
 
 📌Check out [**Multimodal/VLMs Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
-✍️ I enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my own primary one:) You can find some interesting stuff [**here**](https://www.notion.so/Blogs-203c205b93e0804bb8d3f59aefd6cc95) or over in the brain dump section above. Also, [**here**](https://www.notion.so/Paper-Discussions-195d4ed038df41f7a3a9ff23870c773c) I like to discuss insights from the papers that have been keeping me up lately!
+✍️ I enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my own primary one:) You can find some interesting stuff in the brain dump section above. [**Here**](https://www.notion.so/Paper-Discussions-195d4ed038df41f7a3a9ff23870c773c) I like to discuss insights from the papers that have been keeping me up lately!
   
-Outside of work, you’ll find me clicking random pictures, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports.
+Outside of work, you’ll find me clicking random pictures, reading, exploring astrophysics, or playing and watching a variety of sports!! - be it football, cricket, MMA, or Esports.
 
  
 
