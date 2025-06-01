@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "My Chain-of-Thought🔗"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yash Thube"
 description              : &description "personal description"
@@ -60,7 +60,7 @@ author:
   lastfm           : # Username
   linkedin         : "thube09"
   mastodon         : # URL
-  medium           : "https://medium.com/@thube09"
+  ##medium           : "https://medium.com/@thube09"
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
