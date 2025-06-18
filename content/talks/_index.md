@@ -4,9 +4,10 @@ description: "Given talks at conferences and seminars"
 ---
 
 ## 2025 
-- (forthcoming) 20th European Meeting on Game Theory [(SING)](https://sites.google.com/view/sing20) - Maastricht, the Netherlands, June 16-18, 2025
-- (forthcoming) Janeway Institute PhD Workshop on Economic Networks, Cambridge, United Kingdom, May 26-27, 2025 (upon invitation)
-- (forthcoming) Networks and Games Seminar, Centre d'Économie de la Sorbonne [(CES)](https://sites.google.com/site/cesworkinggroupnetworks/home)Paris, France, May 15, 2025
+-  20th European Meeting on Game Theory [(SING)](https://sites.google.com/view/sing20) - Maastricht, the Netherlands, June 16-18, 2025
+- 28th Coalition Theory Network [(CTN)](https://ctn2025.sciencesconf.org) - Paris, France, May 22-23, 2025
+- Janeway Institute PhD Workshop on Economic Networks, Cambridge, United Kingdom, May 26-27, 2025 (upon invitation)
+-  Networks and Games Seminar, Centre d'Économie de la Sorbonne [(CES)](https://sites.google.com/site/cesworkinggroupnetworks/home)Paris, France, May 15, 2025
 - 2025 [ADRES](https://adres2025.sciencesconf.org) Job Market Conference, Strasbourg, France, January 29-31, 2025
 
 

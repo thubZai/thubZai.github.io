@@ -9,9 +9,9 @@ cover:
     image: "paper2.png"
     alt: "The upstream and downstream responsibility for direct and indirect carbon emissions for Brazil, Canada, Indonesia, South-Korea and France for different values of the discount factor."
     relative: false
-#editPost:
-   #URL: "https://shs.hal.science/halshs-04188365"
-    #Text: "Journal Name"
+editPost:
+   URL: "https://link.springer.com/article/10.1007/s00355-025-01610-0"
+Text: "Social Choice and Welfare (2025)"
 ---
 
 ##### Abstract
@@ -21,7 +21,7 @@ We provide an axiomatic approach to the allocation of responsibility for GHG emi
 ---
  ##### Download
 
-+ [You can find the paper here.](https://shs.hal.science/halshs-04188365)
++ [You can find the paper here.](https://link.springer.com/article/10.1007/s00355-025-01610-0)
  <!-- [Online appendix](appendix1.pdf)
 + [Code and data](https://github.com/pmichaillat/job-rationing) -->
 
