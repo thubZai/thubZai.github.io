@@ -2,16 +2,17 @@
 title: "Network-based allocation of responsibility for GHG emissions"
 #date: 2024-01-01
 tags: ["emission responsibility","networks and supply chains","Bonacich centrality"]
-author: ["Rosa van den Ende, Antoine Mandel, Agnieszka Rusinowska (2023)"]
+#author: ["Rosa van den Ende, Antoine Mandel, Agnieszka Rusinowska (2023)"]
+author: ["van den Ende, Rosa., Mandel, Antoine. & Rusinowska, Agnieszka. Network-based allocation of responsibility for greenhouse gas emissions. Social Choice and Welfare (2025). https://doi.org/10.1007/s00355-025-01610-0"]
 description: "In this paper we allocate responsibilities for GHG emissions in a network." 
 summary: "In this paper we develop a method to hold players responsible for indirect emissions - emissions that take place elsewhere in their supply chain." 
 cover:
     image: "paper2.png"
     alt: "The upstream and downstream responsibility for direct and indirect carbon emissions for Brazil, Canada, Indonesia, South-Korea and France for different values of the discount factor."
     relative: false
-editPost:
-   URL: "https://link.springer.com/article/10.1007/s00355-025-01610-0"
-Text: "Social Choice and Welfare (2025)"
+#editPost:
+#   URL: "https://link.springer.com/article/10.1007/s00355-025-01610-0"
+#Text: "Social Choice and Welfare (2025)"
 ---
 
 ##### Abstract
