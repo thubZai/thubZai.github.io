@@ -14,7 +14,7 @@ redirect_from:
 Well, I'm doing great just like you...thanks for asking, btw.
 
 True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition to compositional and spatial reasoning. I believe **vision and video language modeling** sits at the heart of this challenge, offering a path to isolate essential features from different modalities and recombine them in novel contexts. I like to understand architectures that mirror aspects of human cognition, ensuring that they remain **transparent**, **trustworthy**, **efficient** and **aligned with human values**.   
-While my central focus is on advancing vision‐language methods, I remain open to exploring adjacent research problems, **everything that pushes AI closer to genuine understanding**.
+While my central focus is on advancing vision‐language methods, I remain open to exploring adjacent research problems, broadly in **Computer Vision & Multimodal Learning**.
 
 📌Check out [**Multimodal/VLMs Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
