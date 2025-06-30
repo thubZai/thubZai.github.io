@@ -1,13 +1,8 @@
 ---
-title: "RLab (Pytorch)"
+title: "paper implementations"
 collection: Projects 
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/thubZ09/RLab.git)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/thubZ09/paper-implementations.git)
 
-A modular Python repository implementing diverse
-Reinforcement Learning algorithms (Q-Learning, SARSA, DQN,
-REINFORCE, A2C, PPO, TRPO, DPO) using PyTorch for
-educational and experimental purposes. Focused on providing clear, understandable code with example environments,
-training scripts, unit tests, and detailed algorithm
-documentation.
+PyTorch implementations of research papers that I read, aimed solely at deepening my understanding of the underlying concepts.
