@@ -13,14 +13,14 @@ redirect_from:
 ### Hello! How are you guys doing?
 Well, I'm doing great just like you...thanks for asking, btw.
 
-True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition. Mostly, I try to follow research from these domains: 
-- **vision-language modeling** 
-- **interpretability in vision**
-- **compositional & spatial reasoning**
-- **cross-modal generalization**
-- **alignment & safety**
+**True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition**. Mostly, I try to follow research from these domains: 
+- *Vision-language modeling* 
+- *Interpretability in vision*
+- *Compositional & spatial reasoning*
+- *Cross-modal generalization*
+- *Alignment & safety*
 
-I like to understand architectures that mirror aspects of human cognition, ensuring that they remain *trustworthy*, *efficient* and *aligned with human values*. I remain open to exploring adjacent research problems, broadly in ***Computer Vision & Multimodal Learning*** and applying them in the fields of ***Astrophysics***, ***Cognitive Science***, ***Medical AI*** and ***Robotics & Autonomous systems***.
+I like to understand architectures that mirror aspects of human cognition, ensuring they remain trustworthy, efficient and aligned with human values. I remain open to exploring adjacent research problems, broadly in **Computer Vision & Multimodal Learning** and applying them in the fields of **Astrophysics**, **Cognitive Science**, **Medical AI** and **Robotics & Autonomous systems**.
 
 📌Check out [**Multimodal/VLMs Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
