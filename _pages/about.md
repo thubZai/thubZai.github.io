@@ -13,7 +13,7 @@ redirect_from:
 ### Hello! How are you guys doing?
 Well, I'm doing great just like you...thanks for asking, btw.
 
-**True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition**. Mostly, I try to follow research from these domains: 
+*True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition*. Mostly, I try to follow research from these domains: 
 - *Vision-language modeling* 
 - *Interpretability in vision*
 - *Compositional & spatial reasoning*
