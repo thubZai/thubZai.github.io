@@ -17,6 +17,7 @@ Well, I'm doing great just like you...thanks for asking, btw.
 - *Vision-language modeling* 
 - *Interpretability in vision*
 - *Compositional & spatial reasoning*
+- *Reinforcement Learning*
 - *Cross-modal generalization*
 - *Alignment & safety*
 
