@@ -16,9 +16,9 @@ Well, I'm doing great just like you...thanks for asking, btw.
 **True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition**. Mostly, I try to follow research from these domains: 
 - *Vision-language modeling* 
 - *Interpretability in vision*
-- *Compositional & spatial reasoning*
+- *Compositional & Spatial reasoning*
 - *Reinforcement Learning*
-- *Alignment & safety*
+- *Self-Supervised learning in vision*
 
 I like to understand architectures that mirror aspects of human cognition, ensuring they remain trustworthy, efficient and aligned with human values. I remain open to exploring adjacent research problems, broadly in **Computer Vision & Multimodal Learning** and applying them in the fields of **Medical AI**, **Astrophysics**, **Cognitive Science**, and **Robotics & Autonomous systems**.
 
