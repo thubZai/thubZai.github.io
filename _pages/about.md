@@ -20,7 +20,7 @@ Well, I'm doing great just like you...thanks for asking, btw.
 - *Reinforcement Learning*
 - *Alignment & safety*
 
-I like to understand architectures that mirror aspects of human cognition, ensuring they remain trustworthy, efficient and aligned with human values. I remain open to exploring adjacent research problems, broadly in **Computer Vision & Multimodal Learning** and applying them in the fields of **Astrophysics**, **Cognitive Science**, **Medical AI** and **Robotics & Autonomous systems**.
+I like to understand architectures that mirror aspects of human cognition, ensuring they remain trustworthy, efficient and aligned with human values. I remain open to exploring adjacent research problems, broadly in **Computer Vision & Multimodal Learning** and applying them in the fields of **Medical AI**, **Astrophysics**, **Cognitive Science**, and **Robotics & Autonomous systems**.
 
 📌Check out [**Multimodal/VLMs Research Hub**](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions are welcome!
 
