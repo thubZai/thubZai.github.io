@@ -7,6 +7,7 @@
 # server process.
 
 # Basic Site Settings
+site_theme: dark
 locale                   : "en-US"
 title                    : "Homepage📍"
 title_separator          : "-"
@@ -15,7 +16,6 @@ description              : &description "personal description"
 url                      : "https://thubZai.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
-site_theme: dark
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
