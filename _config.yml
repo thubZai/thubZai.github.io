@@ -221,6 +221,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
+    layout: grid
     permalink: /:collection/:path/
   talks:
     output: true
