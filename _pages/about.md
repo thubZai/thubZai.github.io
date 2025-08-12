@@ -16,7 +16,7 @@ Well, I'm doing great just like you...thanks for asking, btw.
 True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition. Mostly, I try to follow research from these domains: 
 - *Vision-language modeling* 
 - *Mechanistic Interpretability in vision/multimodal models*
-- *Multimodal perception (compositional & spatial reasoning)*
+- *Multimodal perception (compositional/spatial reasoning, scene understanding & representation)*
 - *Reinforcement Learning*
 - *Self-Supervised learning in vision*
 
