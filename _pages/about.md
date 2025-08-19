@@ -14,12 +14,12 @@ redirect_from:
 Well, I'm doing great just like you...thanks for asking, btw.
 
 True intelligence emerges when a system can perceive and reason across modalities in unfamiliar settings, going well beyond surface‐level pattern recognition. Mostly, I try to follow research from these domains: 
-- *Vision–Language integration (VLMs, MLLMs, VLAMs)* 
-- *Multimodal perception (object-centric, 3D-aware perception for improving compositional/spatial reasoning and scene understanding)*
-- *Mechanistic Interpretability of cross-modal representations*
-- *Reinforcement Learning (exploring it in vision/multimodal settings)*
+- **Vision–Language integration (VLMs, MLLMs, VLAMs)** 
+- **Multimodal perception (object-centric, 3D-aware perception for improving compositional/spatial reasoning and scene understanding)**
+- **Mechanistic Interpretability of cross-modal representations**
+- **Reinforcement Learning (exploring it in vision/multimodal settings)**
 
-I believe this is one of the greatest leaps humanity has ever made, and if we're bold enough with good intentions, we can solve some of the most complex problems in **(protein folding, drug discovery, cognitive & neuroscience, robotics & embodied AI, environmental/climate change, quantum/astro physics & cosmology**) to radically improve the lives of billions. The impact could far surpass the current aspirations for AGI/ASI. I remain open to exploring adjacent research problems, broadly in **Deep Learning, Computer Vision & Multimodal AI**.
+I believe this is one of the greatest leaps humanity has ever made, and if we're bold enough with good intentions, we can solve some of the most complex problems in *protein folding, drug discovery, cognitive & neuroscience, robotics & embodied AI, environmental/climate change, quantum/astro physics & cosmology* to radically improve the lives of billions. The impact could far surpass the current aspirations for AGI/ASI. I remain open to exploring adjacent research problems, broadly in **Deep Learning, Computer Vision & Multimodal AI**.
 
 📌Check out [Multimodal/VLMs Research Hub](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions or suggestions are welcome!
 
