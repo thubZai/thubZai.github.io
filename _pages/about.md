@@ -9,13 +9,13 @@ redirect_from:
 
 ![multimodality](Untitled design.png){: .align-center width="1111px"}  
 
-True intelligence emerges when open-ended multimodal systems that perceive and reason across modalities (vision, language & action), autonomously invent novel tasks, and learn to solve them, enabling generalization in unfamiliar, real-world settings. My current interests include: 
+True intelligence emerges when neural nets can perceive and reason across modalities (vision, language & action), autonomously invent novel tasks, learn to solve them and adapt in unfamiliar, real-world environments. My current interests include: 
 
-- *Vision–Language integration, multimodal foundation models (VLMs, MLLMs, VLAMs)*
-- *Reinforcement and Open-ended Learning that enable agents to learn, innovate, and adapt to unpredictable environments & real-world challenges* 
+- *Vision–Language integration (VLMs, MLLMs, VLAMs)*
+- *Reinforcement and Open-ended Learning that enable agents to self-generate tasks and progressively bootstrap competence across changing environments* 
 - *Multimodal perception (object-centric, 3D-aware perception for improving compositional/spatial reasoning and scene understanding)*
 
-I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. The impact could far surpass the current aspirations for AGI/ASI. Open to research collaborations and internships! 
+I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. The impact could surpass the current aspirations for AGI/ASI. **Open to research collaborations and internships!** 
 
 📌Check out [Multimodal/VLMs Research Hub](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions or suggestions are welcome!
 
