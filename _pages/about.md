@@ -15,8 +15,7 @@ True intelligence emerges when open-ended multimodal systems that perceive and r
 - *Reinforcement and Open-ended Learning that enable agents to autonomously explore, invent tasks, and bootstrap complexity* 
 - *Multimodal perception (object-centric, 3D-aware perception for improving compositional/spatial reasoning and scene understanding)*
 
-I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. The impact could far surpass the current aspirations for AGI/ASI.  
-Open to research collaborations and internships! 
+I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. The impact could far surpass the current aspirations for AGI/ASI. Open to research collaborations and internships! 
 
 📌Check out [Multimodal/VLMs Research Hub](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions or suggestions are welcome!
 
