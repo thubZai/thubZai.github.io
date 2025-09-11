@@ -12,9 +12,9 @@ redirect_from:
 True intelligence emerges when neural nets can perceive and reason across modalities (vision, language & action), autonomously invent novel tasks, learn to solve them and adapt in unfamiliar, real-world environments. My current interests include:  
 
 - Multimodal Learning  
-  - *Vision/Video–Language integration (VLMs, MLLMs, VLAMs).*
+  - *Vision/Video–Language integration (VLMs, MLLMs, VLAMs) & representation learning.*
 - Computer Vision   
-  - *3D-aware perception to improve compositional/spatial reasoning, open-set & zero-shot object detection, video understanding & long-horizon prediction.*
+  - *3D-aware perception to improve compositional/spatial reasoning, few/zero-shot learning, video understanding & long-horizon prediction.*
 - Reinforcement and Open-ended Learning  
   - *Enabling agents to self-generate tasks and steadily build competence across changing environments, World Model-based RL.* 
 
