@@ -14,9 +14,9 @@ True intelligence emerges when neural nets can perceive and reason across modali
 - Multimodal Learning  
   - *Vision/Video–Language integration (VLMs, MLLMs, VLAMs) & representation learning.*
 - Computer Vision   
-  - *3D-aware perception to improve compositional/spatial reasoning, few/zero-shot learning, video understanding & long-horizon prediction.*
+  - *Deep learning for vision, 3D scene understanding,  few/zero-shot learning, video understanding & long-horizon prediction.*
 - Reinforcement and Open-ended Learning  
-  - *Enabling agents to self-generate tasks and steadily build competence across changing environments, World Model-based RL.* 
+  - *Enabling agents to self-generate tasks and steadily build competence across changing environments, Model-based RL.* 
 
 I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. The impact could surpass the current aspirations for AGI/ASI. **Open to research collaborations and internships!** 
 
