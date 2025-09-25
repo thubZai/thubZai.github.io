@@ -9,7 +9,7 @@ redirect_from:
 
 ![multimodality](Untitled design.png){: .align-center width="1111px"}  
 
-True intelligence emerges when neural nets can perceive and reason across modalities (vision, language & action), autonomously invent novel tasks, learn to solve them and adapt in unfamiliar, real-world environments. My current interests include:  
+True intelligence emerges when neural nets can perceive and reason across modalities (vision, language & action), self evolve and adapt in unfamiliar, real-world environments. My current interests include:  
 
 - Multimodal Learning  
   - *Vision/Video–Language integration (VLMs, MLLMs, VLAMs) & representation learning.*
