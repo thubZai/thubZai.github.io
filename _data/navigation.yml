@@ -20,8 +20,8 @@ main:
   - title: "Brain Dump💭"
     url: "https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219?source=copy_link"
     
+  #- title: "CV📄"
+  #  url: "/files/cv_now.pdf"
+    
   - title: "CV📄"
     url: "/files/cv_now.pdf"
-    
- # - title: "Guide"
-  #  url: /markdown/
