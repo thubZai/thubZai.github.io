@@ -20,4 +20,4 @@ True intelligence emerges when neural nets can perceive and reason across modali
 
 I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. **Open to research collaborations and internships!** 
 
-✍️ Apart from this, I enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my primary one:) You can find stuff that interests me in the brain dump section above. 
+✍️ I also enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my primary one:) You can find stuff that interests me in the brain dump section above. 
