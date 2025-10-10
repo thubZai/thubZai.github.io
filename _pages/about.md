@@ -9,19 +9,15 @@ redirect_from:
 
 ![multimodality](Untitled design.png){: .align-center width="1111px"}  
 
-True intelligence emerges when neural nets can perceive and reason across modalities (vision, language & action), self evolve and adapt in unfamiliar, real-world environments. My current interests include:  
+True intelligence emerges when neural nets can perceive and reason across modalities, and adapt in unfamiliar, real-world environments. My current interests include:  
 
 - Multimodal Learning  
-  - *Vision/Video–Language integration (VLMs, MLLMs, VLAMs) & representation learning.*
+  - *Vision–Language-Action integration (VLMs, VLAMs, MLLMs) & representation learning.*
 - Computer Vision   
   - *Deep learning for vision, 3D scene understanding,  few/zero-shot learning, video understanding & long-horizon prediction.*
 - Reinforcement and Open-ended Learning  
-  - *Enabling agents to self-generate tasks and steadily build competence across changing environments, Model-based RL.* 
+  - *Enabling agents to self evolve and steadily build competence across changing environments (physical & virtual), Model-based RL.* 
 
-I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. The impact could surpass the current aspirations for AGI/ASI. **Open to research collaborations and internships!** 
+I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. **Open to research collaborations and internships!** 
 
-📌Check out [Multimodal/VLMs Research Hub](https://github.com/thubZ09/vision-language-model-hub.git). I thought having a community-driven hub for multimodal researchers would be great. Contributions or suggestions are welcome!
-
-✍️ I enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my primary one:) You can find some interesting stuff in the brain dump section above. 
-
-Outside of work, you’ll find me clicking random pictures, reading, trekking or playing and watching a variety of sports (football, cricket, MMA, & Esports).
+✍️ Apart from this, I enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my primary one:) You can find stuff that interests me in the brain dump section above. 
