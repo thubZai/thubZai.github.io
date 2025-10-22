@@ -18,6 +18,16 @@ True intelligence emerges when neural nets can perceive and reason across modali
 - Reinforcement and Open-ended Learning  
   - *Enabling agents to self evolve and steadily build competence across changing environments (physical & virtual), Model-based RL.* 
 
-I believe progress here could meaningfully accelerate scientific discovery, embodied AI, and healthcare at scale. **Open to research collaborations and internships!** 
+**Open to research collaborations and internships!** 
 
-✍️ I also enjoy jotting down my thoughts and keeping an organized “second brain”, unlike my primary one:) You can find stuff that interests me in the brain dump section above. 
+**Currently!** 
+>*»[figuring out](https://www.notion.so/random-musings-207c205b93e080e082b2d4b4ddf77ac9) the problems I'd like to solve, meaningful work starts with choosing the right problems....want to work on genuinely hard technical problems, iterate on what matters, and learn by doing (much prefer doing things to watching a playlist that will lead me nowhere)  
+»[learning](https://arxiv.org/abs/2509.22674) more about mech interp and representation engineering, how people apply it in the multimodal domain  
+»getting to know vla and world models better, how they’re [applied in offline rl](https://www.notion.so/RELATED-RESOURCES-27fc205b93e081beba84c8c6788682fc) since data is expensive and online exploration is risky  
+»love collaborations and talking to diverse people (I get to realise how dumb I am..fortunately:)  
+»enjoy jotting down my thoughts and keeping a somewhat organized [second brain](https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219?source=copy_link), unlike my primary one....xd:\ writing helps me think clearly and has an impact I otherwise wouldn’t have....*
+
+**At times!**
+>»love sports. doing mma (boxing/grappling)....used to play cricket, football, valorant, cs....now I only occasionally watch tournaments  
+»enjoy [reading](https://www.notion.so/stuff-I-find-interesting-204c205b93e081b7bffff0daa37e6593), mostly about astrophysics/cosmology, fiction, cognitive science, philosophy and taking random pictures (some photos say much more than a video)  
+»trekking/camping, music, podcasts....
