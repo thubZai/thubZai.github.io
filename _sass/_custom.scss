@@ -1,16 +1,33 @@
-// Safe minimal changes - won't break layout
+// Change links to maroon
+$link-color: #800000 !important;
+$link-color-hover: #a52a2a !important;
 
-// Maroon links (only color, no layout changes)
-$primary-color: #800000;
-$link-color: $primary-color;
-$link-color-hover: #a52a2a;
+// Make font smaller
+$global-font-size: 0.95em !important;
 
-// Casual font family only
-$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+// More casual styling
+$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !default;
 
-// Heading weight (not size - that breaks responsiveness)
-$header-font-weight: 500;
+// Casual headings
+$h1-font-size: 1.5em !important;
+$h2-font-size: 1.2em !important;
+$h3-font-size: 1.1em !important;
+$h1-font-weight: 500 !important;
+$h2-font-weight: 500 !important;
+$h3-font-weight: 500 !important;
 
-// Blockquote style
-$blockquote-border-color: $primary-color;
+// Remove academic tight letter spacing
+$h1-letter-spacing: normal !important;
+$h2-letter-spacing: normal !important;
+
+// Casual blockquotes
+$blockquote-border-color: #800000;
 $blockquote-font-style: normal;
+
+// Force proper viewport scaling
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 100% !important;
+    padding: 0 15px !important;
+  }
+}
