@@ -1,166 +1,165 @@
 /* ==========================================================================
-   Variables - Updated for Maroon Theme & Casual Style
+   Variables
    ========================================================================== */
 
 /*
-   Typography - Smaller & More Casual
+   Typography
    ========================================================================== */
 
-$doc-font-size              : 14; // Reduced from 16 for smaller base font
+   $doc-font-size              : 16;
 
-/* paragraph indention */
-$paragraph-indent           : false; // true, false (default)
-$indent-var                 : 1.3em;
-
-/* casual system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Arial, sans-serif;
-$monospace                  : "SF Mono", Monaco, Consolas, "Lucida Console", monospace;
-
-/* casual font stacks */
-$sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
-
-/* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
-
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
-
-/* smaller type scale - adjusted for 14px base */
-$type-size-1                : 2.0em;   // ~28px - was 2.441em (~39px)
-$type-size-2                : 1.7em;   // ~23.8px - was 1.953em (~31px)
-$type-size-3                : 1.4em;   // ~19.6px - was 1.563em (~25px)
-$type-size-4                : 1.2em;   // ~16.8px - was 1.25em (~20px)
-$type-size-5                : 1em;     // ~14px - was 1em (~16px)
-$type-size-6                : 0.85em;  // ~11.9px - was 0.75em (~12px)
-$type-size-7                : 0.78em;  // ~10.9px - was 0.6875em (~11px)
-$type-size-8                : 0.7em;   // ~9.8px - was 0.625em (~10px)
-
-/* masthead properties */
-$masthead-height            : 70px;
-
-/* Sidebar properties */
-$sidebar-screen-min-width   : 1024px;
-$sidebar-link-max-width     : 250px;
-
-
-
-/*
-   Colors - Maroon Theme
-   ========================================================================== */
-
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
-
-// Maroon color palette
-$maroon                     : #800000;
-$maroon-light               : #a52a2a;
-$maroon-dark                : #5a0000;
-$maroon-bright              : #b03060;
-
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
-
-// Updated primary color to maroon
-$primary-color              : $maroon;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : $maroon-light;
-
-/* brands */
-$behance-color              : #1769FF;
-$bluesky-color              : #1184fe;
-$dribbble-color             : #ea4c89;
-$facebook-color             : #3b5998;
-$flickr-color               : #ff0084;
-$foursquare-color           : #0072b1;
-$github-color               : #171516;
-$google-plus-color          : #dd4b39;
-$instagram-color            : #517fa4;
-$kaggle-color               : #20c0ff;
-$lastfm-color               : #d51007;
-$linkedin-color             : #007bb6;
-$mastodon-color             : #6364ff;
-$orcid-color                : #a6ce39;
-$pinterest-color            : #cb2027;
-$rss-color                  : #fa9b39;
-$soundcloud-color           : #ff3300;
-$stackoverflow-color        : #fe7a15;
-$tumblr-color               : #32506d;
-$twitter-color              : #55acee;
-$vimeo-color                : #1ab7ea;
-$vine-color                 : #00bf8f;
-$youtube-color              : #bb0000;
-$xing-color                 : #006567;
-
-
-/* links - Updated to maroon */
-$link-color                 : $maroon;
-$link-color-hover           : $maroon-dark;
-$link-color-visited         : $maroon-light;
-$masthead-link-color        : $maroon;
-$masthead-link-color-hover  : $maroon-dark;
-
-
-
-/*
-   Breakpoints
-   ========================================================================== */
-
-@include breakpoint-set("to ems", true);
-
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
-
-/*
-   Grid
-   ========================================================================== */
-
-$right-sidebar-width-narrow : 200px !default;
-$right-sidebar-width        : 300px !default;
-$right-sidebar-width-wide   : 400px !default;
-
-$susy: (
-  columns: 12,
-  column-width: 120px,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: $large,
-  global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),
-);
-
-
-/*
-   Other - More Casual Styling
-   ========================================================================== */
-
-$border-radius              : 8px; // More rounded for casual look
-$box-shadow                 : 0 2px 8px rgba(0, 0, 0, 0.1); // Softer shadow
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$global-transition          : all 0.3s ease-in-out; // Smoother transition
+   /* paragraph indention */
+   $paragraph-indent           : false; // true, false (default)
+   $indent-var                 : 1.3em;
+   
+   /* system typefaces */
+   $serif                      : Georgia, Times, serif;
+   $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+   $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+   
+   /* sans serif typefaces */
+   $sans-serif-narrow          : $sans-serif;
+   $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+   
+   /* serif typefaces */
+   $georgia                    : Georgia, serif;
+   $times                      : Times, serif;
+   $bodoni                     : "Bodoni MT", serif;
+   $calisto                    : "Calisto MT", serif;
+   $garamond                   : Garamond, serif;
+   
+   $global-font-family         : $sans-serif;
+   $header-font-family         : $sans-serif;
+   $caption-font-family        : $serif;
+   
+   /* type scale */
+   $type-size-1                : 2.441em;  // ~39.056px
+   $type-size-2                : 1.953em;  // ~31.248px
+   $type-size-3                : 1.563em;  // ~25.008px
+   $type-size-4                : 1.25em;   // ~20px
+   $type-size-5                : 1em;      // ~16px
+   $type-size-6                : 0.75em;   // ~12px
+   $type-size-7                : 0.6875em; // ~11px
+   $type-size-8                : 0.625em;  // ~10px
+   
+   /* masthead properties */
+   $masthead-height            : 70px;
+   
+   /* Sidebar properties */
+   $sidebar-screen-min-width   : 1024px;
+   $sidebar-link-max-width     : 250px;
+   
+   
+   
+   /*
+      Colors
+      ========================================================================== */
+   
+   $gray                       : #7a8288;
+   $dark-gray                  : mix(#000, $gray, 40%);
+   $darker-gray                : mix(#000, $gray, 60%);
+   $light-gray                 : mix(#fff, $gray, 50%);
+   $lighter-gray               : mix(#fff, $gray, 90%);
+   
+   $body-color                 : #fff;
+   $background-color           : #fff;
+   $code-background-color      : #fafafa;
+   $code-background-color-dark : $light-gray;
+   $text-color                 : $dark-gray;
+   $border-color               : $lighter-gray;
+   
+   $primary-color              : #7a8288;
+   $success-color              : #62c462;
+   $warning-color              : #f89406;
+   $danger-color               : #ee5f5b;
+   $info-color                 : #2f7f93;
+   
+   /* brands */
+   $behance-color              : #1769FF;
+   $bluesky-color              : #1184fe;
+   $dribbble-color             : #ea4c89;
+   $facebook-color             : #3b5998;
+   $flickr-color               : #ff0084;
+   $foursquare-color           : #0072b1;
+   $github-color               : #171516;
+   $google-plus-color          : #dd4b39;
+   $instagram-color            : #517fa4;
+   $kaggle-color               : #20c0ff;
+   $lastfm-color               : #d51007;
+   $linkedin-color             : #007bb6;
+   $mastodon-color             : #6364ff;
+   $orcid-color                : #a6ce39;
+   $pinterest-color            : #cb2027;
+   $rss-color                  : #fa9b39;
+   $soundcloud-color           : #ff3300;
+   $stackoverflow-color        : #fe7a15;
+   $tumblr-color               : #32506d;
+   $twitter-color              : #55acee;
+   $vimeo-color                : #1ab7ea;
+   $vine-color                 : #00bf8f;
+   $youtube-color              : #bb0000;
+   $xing-color                 : #006567;
+   
+   
+   /* links */
+   $link-color                 : $info-color;
+   $link-color-hover           : mix(#000, $link-color, 25%);
+   $link-color-visited         : mix(#fff, $link-color, 25%);
+   $masthead-link-color        : $primary-color;
+   $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+   
+   
+   /*
+      Breakpoints
+      ========================================================================== */
+   
+   @include breakpoint-set("to ems", true);
+   /*
+   $small                      : 400px;
+   $medium                     : 500px;
+   $medium-wide                : 550px;
+   $large                      : 1200px;
+   $x-large                    : 1800px;
+   */
+   
+   $small                      : 600px !default;
+   $medium                     : 768px !default;
+   $medium-wide                : 900px !default;
+   $large                      : 925px !default;
+   $x-large                    : 1280px !default;
+   
+   /*
+      Grid
+      ========================================================================== */
+   
+   $right-sidebar-width-narrow : 200px !default;
+   $right-sidebar-width        : 300px !default;
+   $right-sidebar-width-wide   : 400px !default;
+   
+   $susy: (
+     columns: 12,
+     column-width: 120px,
+     gutters: 1/4,
+     math: fluid,
+     output: float,
+     gutter-position: after,
+     container: $large,
+     global-box-sizing: border-box,
+     // debug: (
+     //   image: show,
+     //   color: blue,
+     //   output: overlay,
+     //   toggle: top right,
+     // ),
+   );
+   
+   
+   /*
+      Other
+      ========================================================================== */
+   
+   $border-radius              : 4px;
+   $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+   $navicon-width              : 28px;
+   $navicon-height             : 4px;
+   $global-transition          : all 0.2s ease-in-out;
