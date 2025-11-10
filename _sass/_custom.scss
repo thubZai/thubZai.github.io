@@ -1,0 +1,30 @@
+// Casual button styles
+.btn-casual {
+  background-color: $maroon;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: $border-radius;
+  font-family: $global-font-family;
+  font-size: $type-size-5;
+  transition: $global-transition;
+  
+  &:hover {
+    background-color: $maroon-dark;
+    transform: translateY(-2px);
+  }
+}
+
+// Casual card styling
+.casual-card {
+  background: white;
+  border-radius: $border-radius;
+  padding: 1.5rem;
+  box-shadow: $box-shadow;
+  border: 1px solid $border-color;
+  transition: $global-transition;
+  
+  &:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  }
+}
