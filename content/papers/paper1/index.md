@@ -1,13 +1,13 @@
 ---
-title: "Diffusion in dynamic networks with continuous inputs to allocate responsibility" 
+title: "Pathological Truth Bias in Vision-Language Models" 
 #date: 2023-02-01
-tags: ["dynamic networks","Laplacian matrix","responsibility"]
-author: ["Rosa van den Ende and Dylan Laplace Mermoud (2025)"]
-description: "We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk." 
-summary: "We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk." 
+tags: ["Multimodal Learning","Spatial Reasoning","Mechanistic Interpretability"]
+author: ["Yash Thube (2025)"]
+description: "MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching." 
+summary: "MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching." 
 cover:
-    image: "paper1.png"
-    alt: "Adjacency matrix A and its corresponding digraph G"
+    image: "paper (1).png"
+    alt: ""
     relative: false
 #editPost:
  #   URL: "https://doi.org/10.1073/pnas.1816454115"
@@ -17,21 +17,14 @@ cover:
 
 ##### Abstract
 
-Responsibility in complex networks extends beyond direct actions: players should also bear responsibility for the indirect effects within their supply chains or network. We introduce a novel framework to allocate responsibility for indirect environmental, social, and economic impacts across a dynamic network. Unlike static approaches, our framework accounts for the evolving structure of supply chains, financial systems, and other interconnected systems, where relationships change over time. We use the time-dependent Laplacian matrix to capture how responsibility propagates through the network, revealing a diffusion process that aligns with key axioms of fairness: linearity, efficiency, symmetry, and the independent player property. We show that approximating the responsibility measure preserves these properties, supporting the use of our framework as a rigorous and practical method to allocate responsibility in real-world networks.
+Vision-language models (VLMs) exhibit a concerning failure mode termed pathological truth bias: the systematic tendency to affirm visually contradicted statements rather than rejecting them. Using MATS (Multimodal Audit for Truthful Spatialization), we demonstrate that instruction-tuned generative VLMs (LLaVA-1.5, Qwen-VL-chat) show very low Spatial Consistency Scores (SCS ≈ 1–3%) and high Incorrect Agreement Rates (IAR ≈ 75–80%), while contrastive encoders (CLIP, SigLIP) remain substantially more robust (SCS ≈ 57–68%, IAR ≈ 8–12%). Through systematic activation patching across 420 trials, we causally localize these failures to mid-to-late cross-attention layers in generative models and pooled/projection components in contrastive encoders, achieving 23% patch success in restoring correct behavior. Results implicate current instruction-tuning practices that prioritize agreeableness over truthfulness, and identify specific neural loci as targets for intervention-based repairs.
 
 ---
 
 ##### Download
 
-+ [You can find the paper here.](https://shs.hal.science/halshs-05046082v1)
-<!-- + [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/unemployment-gap) -->
-
----
-
-##### Adjacency matrix A and its corresponding digraph G
-
-![](paper1.png)
++ [You can find the paper here.](https://arxiv.org/abs/2509.22674)
++ [Code and data](https://github.com/thubZ09/mats-vlm.git)
 
 ---
 <!-- 
