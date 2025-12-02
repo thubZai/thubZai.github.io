@@ -5,10 +5,10 @@ tags: ["Self-Suvervised Learning","Computer Vision","Contrastive Learning"]
 author: ["Yash Thube"]
 description: "Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10."
 summary: "Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10." 
-#cover:
- #   image: "paper2.png"
-   # alt: "The upstream and downstream responsibility for direct and indirect carbon emissions for Brazil, Canada, Indonesia, South-Korea and France for different values of the discount factor."
-#     relative: false
+cover:
+    image: "pj111.png"
+    alt: ""
+    relative: false
 #editPost:
    #URL: "https://shs.hal.science/halshs-04188365"
     #Text: "Journal Name"
@@ -21,9 +21,8 @@ We provide an axiomatic approach to the allocation of responsibility for GHG emi
 ---
 ##### Github repo
 
-+ [You can find the paper here.](https://github.com/thubZ09/ssl-vision.git)
- <!-- [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/job-rationing) -->
++ [You can find the repo here.](https://github.com/thubZ09/ssl-vision.git)
++ [Blog](https://www.notion.so/Self-Supervised-Learning-in-Vision-210c205b93e0806da6fcd3d7ffba5e4f)
 
 ---
 
@@ -32,7 +31,7 @@ We provide an axiomatic approach to the allocation of responsibility for GHG emi
 
 ![](paper2.png) The upstream (left) and downstream responsibility for direct and indirect carbon emissions for Brazil, Canada, Indonesia, South-Korea and France for different values of the discount factor.
 
---- --> -->
+--- --> 
 
 <!-- -- ##### Citation
 

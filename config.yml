@@ -53,7 +53,7 @@ params:
           subtitle: "I care about making machines intuitively understand space, time & physics through world models"
           imageUrl: "IMG_2987.jpeg"
           imageWidth: 170
-          imageHeight: 190
+          imageHeight: 205
           imageTitle: Yash
           buttons:
             - name: Projects
@@ -66,10 +66,10 @@ params:
            #   url: https://pmichaillat.substack.com
             # - name: Tags
             #   url: tags/
-            - name: Talks
-              url: talks/
-            - name: Resume
-              url: cv_rosa2.pdf
+            - name: Brain Dump
+              url: https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219
+            #- name: Resume
+            #  url: cv_rosa2.pdf
             #- name: Archive
             #  url: archive/
     socialIcons:
@@ -92,7 +92,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Thube"
+      text: "Yash Thube"
       icon: favicon.ico
       iconHeight: 18
 
