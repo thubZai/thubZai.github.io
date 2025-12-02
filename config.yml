@@ -50,7 +50,7 @@ params:
     profileMode:
           enabled: true
           title: Yash Thube
-          subtitle: "I care about making machines intuitively understand space, time & physics through world models"
+          subtitle: "I care about making machines intuitively understand space, time & physics through world models."
           imageUrl: "IMG_2987.jpeg"
           imageWidth: 170
           imageHeight: 205
