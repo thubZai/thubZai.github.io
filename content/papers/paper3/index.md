@@ -1,13 +1,12 @@
 ---
-title: "The quantum state reduction of general intital states through spontaneous unitarity violation" 
+title: "Task-Aware Segment Anything with LoRA" 
 #date: 2022-01-15
-tags: ["quantum mechanics","measurement problem","spontaneous unitarity violation"]
-author: ["Aritro Mukherjee, Srinivas Gotur, Jelle Aalberts, Rosa van den Ende, Lotte Mertens, Jasper van Wezel (2024)"]
-description: "This paper shows other things. Published in Journal Name, 2015." 
-summary: "Published in Entropy, 26(2), 131. From when I was still in Theoretical Physics." 
+tags: ["Computer Vision","Distillation","PyTorch"]
+author: ["Yash Thube"]
+description: "A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions." 
 cover:
-    image: "paper3.png"
-    alt: "The dynamics of quantum state reduction."
+    image: "pj3.png"
+    alt: ""
     relative: false
 # editPost:
 #     URL: "https://doi.org/10.1073/pnas.1816454115"
@@ -19,23 +18,17 @@ cover:
 
 ##### Abstract
 
-The inability of Schrödinger’s unitary time evolution to describe measurement of a quantum state remains a central foundational problem. It was recently suggested that the unitarity of Schrödinger dynamics can be spontaneously broken, resulting in measurement as an emergent phenomenon in the thermodynamic limit. Here, we introduce a family of models for spontaneous unitarity violation that apply to generic initial superpositions over arbitrarily many states, using either single or multiple state-independent stochastic components. Crucially, we show that Born’s probability rule emerges spontaneously in all cases.
+PyTorch pipeline that uses a hypernetwork to generate task-specific LoRA adapters for Meta’s Segment Anything Model from natural language prompts, targeted segmentation on COCO instances and benchmarked mIoU via pycocotools.
 
 ---
 
-##### Download
+##### Github repo
 
-+ [You can find the paper here.](https://www.mdpi.com/1099-4300/26/2/131)
++ [You can find the repo here.](https://github.com/thubZ09/task_aware_sam_lora.git)
 
 <!-- + [Download it here:](paper3.pdf)
 + [Online appendix](appendix3.pdf)
 + [Code and data](https://github.com/pmichaillat/unemployment-gap) -->
-
----
-
-##### The dynamics of quantum state reduction.
-
-![](paper3.png)
 
 ---
 

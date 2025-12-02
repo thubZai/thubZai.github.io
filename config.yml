@@ -52,7 +52,7 @@ params:
           title: Yash Thube
           subtitle: "I care about making machines intuitively understand space, time & physics through world models"
           imageUrl: "IMG_2987.jpeg"
-          imageWidth: 160
+          imageWidth: 170
           imageHeight: 190
           imageTitle: Yash
           buttons:
@@ -82,7 +82,7 @@ params:
         - name: LinkedIn
           url: https://www.linkedin.com/in/thube09/
         - name: CV
-          url: 
+          url: CV_yt.pdf
       
 
     assets:
