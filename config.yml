@@ -14,12 +14,12 @@ menu:
         - name: Projects
           url: papers/
           weight: 1
-        - name: Talks
-          url: talks/
+        - name: Brain Dump
+          url: https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219
           weight: 2
-        - name: Resume
-          url: cv_rosa2.pdf
-          weight: 3 
+        #- name: Resume
+        #  url: cv_rosa2.pdf
+        #  weight: 3 
         # - name: Photography
         #   url: https://pmichaillat.substack.com
         #   weight: 4
