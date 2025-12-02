@@ -56,7 +56,7 @@ params:
           imageHeight: 190
           imageTitle: Yash
           buttons:
-            - name: Publications
+            - name: Projects
               url: papers/
             # - name: Courses
             #   url: courses/
