@@ -17,8 +17,8 @@ menu:
         - name: Brain Dump
           url: https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219
           weight: 2
-        #- name: Resume
-        #  url: cv_rosa2.pdf
+        #- name: Random Musings
+        #  url: musings
         #  weight: 3 
         # - name: Photography
         #   url: https://pmichaillat.substack.com
@@ -50,7 +50,7 @@ params:
     profileMode:
           enabled: true
           title: Yash Thube
-          subtitle: "I care about making machines intuitively understand space, time & physics through world models."
+          subtitle: "I care about making machines intuitively understand space, time & physics through world models.<br><br>Think less next-token prediction and more mental simulation engine that can be surprised, make mistakes, and actually learn from them, agents that plan, remember, and learn from their own imagination, adapting to changing physical environments.<br><br>I believe architectural changes are required for human-like intelligence, and transformers alone can't take us there. Works shaping my thinking: [LeCun's JEPA/V-JEPA](https://arxiv.org/abs/2301.08243), [NVIDIA Cosmos](https://www.nvidia.com/en-in/ai/cosmos/), Sakana AI's work on open-endedness, DeepMind's [Dreamer series](https://danijar.com/) & [Genie](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/), World Labs, Physical Intelligence (π), and Genesis.<br><br>Currently exploring how latent dynamics models + 3D geometry can give agents persistent memory of space and time (RSSM meets NeRF, basically). Always open to collaborations!"
           imageUrl: "IMG_2987.jpeg"
           imageWidth: 170
           imageHeight: 205
