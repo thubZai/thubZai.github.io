@@ -1,20 +1,16 @@
-/* underline links that appear in the site subtitle (and fallback selectors) */
+/* strong rule — safe to use temporarily while troubleshooting */
 .site-subtitle a,
 .subtitle a,
 .home-info .subtitle a,
 .homeinfo .subtitle a,
 .header-subtitle a,
-.hero-subtitle a {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
-  /* use the theme's accent color if present, otherwise fall back to current text color */
-  text-decoration-color: var(--accent, currentColor);
-  /* keep link color same as surrounding text (optional) */
-  color: inherit;
-}
-
-/* small hover effect (optional) */
-.site-subtitle a:hover {
-  text-decoration-color: color-mix(in srgb, var(--accent, currentColor) 70%, black 30%);
+.hero-subtitle a,
+header .site-subtitle a,
+.home header .site-subtitle a,
+.home .home-info .subtitle a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+  text-decoration-color: var(--accent, currentColor) !important;
+  color: inherit !important;
 }
