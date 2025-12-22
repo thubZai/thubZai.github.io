@@ -59,12 +59,12 @@ params:
           imageHeight: 205
           imageTitle: Yash
           buttons:
+            - name: Research
+              url: https://www.notion.so/random-musings-207c205b93e080e082b2d4b4ddf77ac9
             - name: Projects
               url: papers/
             # - name: Courses
             #   url: courses/
-            # - name: Data
-            #   url: data/
            # - name: Newsletter
            #   url: https://pmichaillat.substack.com
             # - name: Tags
