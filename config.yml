@@ -15,7 +15,7 @@ menu:
           url: papers/
           weight: 1
         - name: Research
-          url: /research/index.md
+          url: https://www.notion.so/random-musings-207c205b93e080e082b2d4b4ddf77ac9
           weight: 2
         - name: Brain Dump
           url: https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219
