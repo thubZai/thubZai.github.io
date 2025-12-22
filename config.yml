@@ -14,9 +14,12 @@ menu:
         - name: Projects
           url: papers/
           weight: 1
+        - name: Research
+          url: research/
+          weight: 2
         - name: Brain Dump
           url: https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219
-          weight: 2
+          weight: 3
         #- name: Random Musings
         #  url: musings
         #  weight: 3 
