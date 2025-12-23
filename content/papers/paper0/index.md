@@ -3,8 +3,8 @@ title: "A lightweight manifold constraint for PyTorch planners"
 #date: 2023-02-01
 tags: ["model-based RL","World Models","planning", "PyTorch"]
 author: ["Yash Thube (2025)"]
-description: "LatentGuard is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners." 
-summary: "LatentGuard is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners." 
+description: "LatentLinter is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners." 
+summary: "LatentLinter is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners." 
 cover:
     image: "honeypot_demo.png"
     alt: ""
