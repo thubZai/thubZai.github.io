@@ -19,7 +19,7 @@ cover:
 A technical resource for researchers exploring Vision-Language Models (VLMs), featuring seminal papers/models, datasets, benchmarks, ethical challenges, and research directions.
 
 ---
- ##### Github repo
+ ##### Links
 
 + [You can find the repository here.](https://github.com/thubZ09/multimodal-research.git)
  <!-- [Online appendix](appendix1.pdf)

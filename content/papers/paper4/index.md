@@ -19,8 +19,7 @@ cover:
 We provide an axiomatic approach to the allocation of responsibility for GHG emissions in supply chains. Considering a set of axioms standardly used in networks and decision theory, and consistent with legal principles underlying responsibility, we show that responsibility measures shall be based on exponential discounting of upstream and downstream emissions. From a network theory perspective, the proposed responsibility measure corresponds to a convex combination of the Bonacich centralities for the upstream and downstream weighted adjacency matrices. Scope 1 emissions, consumption-based accounting and income-based accounting are obtained as particular cases of our approach, which also gives a precise meaning to scope 3 emissions while avoiding double-counting. We apply our approach to the assessment of country-level responsibility for global GHG emissions and to sector-level responsibility in the USA. We examine how the responsibility of sectors/countries varies with the discounting of indirect emissions. We identify three groups of countries/sectors: producers of emissions whose responsibility decreases with the discounting factor, consumers of emissions whose responsibility increases with the discounting factor, and an intermediary group whose responsibility mostly depends on the network position and varies non-monotonically with the discounting factor. Overall, our axiomatic approach provides strong normative foundations for the definition of reporting requirements for indirect emissions and for the allocation of responsibility in claims for climate-related loss and damage. -->
 
 ---
-##### Github repo
-
+### Links
 + [You can find the repo here.](https://github.com/thubZ09/ssl-vision.git)
 + [Blog](https://www.notion.so/Self-Supervised-Learning-in-Vision-210c205b93e0806da6fcd3d7ffba5e4f)
 

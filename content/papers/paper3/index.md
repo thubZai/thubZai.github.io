@@ -22,7 +22,7 @@ PyTorch pipeline that uses a hypernetwork to generate task-specific LoRA adapter
 
 ---
 
-##### Github repo
+##### Links
 
 + [You can find the repo here.](https://github.com/thubZ09/task_aware_sam_lora.git)
 
