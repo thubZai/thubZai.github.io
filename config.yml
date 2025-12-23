@@ -85,7 +85,7 @@ params:
         - name: LinkedIn
           url: https://www.linkedin.com/in/thube09/
         - name: CV
-          url: /resumee_yt.pdf
+          url: /my_cv.pdf
       
 
     assets:
