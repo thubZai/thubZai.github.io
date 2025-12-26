@@ -6,7 +6,7 @@ author: ["Yash Thube"]
 description: "Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10."
 summary: "Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10." 
 cover:
-    image: "pj111.png"
+    #image: "pj111.png"
     alt: ""
     relative: false
 #editPost:

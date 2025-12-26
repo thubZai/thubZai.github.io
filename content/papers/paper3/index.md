@@ -5,7 +5,7 @@ tags: ["Computer Vision","Distillation","PyTorch"]
 author: ["Yash Thube"]
 description: "A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions." 
 cover:
-    image: "pj3.png"
+    #image: "pj3.png"
     alt: ""
     relative: false
 # editPost:

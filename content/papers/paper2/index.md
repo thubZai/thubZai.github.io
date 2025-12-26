@@ -6,7 +6,7 @@ author: ["Yash Thube"]
 description: "A living resource for Vision-Language Models & multimodal learning." 
 summary: "A living resource for Vision-Language Models & multimodal learning" 
 cover:
-    image: "pj2.png"
+    #image: "pj2.png"
     alt: ""
     relative: false
 #editPost:
