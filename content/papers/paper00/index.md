@@ -1,6 +1,13 @@
-# LC-JEPA: What Pretraining Objectives Keep and Discard
-
-*Self-supervised representations for changing-look AGN discovery*
+---
+title: "LC-JEPA: What Pretraining Objectives Keep and Discard"
+date: 2026-09-10
+tags: ["Computer Vision", "Time Series", "Self-Supervised Learning", "PyTorch", "Astrophysics"]
+author: ["Yash Thube"]
+description: "Self-supervised representations for changing-look AGN discovery"
+cover:
+    alt: ""
+    relative: true
+---
 
 [github](https://github.com/thubZ09/lcjepa)
 
@@ -29,7 +36,7 @@ JEPA's whole pitch is that latent prediction learns more abstract, noise-invaria
 
 ## Architecture
 
-![LC-JEPA Architecture](/Users/thubz/repos/thubZai.github.io/content/papers/paper00/arch.png)
+![LC-JEPA Architecture](arch.png)
 
 *Figure 1: LC-JEPA architecture. Left: Training — observation embeddings (Fourier time + value token) are processed by context and EMA target encoders. The predictor maps context latents to target latents for masked blocks. An optional rollout head predicts the next latent step. Right: Inference — frozen encoder produces 512-d embeddings for downstream tasks.*
 
@@ -148,7 +155,7 @@ recon (0.888) > JEPA+rollout (0.870) > pure-JEPA (0.859) > random-init (0.841)
 
 All pairwise gaps exceed 5-seed standard errors. This is not noise.
 
-![Ablation Ladder](/Users/thubz/repos/thubZai.github.io/content/papers/paper00/fig4_ladder.png)
+![Ablation Ladder](fig4_ladder.png)
 
 *Figure 2: Probe AUC for all objectives. Solid circles = unmatched, open diamonds = brightness-matched. Error bars = 5-seed std. Reconstruction beats all pretrained variants; the rollout head adds +0.011 over pure JEPA.*
 
@@ -158,7 +165,7 @@ Pretrained representations beat random-init at **every** label budget from k=10 
 
 At k=10: reconstruction = 0.744 AUC, random-init = 0.721 AUC.
 
-![Label Efficiency](figures/fig_labeleff.png)
+![Label Efficiency](fig_labeleff.png)
 
 *Figure 3: Probe AUC vs. number of labeled CLAGN (k). Pretrained representations beat random-init at every budget. The gap is largest at low k, establishing label efficiency as the core advantage of pretraining.*
 
@@ -172,7 +179,7 @@ At k=10: reconstruction = 0.744 AUC, random-init = 0.721 AUC.
 
 The representation only begins to outperform hand-crafted features at ~15k curves. At 5k, it's essentially equal (Δ = +0.001). At 31k, performance saturates (0.853 vs 0.855 at 15k).
 
-![Scaling Curve](figures/fig_scaling.pdf)
+![Scaling Curve](fig_scaling-1.png)
 
 *Figure 5: Scaling curve — linear probe AUC vs. number of pretraining light curves. The representation only begins to outperform hand-crafted features at ~15k curves, with performance saturating by that scale. The dashed line shows the hand-crafted feature baseline (0.8325).*
 
@@ -213,7 +220,7 @@ The CLAGN signal lives in a low-dimensional subspace (effective rank ~32–64 of
 
 ### UMAP Visualization
 
-![UMAP Embeddings](figures/fig2_umap.png)
+![UMAP Embeddings](fig2_umap.png)
 
 *Figure 4: UMAP of frozen 512-d embeddings. Left: coloured by class (CLAGN vs. control). Right: coloured by median magnitude. CLAGN occupy a distinct region not explained by brightness.*
 
