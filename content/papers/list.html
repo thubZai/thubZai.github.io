@@ -1,0 +1,58 @@
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{/* Edit this list to control which domains show, and in what order.
+     Every post's front matter must set a matching `domain:` value —
+     see the front-matter guidance below. */}}
+{{- $domainOrder := slice
+  "3D Vision & Sports Biomechanics"
+  "Self-Supervised Learning & World Models"
+  "Robotics & Optimization"
+}}
+
+{{- range $domain := $domainOrder }}
+  {{- $group := where $pages "Params.domain" $domain }}
+  {{- if gt (len $group) 0 }}
+  <h2 class="papers-domain-heading">{{ $domain }}</h2>
+  <div class="papers-grid">
+    {{- range $group }}
+    <article class="post-entry papers-card">
+      {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+      {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+      <header class="entry-header">
+        <h2>{{ .Title }}</h2>
+      </header>
+      {{- if (ne (.Param "hideSummary") true) }}
+      <div class="entry-content">
+        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      </div>
+      {{- end }}
+      {{- if not (.Param "hideMeta") }}
+      <footer class="entry-footer">
+        {{- partial "post_meta.html" . -}}
+      </footer>
+      {{- end }}
+      <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+  </div>
+  {{- end }}
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}

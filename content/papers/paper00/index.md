@@ -1,12 +1,9 @@
 ---
-title: "LC-JEPA: What Pretraining Objectives Keep and Discard"
-date: 2026-09-10
-tags: ["Computer Vision", "Time Series", "Self-Supervised Learning", "PyTorch", "Astrophysics"]
-author: ["Yash Thube"]
-description: "Self-supervised representations for changing-look AGN discovery"
+domain: "Self-Supervised Learning & World Models"
 cover:
-    alt: ""
-    relative: true
+  image: "arch.png"  
+  alt: "LC-JEPA architecture"
+  relative: true
 ---
 
 [github](https://github.com/thubZ09/lcjepa)
