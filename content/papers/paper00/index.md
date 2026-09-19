@@ -1,9 +1,11 @@
 ---
+title: LC-JEPA: What Pretraining Objectives Keep and Discard
 domain: "Self-Supervised Learning & World Models"
 cover:
-  image: "arch.png"  
+  image: "arch.png"
   alt: "LC-JEPA architecture"
   relative: true
+canonical: https://thubzai.github.io/papers/paper00/
 ---
 
 [github](https://github.com/thubZ09/lcjepa)
