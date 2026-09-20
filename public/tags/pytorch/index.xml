@@ -8,41 +8,14 @@
     <language>en</language>
     <managingEditor>Yash Thube</managingEditor>
     <webMaster>Yash Thube</webMaster>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Paper Implementations</title>
-      <link>https://thubZai.github.io/papers/paper1/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Markerless 3D Pose from Monocular Video</title>
+      <link>https://thubZai.github.io/papers/paper06/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       <author>Yash Thube</author>
-      <guid>https://thubZai.github.io/papers/paper1/</guid>
-      <description>PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts.</description>
-    </item>
-    
-    <item>
-      <title>Pathological Truth Bias in Vision-Language Models</title>
-      <link>https://thubZai.github.io/papers/paper000/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <author>Yash Thube</author>
-      <guid>https://thubZai.github.io/papers/paper000/</guid>
-      <description>MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.</description>
-    </item>
-    
-    <item>
-      <title>A lightweight manifold constraint for PyTorch planners</title>
-      <link>https://thubZai.github.io/papers/paper5/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <author>Yash Thube</author>
-      <guid>https://thubZai.github.io/papers/paper5/</guid>
-      <description>LatentLinter is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners.</description>
-    </item>
-    
-    <item>
-      <title>Task-Aware Segment Anything with LoRA</title>
-      <link>https://thubZai.github.io/papers/paper3/</link>
-      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      <author>Yash Thube</author>
-      <guid>https://thubZai.github.io/papers/paper3/</guid>
-      <description>A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions.</description>
+      <guid>https://thubZai.github.io/papers/paper06/</guid>
+      <description>A minimal pipeline that recovers 3D human pose from a single video camera using pose estimation, camera intrinsics, and triangulation — no markers, no suit, no special hardware.</description>
     </item>
     
   </channel>

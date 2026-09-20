@@ -19,8 +19,7 @@
 
 {{- $domainOrder := slice
   "3D Vision & Sports Biomechanics"
-  "Self-Supervised Learning & World Models"
-  "Robotics & Optimization"
+  "Self-Supervised Learning & Reinforcement Learning"
 }}
 
 {{- range $domain := $domainOrder }}
@@ -51,9 +50,6 @@
           {{- end }}
           <div class="papers-card-meta">
             <time>{{ .Date | time.Format (default "January 2006" site.Params.DateFormat) }}</time>
-            {{- with (partial "author.html" .) }}
-            <span class="papers-card-author">{{ . }}</span>
-            {{- end }}
           </div>
         </div>
       </article>

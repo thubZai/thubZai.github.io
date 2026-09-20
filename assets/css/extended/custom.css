@@ -123,24 +123,12 @@
 }
 
 .papers-card-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
   font-size: 0.75rem;
   color: var(--tertiary);
 }
 
 .papers-card-meta time {
   font-weight: 500;
-}
-
-.papers-card-meta::before {
-  content: "\00B7";
-  margin-right: 0.1rem;
-}
-
-.papers-card-author {
-  font-weight: 400;
 }
 
 @media (max-width: 680px) {

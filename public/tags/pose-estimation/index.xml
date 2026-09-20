@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Computer Vision on Yash Thube</title>
-    <link>https://thubZai.github.io/tags/computer-vision/</link>
-    <description>Recent content in Computer Vision on Yash Thube</description>
+    <title>Pose Estimation on Yash Thube</title>
+    <link>https://thubZai.github.io/tags/pose-estimation/</link>
+    <description>Recent content in Pose Estimation on Yash Thube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>Yash Thube</managingEditor>
     <webMaster>Yash Thube</webMaster>
-    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/pose-estimation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markerless 3D Pose from Monocular Video</title>
       <link>https://thubZai.github.io/papers/paper06/</link>

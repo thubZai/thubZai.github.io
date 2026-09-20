@@ -17,5 +17,5 @@
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;&middot;&nbsp;" -}}
+{{- range . }}{{ . }}{{ end }}
 {{- end -}}
