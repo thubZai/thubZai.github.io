@@ -1,7 +1,5 @@
 ---
 title: "Multimodal Research Hub — Vision-Language Models (VLMs)"
-date: 2024-01-01
-domain: "3D Vision & Sports Biomechanics"
 tags: ["Multimodal Learning", "Vision-Language"]
 author: ["Yash Thube"]
 description: "A living resource for Vision-Language Models & multimodal learning."
@@ -10,6 +8,10 @@ cover:
     #image: "pj2.png"
     alt: ""
     relative: false
+---
+
+[github](https://github.com/thubZ09/vision-language-model-research)
+
 ---
 
 ##### Abstract
