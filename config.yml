@@ -11,21 +11,12 @@ taxonomies:
 
 menu:
     main:
-        - name: Projects
-          url: papers/
-          weight: 1
         - name: Research
           url: https://www.notion.so/random-musings-207c205b93e080e082b2d4b4ddf77ac9
-          weight: 2
+          weight: 1
         - name: Brain Dump
           url: https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219
-          weight: 3
-        #- name: Random Musings
-        #  url: musings
-        #  weight: 3 
-        # - name: Photography
-        #   url: https://pmichaillat.substack.com
-        #   weight: 4
+          weight: 2
 
 params:
     description: "Machine Learning Research & Engineering"
