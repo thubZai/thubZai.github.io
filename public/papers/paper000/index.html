@@ -8,7 +8,7 @@
 <title>Pathological Truth Bias in Vision-Language Models | Yash Thube</title>
 <meta name="keywords" content="Multimodal Learning, Spatial Reasoning, Mechanistic Interpretability, PyTorch">
 <meta name="description" content="MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.">
-<meta name="author" content="Yash Thube (2025)">
+<meta name="author" content="Yash Thube">
 <link rel="canonical" href="https://thubZai.github.io/papers/paper000/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.dbe0434d157de00b0355cf840dc05baefcb4df837725121e5c7d3c41f82b2dbb.css" integrity="sha256-2&#43;BDTRV94AsDVc&#43;EDcBbrvy034N3JRIeXH08QfgrLbs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://thubZai.github.io/favicon.ico">
@@ -31,8 +31,8 @@
 <meta property="og:description" content="MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://thubZai.github.io/papers/paper000/" /><meta property="article:section" content="papers" />
-<meta property="article:published_time" content="2025-01-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-01-01T00:00:00+00:00" />
+
+
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Pathological Truth Bias in Vision-Language Models"/>
@@ -69,14 +69,14 @@
   "keywords": [
     "Multimodal Learning", "Spatial Reasoning", "Mechanistic Interpretability", "PyTorch"
   ],
-  "articleBody": "Abstract Vision-language models (VLMs) exhibit a failure mode termed pathological truth bias: the systematic tendency to affirm visually contradicted statements rather than rejecting them. Using MATS (Multimodal Audit for Truthful Spatialization), we demonstrate that instruction-tuned generative VLMs (LLaVA-1.5, Qwen-VL-chat) show very low Spatial Consistency Scores (SCS ≈ 1–3%) and high Incorrect Agreement Rates (IAR ≈ 75–80%), while contrastive encoders (CLIP, SigLIP) remain substantially more robust (SCS ≈ 57–68%, IAR ≈ 8–12%). Through systematic activation patching across 420 trials, we causally localize these failures to mid-to-late cross-attention layers in generative models and pooled/projection components in contrastive encoders, achieving 23% patch success in restoring correct behavior. Results implicate current instruction-tuning practices that prioritize agreeableness over truthfulness, and identify specific neural loci as targets for intervention-based repairs.\n",
-  "wordCount" : "124",
+  "articleBody": "arxiv github Abstract Vision-language models (VLMs) exhibit a failure mode termed pathological truth bias: the systematic tendency to affirm visually contradicted statements rather than rejecting them. Using MATS (Multimodal Audit for Truthful Spatialization), we demonstrate that instruction-tuned generative VLMs (LLaVA-1.5, Qwen-VL-chat) show very low Spatial Consistency Scores (SCS ≈ 1–3%) and high Incorrect Agreement Rates (IAR ≈ 75–80%), while contrastive encoders (CLIP, SigLIP) remain substantially more robust (SCS ≈ 57–68%, IAR ≈ 8–12%). Through systematic activation patching across 420 trials, we causally localize these failures to mid-to-late cross-attention layers in generative models and pooled/projection components in contrastive encoders, achieving 23% patch success in restoring correct behavior. Results implicate current instruction-tuning practices that prioritize agreeableness over truthfulness, and identify specific neural loci as targets for intervention-based repairs.\n",
+  "wordCount" : "126",
   "inLanguage": "en",
-  "datePublished": "2025-01-01T00:00:00Z",
-  "dateModified": "2025-01-01T00:00:00Z",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
   "author":[{
     "@type": "Person",
-    "name": "Yash Thube (2025)"
+    "name": "Yash Thube"
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -174,11 +174,16 @@
     <h1 class="post-title">
       Pathological Truth Bias in Vision-Language Models
     </h1>
-    <div class="post-meta">January 2025Yash Thube (2025)
+    <div class="post-meta">Yash Thube
 
 </div>
   </header> 
-  <div class="post-content"><h5 id="abstract">Abstract</h5>
+  <div class="post-content"><p><a href="https://arxiv.org/abs/2509.22674" target="_blank">arxiv</a>
+
+<a href="https://github.com/thubZ09/mats-vlm" target="_blank">github</a>
+</p>
+<hr>
+<h5 id="abstract">Abstract</h5>
 <p>Vision-language models (VLMs) exhibit a failure mode termed pathological truth bias: the systematic tendency to affirm visually contradicted statements rather than rejecting them. Using MATS (Multimodal Audit for Truthful Spatialization), we demonstrate that instruction-tuned generative VLMs (LLaVA-1.5, Qwen-VL-chat) show very low Spatial Consistency Scores (SCS ≈ 1–3%) and high Incorrect Agreement Rates (IAR ≈ 75–80%), while contrastive encoders (CLIP, SigLIP) remain substantially more robust (SCS ≈ 57–68%, IAR ≈ 8–12%). Through systematic activation patching across 420 trials, we causally localize these failures to mid-to-late cross-attention layers in generative models and pooled/projection components in contrastive encoders, achieving 23% patch success in restoring correct behavior. Results implicate current instruction-tuning practices that prioritize agreeableness over truthfulness, and identify specific neural loci as targets for intervention-based repairs.</p>
 
   </div>

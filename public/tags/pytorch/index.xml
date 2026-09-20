@@ -7,21 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>Yash Thube</managingEditor>
-    <webMaster>Yash Thube</webMaster>
-    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markerless 3D Pose from Monocular Video</title>
-      <link>https://thubZai.github.io/papers/paper06/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <author>Yash Thube</author>
-      <guid>https://thubZai.github.io/papers/paper06/</guid>
-      <description>A minimal pipeline that recovers 3D human pose from a single video camera using pose estimation, camera intrinsics, and triangulation — no markers, no suit, no special hardware.</description>
-    </item>
-    
+    <webMaster>Yash Thube</webMaster><atom:link href="https://thubZai.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pathological Truth Bias in Vision-Language Models</title>
       <link>https://thubZai.github.io/papers/paper000/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>Yash Thube</author>
       <guid>https://thubZai.github.io/papers/paper000/</guid>
       <description>MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.</description>

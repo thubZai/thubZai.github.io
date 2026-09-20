@@ -2,51 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thubZai.github.io/tags/3d-reconstruction/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/computer-vision/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/papers/paper06/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/pose-estimation/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/papers/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/pytorch/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/papers/paper00/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/mechanistic-interpretability/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/multimodal-learning/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/papers/paper000/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/spatial-reasoning/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/papers/paper2/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thubZai.github.io/tags/vision-language/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://thubZai.github.io/data/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -63,6 +18,12 @@
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thubZai.github.io/tags/keyword-7/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thubZai.github.io/tags/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thubZai.github.io/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thubZai.github.io/courses/course1/</loc>
@@ -88,10 +49,28 @@
   </url><url>
     <loc>https://thubZai.github.io/archive/</loc>
   </url><url>
+    <loc>https://thubZai.github.io/papers/paper00/</loc>
+  </url><url>
     <loc>https://thubZai.github.io/location/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/tags/mechanistic-interpretability/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/tags/multimodal-learning/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/papers/paper2/</loc>
   </url><url>
     <loc>https://thubZai.github.io/officehours/</loc>
   </url><url>
+    <loc>https://thubZai.github.io/papers/paper000/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/papers/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/tags/pytorch/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/tags/spatial-reasoning/</loc>
+  </url><url>
     <loc>https://thubZai.github.io/talks/</loc>
+  </url><url>
+    <loc>https://thubZai.github.io/tags/vision-language/</loc>
   </url>
 </urlset>

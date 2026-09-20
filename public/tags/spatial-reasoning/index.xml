@@ -7,12 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>Yash Thube</managingEditor>
-    <webMaster>Yash Thube</webMaster>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/spatial-reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>Yash Thube</webMaster><atom:link href="https://thubZai.github.io/tags/spatial-reasoning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pathological Truth Bias in Vision-Language Models</title>
       <link>https://thubZai.github.io/papers/paper000/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>Yash Thube</author>
       <guid>https://thubZai.github.io/papers/paper000/</guid>
       <description>MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.</description>
