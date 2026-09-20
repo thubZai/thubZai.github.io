@@ -32,6 +32,24 @@
     </item>
     
     <item>
+      <title>Pathological Truth Bias in Vision-Language Models</title>
+      <link>https://thubZai.github.io/papers/paper000/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper000/</guid>
+      <description>MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Research Hub — Vision-Language Models (VLMs)</title>
+      <link>https://thubZai.github.io/papers/paper2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper2/</guid>
+      <description>A living resource for Vision-Language Models &amp;amp; multimodal learning.</description>
+    </item>
+    
+    <item>
       <title>Dataset Title</title>
       <link>https://thubZai.github.io/data/data1/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
