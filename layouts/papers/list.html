@@ -1,12 +1,5 @@
 {{- define "main" }}
 
-{{- if not .IsHome | and .Title }}
-<header class="page-header">
-  {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }}</h1>
-</header>
-{{- end }}
-
 {{- if .Content }}
 <div class="post-content">
   {{- if not (.Param "disableAnchoredHeadings") }}
@@ -17,46 +10,30 @@
 
 {{- $pages := where .RegularPages "Params.domain" "!=" nil }}
 
-{{- $domainOrder := slice
-  "3D Vision & Sports Biomechanics"
-  "Self-Supervised Learning & Reinforcement Learning"
-}}
-
-{{- range $domain := $domainOrder }}
-  {{- $group := where $pages "Params.domain" $domain }}
-  {{- if gt (len $group) 0 }}
-  <section class="papers-section">
-    <h2 class="papers-domain-heading">
-      {{ $domain }}
-      <span class="papers-count">{{ len $group }}</span>
-    </h2>
-    <div class="papers-grid">
-      {{- range $group }}
-      <article class="papers-card">
-        <a class="papers-card-link" href="{{ .Permalink }}"></a>
-        {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-        {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-        <div class="papers-card-body">
-          <h3 class="papers-card-title">{{ .Title }}</h3>
-          {{- if (ne (.Param "hideSummary") true) }}
-          <p class="papers-card-summary">{{ .Summary | plainify | htmlUnescape }}</p>
-          {{- end }}
-          {{- if .Params.tags }}
-          <div class="papers-card-tags">
-            {{- range first 4 .Params.tags }}
-            <span class="papers-tag">{{ . }}</span>
-            {{- end }}
-          </div>
-          {{- end }}
-          <div class="papers-card-meta">
-            <time>{{ .Date | time.Format (default "January 2006" site.Params.DateFormat) }}</time>
-          </div>
-        </div>
-      </article>
+<div class="papers-grid">
+  {{- range $pages }}
+  <article class="papers-card">
+    <a class="papers-card-link" href="{{ .Permalink }}"></a>
+    {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    <div class="papers-card-body">
+      <h3 class="papers-card-title">{{ .Title }}</h3>
+      {{- if (ne (.Param "hideSummary") true) }}
+      <p class="papers-card-summary">{{ .Summary | plainify | htmlUnescape }}</p>
       {{- end }}
+      {{- if .Params.tags }}
+      <div class="papers-card-tags">
+        {{- range first 4 .Params.tags }}
+        <span class="papers-tag">{{ . }}</span>
+        {{- end }}
+      </div>
+      {{- end }}
+      <div class="papers-card-meta">
+        <time>{{ .Date | time.Format (default "January 2006" site.Params.DateFormat) }}</time>
+      </div>
     </div>
-  </section>
+  </article>
   {{- end }}
-{{- end }}
+</div>
 
 {{- end }}{{- /* end main */ -}}
