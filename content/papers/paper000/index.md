@@ -1,10 +1,11 @@
 ---
-title: "Pathological Truth Bias in Vision-Language Models" 
-#date: 2023-02-01
-tags: ["Multimodal Learning","Spatial Reasoning","Mechanistic Interpretability", "PyTorch"]
+title: "Pathological Truth Bias in Vision-Language Models"
+date: 2025-01-01
+domain: "3D Vision & Sports Biomechanics"
+tags: ["Multimodal Learning", "Spatial Reasoning", "Mechanistic Interpretability", "PyTorch"]
 author: ["Yash Thube (2025)"]
-description: "MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching." 
-summary: "MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching." 
+description: "MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching."
+summary: "MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching."
 cover:
     #image: "paper (1).png"
     alt: ""

@@ -1,5 +1,6 @@
 ---
 title: "LC-JEPA: What Pretraining Objectives Keep and Discard"
+date: 2025-01-01
 domain: "Self-Supervised Learning & World Models"
 cover:
   image: "arch.png"

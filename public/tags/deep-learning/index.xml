@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deep Learning on Yash Thube</title>
+    <link>https://thubZai.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Yash Thube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Yash Thube</managingEditor>
+    <webMaster>Yash Thube</webMaster>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Implementations</title>
+      <link>https://thubZai.github.io/papers/paper1/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper1/</guid>
+      <description>PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts.</description>
+    </item>
+    
+  </channel>
+</rss>

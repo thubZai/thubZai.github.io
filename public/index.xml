@@ -1,93 +1,132 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Rosa van den Ende</title>
-    <link>https://rosavandenende.github.io/</link>
-    <description>Recent content on Rosa van den Ende</description>
+    <title>Yash Thube</title>
+    <link>https://thubZai.github.io/</link>
+    <description>Recent content on Yash Thube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosavandenende.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>Yash Thube</managingEditor>
+    <webMaster>Yash Thube</webMaster>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LC-JEPA: What Pretraining Objectives Keep and Discard</title>
+      <link>https://thubZai.github.io/papers/paper00/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper00/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/thubZ09/lcjepa&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They&amp;rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.&lt;/p&gt;
+&lt;p&gt;If the transition leaves a signature in the &lt;em&gt;photometry&lt;/em&gt; — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Implementations</title>
+      <link>https://thubZai.github.io/papers/paper1/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper1/</guid>
+      <description>PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts.</description>
+    </item>
+    
+    <item>
+      <title>Pathological Truth Bias in Vision-Language Models</title>
+      <link>https://thubZai.github.io/papers/paper000/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper000/</guid>
+      <description>MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Research Hub — Vision-Language Models (VLMs)</title>
+      <link>https://thubZai.github.io/papers/paper2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper2/</guid>
+      <description>A living resource for Vision-Language Models &amp;amp; multimodal learning.</description>
+    </item>
+    
+    <item>
+      <title>SSL-Vision</title>
+      <link>https://thubZai.github.io/papers/paper4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper4/</guid>
+      <description>Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10.</description>
+    </item>
+    
     <item>
       <title>Dataset Title</title>
-      <link>https://rosavandenende.github.io/data/data1/</link>
+      <link>https://thubZai.github.io/data/data1/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/data/data1/</guid>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/data/data1/</guid>
       <description>This dataset contains things.</description>
     </item>
     
     <item>
+      <title>A lightweight manifold constraint for PyTorch planners</title>
+      <link>https://thubZai.github.io/papers/paper5/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper5/</guid>
+      <description>LatentLinter is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners.</description>
+    </item>
+    
+    <item>
       <title>Course Name 1</title>
-      <link>https://rosavandenende.github.io/courses/course1/</link>
+      <link>https://thubZai.github.io/courses/course1/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/courses/course1/</guid>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/courses/course1/</guid>
       <description>This graduate course presents various methods and results.</description>
     </item>
     
     <item>
+      <title>Task-Aware Segment Anything with LoRA</title>
+      <link>https://thubZai.github.io/papers/paper3/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper3/</guid>
+      <description>A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions.</description>
+    </item>
+    
+    <item>
       <title>Course Title 2</title>
-      <link>https://rosavandenende.github.io/courses/course2/</link>
+      <link>https://thubZai.github.io/courses/course2/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/courses/course2/</guid>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/courses/course2/</guid>
       <description>This undergraduate course presents many new things.</description>
     </item>
     
     
     <item>
-      <title>Diffusion in Dynamic Networks with Continuous Inputs to Allocate Responsibility</title>
-      <link>https://rosavandenende.github.io/papers/paper1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper1/</guid>
-      <description>We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk.</description>
-    </item>
-    
-    <item>
       <title>Location</title>
-      <link>https://rosavandenende.github.io/location/</link>
+      <link>https://thubZai.github.io/location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/location/</guid>
-      <description>Office address Centre d&amp;rsquo;Économie de la Sorbonne (office 503) Université Paris I Panthéon-Sorbonne 106-112 Boulevard de l&amp;rsquo;Hôpital, 75013 Paris France
-On the map: </description>
-    </item>
-    
-    <item>
-      <title>Network-based allocation of responsibility for GHG emissions</title>
-      <link>https://rosavandenende.github.io/papers/paper2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper2/</guid>
-      <description>In this paper we allocate responsibilities for GHG emissions in a network.</description>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/location/</guid>
+      <description>&lt;h4 id=&#34;office-address&#34;&gt;Office address&lt;/h4&gt;
+&lt;p&gt;Centre d&amp;rsquo;Économie de la Sorbonne (office 503)
+Université Paris I Panthéon-Sorbonne
+106-112 Boulevard de l&amp;rsquo;Hôpital, 75013 Paris
+France&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;on-the-map&#34;&gt;On the map:&lt;/h4&gt;
+&lt;iframe src=&#34;https://maps.app.goo.gl/x4gnqGrbWPA6gxYv6&#34; width=&#34;700&#34; height=&#34;500&#34; style=&#34;border:0;&#34; allowfullscreen=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
       <title>Office Hours</title>
-      <link>https://rosavandenende.github.io/officehours/</link>
+      <link>https://thubZai.github.io/officehours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/officehours/</guid>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/officehours/</guid>
       <description>Schedule and location for office hours.</description>
-    </item>
-    
-    <item>
-      <title>Strategic environmental responsibility in networks</title>
-      <link>https://rosavandenende.github.io/papers/paper4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper4/</guid>
-      <description>[Work in progress] We evaluate the effect of changing the underlying network structure on the responsibility allocation, and we investigate how we can use this to achieve the emisison reduction goals of the Paris Agreement. </description>
-    </item>
-    
-    <item>
-      <title>The quantum state reduction of general intital states through spontaneous unitarity violation</title>
-      <link>https://rosavandenende.github.io/papers/paper3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper3/</guid>
-      <description>This paper shows other things. Published in Journal Name, 2015.</description>
     </item>
     
   </channel>

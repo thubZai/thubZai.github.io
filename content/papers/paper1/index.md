@@ -1,10 +1,11 @@
 ---
-title: "paper implementations" 
-#date: 2023-02-01
-tags: ["Machine Learning","Deep Learning","Computer Vision", "PyTorch",]
+title: "Paper Implementations"
+date: 2025-01-01
+domain: "Self-Supervised Learning & World Models"
+tags: ["Machine Learning", "Deep Learning", "Computer Vision", "PyTorch"]
 author: ["Yash Thube (2025)"]
-description: "PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts." 
-summary: "PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts." 
+description: "PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts."
+summary: "PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts."
 cover:
     #image: "paper (1).png"
     alt: ""

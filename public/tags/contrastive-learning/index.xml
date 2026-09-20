@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Contrastive Learning on Yash Thube</title>
+    <link>https://thubZai.github.io/tags/contrastive-learning/</link>
+    <description>Recent content in Contrastive Learning on Yash Thube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Yash Thube</managingEditor>
+    <webMaster>Yash Thube</webMaster>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/tags/contrastive-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSL-Vision</title>
+      <link>https://thubZai.github.io/papers/paper4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper4/</guid>
+      <description>Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10.</description>
+    </item>
+    
+  </channel>
+</rss>

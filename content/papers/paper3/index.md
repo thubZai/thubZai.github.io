@@ -1,9 +1,10 @@
 ---
-title: "Task-Aware Segment Anything with LoRA" 
-#date: 2022-01-15
-tags: ["Computer Vision","Distillation","PyTorch"]
+title: "Task-Aware Segment Anything with LoRA"
+date: 2022-01-15
+domain: "3D Vision & Sports Biomechanics"
+tags: ["Computer Vision", "Distillation", "PyTorch"]
 author: ["Yash Thube"]
-description: "A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions." 
+description: "A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions."
 cover:
     #image: "pj3.png"
     alt: ""

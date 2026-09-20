@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>LC-JEPA: What Pretraining Objectives Keep and Discard | Yash Thube</title>
+<meta name="keywords" content="">
+<meta name="description" content="github
+
+
+Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They&rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.
+If the transition leaves a signature in the photometry — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky.">
+<meta name="author" content="Yash Thube">
+<link rel="canonical" href="https://thubZai.github.io/papers/paper00/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.60d111451efe9401a531ecd685b754f884d859288bdc365ede1033cb017a60bb.css" integrity="sha256-YNERRR7&#43;lAGlMezWhbdU&#43;ITYWSiL3DZe3hAzywF6YLs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://thubZai.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://thubZai.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://thubZai.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://thubZai.github.io/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://thubZai.github.io/papers/paper00/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="LC-JEPA: What Pretraining Objectives Keep and Discard" />
+<meta property="og:description" content="github
+
+
+Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They&rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.
+If the transition leaves a signature in the photometry — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thubZai.github.io/papers/paper00/" />
+<meta property="og:image" content="https://thubZai.github.io/papers/paper00/arch.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2025-01-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-01-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://thubZai.github.io/papers/paper00/arch.png" />
+<meta name="twitter:title" content="LC-JEPA: What Pretraining Objectives Keep and Discard"/>
+<meta name="twitter:description" content="github
+
+
+Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They&rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.
+If the transition leaves a signature in the photometry — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://thubZai.github.io/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "LC-JEPA: What Pretraining Objectives Keep and Discard",
+      "item": "https://thubZai.github.io/papers/paper00/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "LC-JEPA: What Pretraining Objectives Keep and Discard",
+  "name": "LC-JEPA: What Pretraining Objectives Keep and Discard",
+  "description": "github Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They\u0026rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.\nIf the transition leaves a signature in the photometry — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "github Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They’re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.\nIf the transition leaves a signature in the photometry — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky.\nThat’s the science question. The ML question riding on top of it is more general:\nLight-curve foundation models (Astromer, FALCO) are all trained with masked reconstruction or contrastive objectives. JEPA — predict in latent space, not pixel/flux space — is the obvious next thing to try on astronomical time series.\nJEPA’s whole pitch is that latent prediction learns more abstract, noise-invariant structure than reconstruction does. I expected that abstraction to be exactly what flags a CLAGN: throw away epoch-to-epoch noise, keep the slow structural change.\nThe Data Positives: 561 confirmed CLAGN from the Guo et al. 2024/2025 DESI+SDSS catalog. Controls / pretraining corpus: SDSS DR16Q quasars in the ZTF footprint, CLAGN cross-matched out (3″), ~6,960 labeled controls plus ~31,000 unlabeled curves for pretraining. Light curves: ZTF DR23 r-band, quality-cut on flags and magnitude error, ≥120 epochs per object. The caveat: some fraction of the confirmed CLAGN transitioned before ZTF started observing, which means their ZTF light curve doesn’t actually contain the transition — irreducible label noise. A CUSUM changepoint statistic over the full curves comes out around 0.42, which is a useful sanity number: it tells you the transition signal is often genuinely subtle in this band, not that the detector is broken. Architecture Figure 1: LC-JEPA architecture. Left: Training — observation embeddings (Fourier time + value token) are processed by context and EMA target encoders. The predictor maps context latents to target latents for masked blocks. An optional rollout head predicts the next latent step. Right: Inference — frozen encoder produces 512-d embeddings for downstream tasks.\nA compact JEPA built for irregular-cadence time series:\nFourier time-embedding + value tokens — so unevenly-sampled epochs don’t need interpolation Context encoder — processes unmasked observations → produces latents EMA-updated target encoder — slow-moving copy of context encoder, provides stable targets Latent predictor — maps context latents → predicts target embeddings for masked regions VICReg anti-collapse regularizer — latent prediction alone has a well-known degenerate-solution failure mode (everything collapses to a constant); VICReg is the standard fix Optional latent-rollout head — instead of predicting one masked span, predicts a short sequence of future latent states, a small world-model-flavored addition on top of vanilla JEPA Small enough to pretrain on an M5 Pro chip’s MPS backend rather than needing a cluster — a deliberate constraint. Part of the point was proving this class of experiment doesn’t require industrial compute.\nObservation Embedding Each observation is a tuple: (Δt, m, σ) — time delta from t₀, magnitude, magnitude error. We embed each observation via:\nclass ObservationEmbedding(nn.Module): def __init__(self, d_model=256, n_freq=32): self.freqs = nn.Parameter(torch.randn(n_freq) * 0.1) # learnable Fourier self.mlp = nn.Sequential( nn.Linear(n_freq * 2 + 2, d_model), nn.LayerNorm(d_model), nn.GELU(), nn.Linear(d_model, d_model), ) def forward(self, dt, mag, sigma): # Fourier time encoding omega = self.freqs sin_t = torch.sin(omega * dt) cos_t = torch.cos(omega * dt) # Concatenate: [sin(ωΔt), cos(ωΔt), m, σ] x = torch.cat([sin_t, cos_t, mag, sigma], dim=-1) return self.mlp(x) Design choice: learnable Fourier frequencies rather than fixed ones. This lets the model adapt its temporal sensitivity to the irregular sampling of ZTF light curves.\nPer-Curve Normalization Before feeding to the encoder, we normalize magnitudes per-curve:\nm̃ = (m - μ_curve) / σ_curve This is critical. Different quasars have different absolute brightnesses. Normalizing per-curve forces the model to learn variability structure rather than absolute magnitude. Without this, the model would just learn “brighter quasars are more interesting” — which is useless.\nBlock-Wise Masking We mask 4 blocks of 10–20% sequence length each, retaining 85% of non-target context tokens. This is different from random token masking (used in BERT-style models). Block masking forces the model to learn long-range dependencies — it can’t just interpolate locally. For light curves, this means the model must understand how variability at one epoch relates to variability many epochs later.\ndef sample_block_masks(seq_len, n_blocks=4, block_range=(0.10, 0.20)): masks = torch.zeros(seq_len, dtype=torch.bool) for _ in range(n_blocks): block_len = random.randint( int(seq_len * block_range[0]), int(seq_len * block_range[1]) ) start = random.randint(0, seq_len - block_len) masks[start:start+block_len] = True # Retain 85% of non-target context context_mask = ~masks retain = random.sample(context_mask.nonzero().squeeze(), int(context_mask.sum() * 0.85)) masks[retain] = False return masks A Controlled Objective Ablation This is the actual contribution, more than the detector itself. Same architecture, same data, same masking scheme, same compute budget — the only thing that changes across runs is the pretraining objective:\nObjective What it optimizes Masked reconstruction Predict masked flux values directly LC-JEPA (+ rollout) Predict latent target + short latent-future rollout Pure JEPA (no rollout) Predict latent target only Random-init No pretraining — frozen random encoder, as a floor Evaluation is a frozen-embedding linear probe (L2-logistic regression, class-balanced, 5-fold out-of-fold, 5 seeds — every number below has an error bar, not a single lucky run), scored on ROC-AUC, average precision, and precision@k against the real 20:1 class imbalance CLAGN discovery actually has.\nResults Model Probe AUC (5-seed) Brightness-matched AUC Precision@20 Reconstruction 0.888 ± 0.003 0.849 0.65 LC-JEPA (rollout) 0.870 ± 0.003 0.842 0.65 Pure-JEPA 0.859 ± 0.003 0.827 0.55 Random-init 0.841 ± 0.004 0.808 0.55 Hand-crafted features 0.833 — 0.25 Brightness alone 0.523 — — Base rate — — 0.054 Precision@20 of 0.65 against a 0.054 base rate is a 12× enrichment in the top of the ranked list — meaningful for a follow-up program with limited telescope time, where you can only chase down a handful of the most promising candidates.\nAnd the brightness-confound control matters more than it might look: quasar surveys have well-known brightness-related selection effects, so before trusting any of this, I checked whether the model was secretly just learning “brighter objects are more likely CLAGN.” Brightness alone gets 0.523 AUC — barely above chance — and matching controls to CLAGN on brightness decile only drops the probe from 0.888 to 0.849. The signal is in the variability structure, not the flux level.\nReconstruction Beats JEPA, And It’s Not Close I went in expecting the opposite. The gap (0.888 vs 0.870) held up across all 5 seeds — not overlapping noise, a real effect. My first instinct was that the rollout head was acting as a multi-task penalty, dragging pure latent prediction down artificially, and that a pure JEPA (rollout head removed, otherwise identical) would close the gap or win outright. So I ran that ablation specifically to check. It didn’t rescue JEPA — pure-JEPA scored lower still (0.859), meaning the rollout head was actually helping LC-JEPA’s representation, not hurting it, and reconstruction’s advantage over latent prediction is real, not an artifact of an unfair comparison.\nThe Ordering Is Monotonic recon (0.888) \u003e JEPA+rollout (0.870) \u003e pure-JEPA (0.859) \u003e random-init (0.841) All pairwise gaps exceed 5-seed standard errors. This is not noise.\nFigure 2: Probe AUC for all objectives. Solid circles = unmatched, open diamonds = brightness-matched. Error bars = 5-seed std. Reconstruction beats all pretrained variants; the rollout head adds +0.011 over pure JEPA.\nLabel Efficiency Pretrained representations beat random-init at every label budget from k=10 to k=373. The gap is largest at low k (0.042 at k=10), establishing label efficiency as the core advantage of pretraining.\nAt k=10: reconstruction = 0.744 AUC, random-init = 0.721 AUC.\nFigure 3: Probe AUC vs. number of labeled CLAGN (k). Pretrained representations beat random-init at every budget. The gap is largest at low k, establishing label efficiency as the core advantage of pretraining.\nScaling with Pretraining Data Pretrain Size Train Set Probe AUC Δ vs Baseline 5,000 6,264 0.8334 +0.0009 15,000 13,268 0.8553 +0.0227 31,000 30,474 0.8533 +0.0208 The representation only begins to outperform hand-crafted features at ~15k curves. At 5k, it’s essentially equal (Δ = +0.001). At 31k, performance saturates (0.853 vs 0.855 at 15k).\nFigure 5: Scaling curve — linear probe AUC vs. number of pretraining light curves. The representation only begins to outperform hand-crafted features at ~15k curves, with performance saturating by that scale. The dashed line shows the hand-crafted feature baseline (0.8325).\nWhy Reconstruction Wins TS-JEPA [5] reports that latent prediction is “comparable to reconstruction” on synthetic time-series benchmarks. Our results go further: reconstruction beats latent prediction for CLAGN detection.\nThe reason is objective–task matching.\nCLAGN detection rewards preserving the reconstructible magnitude transition that defines a changing-look event. JEPA’s latent-invariance, which is beneficial for generic representation learning, discards the very signal we’re looking for.\nThink of it this way:\nReconstruction learns: “here’s how the magnitude changes over time” JEPA learns: “here’s the invariant structure of variability, ignoring noise” For CLAGN, the signal is the magnitude transition. JEPA’s invariance is a bug, not a feature.\nThis parallels recent findings in medical imaging [19,20]: “frozen embeddings discard fine-grained signal.” Latent-prediction objectives learn representations that are robust to noise but lose reconstructible structure. Ivezić et al. [20] show that when diagnostically relevant information is globally structured (e.g., liver ultrasounds), JEPA-based methods are optimal — but when signal is spatially localized (e.g., histopathology), reconstruction-based methods win. Our CLAGN signal is globally structured in magnitude space, which is why reconstruction wins.\nThe rollout head partially recovers the lost signal (+0.011 over pure JEPA), suggesting that causal next-step prediction in latent space provides a useful inductive bias that bridges reconstruction and pure JEPA.\nRepresentation Structure PCA Rank Probe AUC peaks at 32–64 PCA components and degrades at 256:\nPCA r 2 4 8 16 32 64 128 256 Recon 0.643 0.725 0.762 0.794 0.864 0.895 0.893 0.869 The CLAGN signal lives in a low-dimensional subspace (effective rank ~32–64 of 512-d). Additional dimensions add noise.\nUMAP Visualization Figure 4: UMAP of frozen 512-d embeddings. Left: coloured by class (CLAGN vs. control). Right: coloured by median magnitude. CLAGN occupy a distinct region not explained by brightness.\nNeighborhood Purity CLAGN’s 10 nearest neighbours in embedding space are also CLAGN at a significantly higher rate than controls. The representation clusters CLAGN together.\nTechnical Details Training on Apple Silicon All models trained on Apple Silicon (MPS) with TF32 enabled:\ndef configure_backend(): if torch.cuda.is_available(): torch.backends.cuda.matmul.allow_tf32 = True torch.backends.cudnn.allow_tf32 = True elif torch.backends.mps.is_available(): os.environ[\"PYTORCH_ENABLE_MPS_FALLBACK\"] = \"1\" EMA Momentum Schedule Momentum scheduled cosinely from 0.997 to 1.0:\ndef ema_momentum(step, total_steps, m_start=0.997, m_end=1.0): progress = step / total_steps return m_end - 0.5 * (m_end - m_start) * (1 + math.cos(math.pi * progress)) VICReg Anti-Collapse def vicreg_loss(Z, var_target=1.0, cov_weight=0.01): batch, dim = Z.shape # Variance term var = torch.var(Z, dim=0, unbiased=True) var_loss = ((var - var_target) ** 2).mean() # Covariance term (off-diagonal only) cov = torch.cov(Z.T) # (dim, dim) cov_loss = cov.pow(2).sum() - var.pow(2).sum() # remove diagonal cov_loss /= dim * (dim - 1) # normalize by off-diagonal count return var_loss + cov_weight * cov_loss Data Pipeline Catalog: Cross-match CLAGN catalog with SDSS DR16 quasars Download: ZTF DR23 r-band photometry via IRSA, quality cuts (catflags, magerr \u003c 0.1, ≥120 epochs) Cache: 31,866 light curves in parquet format Evaluation: 6,960 objects (373 CLAGN, 6,587 controls, 5.4% base rate) Implications For Astronomy The pipeline is LSST-ready. Rubin Observatory will produce ~100 billion light curves over 10 years. Our saturating scaling curve suggests that beyond ~15k curves, architectural improvements or different objectives may be needed to continue scaling. But the saturation point is easily exceeded for LSST. Recent work on multiband light-curve transformers [11] and vision Transformers for light curves [12] suggests that multi-band fusion could push performance further.\nFor Self-Supervised Learning The key insight — that the pretraining objective determines what signal is preserved — has implications beyond astronomy. When using self-supervised representations for downstream discovery, the pretraining objective should be chosen to preserve the signal relevant to the downstream task. JEPA’s noise-invariance is not universally beneficial.\nFor Time-Series Representation Learning Our saturating scaling curve suggests a “tipping point” at ~10k–15k curves. Below this scale, hand-crafted features are competitive. Above this scale, representations pull ahead but then saturate. This is consistent with the “lazy training” regime of overparameterized neural networks.\nReferences [1] Assran et al. “Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture.” CVPR 2023. arXiv:2205.01068.\n[2] Assran et al. “V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning.” arXiv 2025. arXiv:2506.09985.\n[3] Garcia \u0026 Isik. “Behavioral Geometric Supervision Aligns Video Foundation Models with Human Social Perception.” arXiv 2025. arXiv:2510.01502.\n[4] Bardes, Ponce \u0026 LeCun. “VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning.” ICLR 2022. arXiv:2105.04906.\n[5] Ennadir, Golkar \u0026 Sarra. “Joint Embeddings Go Temporal.” NeurIPS 2024 Workshop on Time Series in the Age of Large Models. arXiv:2509.25449.\n[6] Li et al. “StarEmbed: Benchmarking Time Series Foundation Models on Astronomical Observations of Variable Stars.” ICML 2026. arXiv:2510.06200.\n[7] Donoso-Oliva et al. “ASTROMER: A Transformer-Based Embedding for the Representation of Light Curves.” A\u0026A 670, A54 (2023). arXiv:2205.01677.\n[8] Donoso-Oliva et al. “Astromer 2: A Foundational Model for Light Curve Embeddings.” A\u0026A 707, A170 (2026). arXiv:2502.02717.\n[9] Tan et al. “ASTROCO: Self-Supervised Conformer-Style Transformers for Light-Curve Embeddings.” NeurIPS 2025 Workshop on ML and the Physical Sciences. arXiv:2509.24134.\n[10] Zuo et al. “FALCO: A Foundation Model of Astronomical Light Curves for Time-Domain Astronomy.” AJ 171, 247 (2026). arXiv:2504.20290.\n[11] Chiong, Becker \u0026 Protopapas. “Multivariate Time Series Transformer Embeddings for Light Curves of Periodic Variable Stars.” A\u0026A 712, A168 (2026). arXiv:2506.11637.\n[12] Moreno-Cartagena et al. “Leveraging Pre-trained Vision Transformers for Multi-Band Photometric Light Curve Classification.” A\u0026A 703, A41 (2025). arXiv:2502.20479.\n[13] Cádiz-Leyton et al. “Uncertainty Estimation for Time Series Classification: Exploring Predictive Uncertainty in Transformer-Based Models for Variable Stars.” A\u0026A 699, A168 (2025). arXiv:2412.10528.\n[14] Rui. “Domain-Informed Multi-View Self-Distillation for Astronomical Light-Curve Representation Learning with JEPA.” arXiv 2026. arXiv:2606.28446.\n[15] Guo et al. “Changing-Look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. I. Sample from the Early Data Release.” ApJ 964, 139 (2024).\n[16] Guo et al. “Changing-Look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. II. Statistical Properties from the First Data Release.” ApJ 981, 54 (2025).\n[17] Guo et al. “Changing-Look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. IV. Broad Emission Line Evolution Sequence Among Hα, Mg II, and Hβ.” ApJ (2025). arXiv:2511.15275.\n[18] Nakazono et al. “CLAS+: A Large Catalog of Changing-Look AGN Candidates Selected through S-PLUS Narrow-Band Photometry.” ApJ (2026). arXiv:2609.03232.\n[19] Ergün et al. “Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI.” arXiv 2026. arXiv:2606.13315.\n[20] Ivezić et al. “Pretext Matters: An Empirical Study of SSL Methods in Medical Imaging.” arXiv 2026. arXiv:2603.22649.\n",
+  "wordCount" : "2430",
+  "inLanguage": "en",
+  "image":"https://thubZai.github.io/papers/paper00/arch.png","datePublished": "2025-01-01T00:00:00Z",
+  "dateModified": "2025-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Yash Thube"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://thubZai.github.io/papers/paper00/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yash Thube",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://thubZai.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://thubZai.github.io/" accesskey="h" title="Yash Thube">
+             
+                <img src="https://thubZai.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Yash Thube</a>
+            <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://thubZai.github.io/papers/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.notion.so/random-musings-207c205b93e080e082b2d4b4ddf77ac9" title="Research">
+                    <span>Research</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.notion.so/Welcome-to-my-secondary-brain-c7dc4ccf8be54449b9b248ec9378c219" title="Brain Dump">
+                    <span>Brain Dump</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      LC-JEPA: What Pretraining Objectives Keep and Discard
+    </h1>
+    <div class="post-meta">&lt;span title=&#39;2025-01-01 00:00:00 &#43;0000 UTC&#39;&gt;January 2025&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;Yash Thube
+
+</div>
+  </header> 
+  <div class="post-content"><p><a href="https://github.com/thubZ09/lcjepa" target="_blank">github</a>
+</p>
+<hr>
+<p>Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They&rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.</p>
+<p>If the transition leaves a signature in the <em>photometry</em> — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky.</p>
+<p>That&rsquo;s the science question. The ML question riding on top of it is more general:</p>
+<blockquote>
+<p><strong>Light-curve foundation models (Astromer, FALCO) are all trained with masked reconstruction or contrastive objectives. JEPA — predict in latent space, not pixel/flux space — is the obvious next thing to try on astronomical time series.</strong></p>
+</blockquote>
+<p>JEPA&rsquo;s whole pitch is that latent prediction learns more abstract, noise-invariant structure than reconstruction does. I expected that abstraction to be exactly what flags a CLAGN: throw away epoch-to-epoch noise, keep the slow structural change.</p>
+<hr>
+<h2 id="the-data">The Data</h2>
+<ul>
+<li><strong>Positives:</strong> 561 confirmed CLAGN from the Guo et al. 2024/2025 DESI+SDSS catalog.</li>
+<li><strong>Controls / pretraining corpus:</strong> SDSS DR16Q quasars in the ZTF footprint, CLAGN cross-matched out (3″), ~6,960 labeled controls plus ~31,000 unlabeled curves for pretraining.</li>
+<li><strong>Light curves:</strong> ZTF DR23 r-band, quality-cut on flags and magnitude error, ≥120 epochs per object.</li>
+<li><strong>The caveat:</strong> some fraction of the confirmed CLAGN transitioned <em>before</em> ZTF started observing, which means their ZTF light curve doesn&rsquo;t actually contain the transition — irreducible label noise. A CUSUM changepoint statistic over the full curves comes out around 0.42, which is a useful sanity number: it tells you the transition signal is often genuinely <em>subtle</em> in this band, not that the detector is broken.</li>
+</ul>
+<hr>
+<h2 id="architecture">Architecture</h2>
+<p><img loading="lazy" src="arch.png" alt="LC-JEPA Architecture"  />
+</p>
+<p><em>Figure 1: LC-JEPA architecture. Left: Training — observation embeddings (Fourier time + value token) are processed by context and EMA target encoders. The predictor maps context latents to target latents for masked blocks. An optional rollout head predicts the next latent step. Right: Inference — frozen encoder produces 512-d embeddings for downstream tasks.</em></p>
+<p>A compact JEPA built for irregular-cadence time series:</p>
+<ol>
+<li><strong>Fourier time-embedding + value tokens</strong> — so unevenly-sampled epochs don&rsquo;t need interpolation</li>
+<li><strong>Context encoder</strong> — processes unmasked observations → produces latents</li>
+<li><strong>EMA-updated target encoder</strong> — slow-moving copy of context encoder, provides stable targets</li>
+<li><strong>Latent predictor</strong> — maps context latents → predicts target embeddings for masked regions</li>
+<li><strong>VICReg anti-collapse regularizer</strong> — latent prediction alone has a well-known degenerate-solution failure mode (everything collapses to a constant); VICReg is the standard fix</li>
+<li><strong>Optional latent-rollout head</strong> — instead of predicting one masked span, predicts a short <em>sequence</em> of future latent states, a small world-model-flavored addition on top of vanilla JEPA</li>
+</ol>
+<p>Small enough to pretrain on an M5 Pro chip&rsquo;s MPS backend rather than needing a cluster — a deliberate constraint. Part of the point was proving this class of experiment doesn&rsquo;t require industrial compute.</p>
+<h3 id="observation-embedding">Observation Embedding</h3>
+<p>Each observation is a tuple: <code>(Δt, m, σ)</code> — time delta from t₀, magnitude, magnitude error. We embed each observation via:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a">class</span> <span style="color:#0a0;text-decoration:underline">ObservationEmbedding</span>(nn.Module):
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">def</span> <span style="color:#0a0">__init__</span>(<span style="color:#0aa">self</span>, d_model=<span style="color:#099">256</span>, n_freq=<span style="color:#099">32</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#0aa">self</span>.freqs = nn.Parameter(torch.randn(n_freq) * <span style="color:#099">0.1</span>)  <span style="color:#aaa;font-style:italic"># learnable Fourier</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0aa">self</span>.mlp = nn.Sequential(
+</span></span><span style="display:flex;"><span>            nn.Linear(n_freq * <span style="color:#099">2</span> + <span style="color:#099">2</span>, d_model),
+</span></span><span style="display:flex;"><span>            nn.LayerNorm(d_model),
+</span></span><span style="display:flex;"><span>            nn.GELU(),
+</span></span><span style="display:flex;"><span>            nn.Linear(d_model, d_model),
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">def</span> <span style="color:#0a0">forward</span>(<span style="color:#0aa">self</span>, dt, mag, sigma):
+</span></span><span style="display:flex;"><span>        <span style="color:#aaa;font-style:italic"># Fourier time encoding</span>
+</span></span><span style="display:flex;"><span>        omega = <span style="color:#0aa">self</span>.freqs
+</span></span><span style="display:flex;"><span>        sin_t = torch.sin(omega * dt)
+</span></span><span style="display:flex;"><span>        cos_t = torch.cos(omega * dt)
+</span></span><span style="display:flex;"><span>        <span style="color:#aaa;font-style:italic"># Concatenate: [sin(ωΔt), cos(ωΔt), m, σ]</span>
+</span></span><span style="display:flex;"><span>        x = torch.cat([sin_t, cos_t, mag, sigma], dim=-<span style="color:#099">1</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#00a">return</span> <span style="color:#0aa">self</span>.mlp(x)
+</span></span></code></pre></div><p><strong>Design choice:</strong> <em>learnable</em> Fourier frequencies rather than fixed ones. This lets the model adapt its temporal sensitivity to the irregular sampling of ZTF light curves.</p>
+<h3 id="per-curve-normalization">Per-Curve Normalization</h3>
+<p>Before feeding to the encoder, we normalize magnitudes per-curve:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>m̃ = (m - μ_curve) / σ_curve
+</span></span></code></pre></div><p>This is critical. Different quasars have different absolute brightnesses. Normalizing per-curve forces the model to learn <strong>variability structure</strong> rather than absolute magnitude. Without this, the model would just learn &ldquo;brighter quasars are more interesting&rdquo; — which is useless.</p>
+<h3 id="block-wise-masking">Block-Wise Masking</h3>
+<p>We mask 4 blocks of 10–20% sequence length each, retaining 85% of non-target context tokens. This is different from random token masking (used in BERT-style models). Block masking forces the model to learn <strong>long-range dependencies</strong> — it can&rsquo;t just interpolate locally. For light curves, this means the model must understand how variability at one epoch relates to variability many epochs later.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">sample_block_masks</span>(seq_len, n_blocks=<span style="color:#099">4</span>, block_range=(<span style="color:#099">0.10</span>, <span style="color:#099">0.20</span>)):
+</span></span><span style="display:flex;"><span>    masks = torch.zeros(seq_len, dtype=torch.bool)
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">for</span> _ <span style="color:#00a">in</span> <span style="color:#0aa">range</span>(n_blocks):
+</span></span><span style="display:flex;"><span>        block_len = random.randint(
+</span></span><span style="display:flex;"><span>            <span style="color:#0aa">int</span>(seq_len * block_range[<span style="color:#099">0</span>]),
+</span></span><span style="display:flex;"><span>            <span style="color:#0aa">int</span>(seq_len * block_range[<span style="color:#099">1</span>])
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        start = random.randint(<span style="color:#099">0</span>, seq_len - block_len)
+</span></span><span style="display:flex;"><span>        masks[start:start+block_len] = <span style="color:#00a">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Retain 85% of non-target context</span>
+</span></span><span style="display:flex;"><span>    context_mask = ~masks
+</span></span><span style="display:flex;"><span>    retain = random.sample(context_mask.nonzero().squeeze(),
+</span></span><span style="display:flex;"><span>                           <span style="color:#0aa">int</span>(context_mask.sum() * <span style="color:#099">0.85</span>))
+</span></span><span style="display:flex;"><span>    masks[retain] = <span style="color:#00a">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> masks
+</span></span></code></pre></div><hr>
+<h2 id="a-controlled-objective-ablation">A Controlled Objective Ablation</h2>
+<p>This is the actual contribution, more than the detector itself. Same architecture, same data, same masking scheme, same compute budget — the <em>only</em> thing that changes across runs is the pretraining objective:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Objective</th>
+					<th>What it optimizes</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Masked reconstruction</strong></td>
+					<td>Predict masked flux values directly</td>
+			</tr>
+			<tr>
+					<td><strong>LC-JEPA (+ rollout)</strong></td>
+					<td>Predict latent target + short latent-future rollout</td>
+			</tr>
+			<tr>
+					<td><strong>Pure JEPA (no rollout)</strong></td>
+					<td>Predict latent target only</td>
+			</tr>
+			<tr>
+					<td><strong>Random-init</strong></td>
+					<td>No pretraining — frozen random encoder, as a floor</td>
+			</tr>
+	</tbody>
+</table>
+<p>Evaluation is a frozen-embedding linear probe (L2-logistic regression, class-balanced, 5-fold out-of-fold, <strong>5 seeds</strong> — every number below has an error bar, not a single lucky run), scored on ROC-AUC, average precision, and precision@k against the real 20:1 class imbalance CLAGN discovery actually has.</p>
+<hr>
+<h2 id="results">Results</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Model</th>
+					<th>Probe AUC (5-seed)</th>
+					<th>Brightness-matched AUC</th>
+					<th>Precision@20</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Reconstruction</strong></td>
+					<td><strong>0.888 ± 0.003</strong></td>
+					<td>0.849</td>
+					<td>0.65</td>
+			</tr>
+			<tr>
+					<td>LC-JEPA (rollout)</td>
+					<td>0.870 ± 0.003</td>
+					<td>0.842</td>
+					<td>0.65</td>
+			</tr>
+			<tr>
+					<td>Pure-JEPA</td>
+					<td>0.859 ± 0.003</td>
+					<td>0.827</td>
+					<td>0.55</td>
+			</tr>
+			<tr>
+					<td>Random-init</td>
+					<td>0.841 ± 0.004</td>
+					<td>0.808</td>
+					<td>0.55</td>
+			</tr>
+			<tr>
+					<td>Hand-crafted features</td>
+					<td>0.833</td>
+					<td>—</td>
+					<td>0.25</td>
+			</tr>
+			<tr>
+					<td>Brightness alone</td>
+					<td>0.523</td>
+					<td>—</td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td>Base rate</td>
+					<td>—</td>
+					<td>—</td>
+					<td>0.054</td>
+			</tr>
+	</tbody>
+</table>
+<p>Precision@20 of 0.65 against a 0.054 base rate is a <strong>12× enrichment</strong> in the top of the ranked list — meaningful for a follow-up program with limited telescope time, where you can only chase down a handful of the most promising candidates.</p>
+<p>And the brightness-confound control matters more than it might look: quasar surveys have well-known brightness-related selection effects, so before trusting any of this, I checked whether the model was secretly just learning &ldquo;brighter objects are more likely CLAGN.&rdquo; Brightness alone gets 0.523 AUC — barely above chance — and matching controls to CLAGN on brightness decile only drops the probe from 0.888 to 0.849. The signal is in the <em>variability structure</em>, not the flux level.</p>
+<h3 id="reconstruction-beats-jepa-and-its-not-close">Reconstruction Beats JEPA, And It&rsquo;s Not Close</h3>
+<p>I went in expecting the opposite. The gap (0.888 vs 0.870) held up across all 5 seeds — not overlapping noise, a real effect. My first instinct was that the rollout head was acting as a multi-task penalty, dragging pure latent prediction down artificially, and that a <em>pure</em> JEPA (rollout head removed, otherwise identical) would close the gap or win outright. So I ran that ablation specifically to check. It didn&rsquo;t rescue JEPA — pure-JEPA scored <em>lower</em> still (0.859), meaning the rollout head was actually <strong>helping</strong> LC-JEPA&rsquo;s representation, not hurting it, and reconstruction&rsquo;s advantage over latent prediction is real, not an artifact of an unfair comparison.</p>
+<h3 id="the-ordering-is-monotonic">The Ordering Is Monotonic</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>recon (0.888) &gt; JEPA+rollout (0.870) &gt; pure-JEPA (0.859) &gt; random-init (0.841)
+</span></span></code></pre></div><p>All pairwise gaps exceed 5-seed standard errors. This is not noise.</p>
+<p><img loading="lazy" src="fig4_ladder.png" alt="Ablation Ladder"  />
+</p>
+<p><em>Figure 2: Probe AUC for all objectives. Solid circles = unmatched, open diamonds = brightness-matched. Error bars = 5-seed std. Reconstruction beats all pretrained variants; the rollout head adds +0.011 over pure JEPA.</em></p>
+<h3 id="label-efficiency">Label Efficiency</h3>
+<p>Pretrained representations beat random-init at <strong>every</strong> label budget from k=10 to k=373. The gap is largest at low k (0.042 at k=10), establishing label efficiency as the core advantage of pretraining.</p>
+<p>At k=10: reconstruction = 0.744 AUC, random-init = 0.721 AUC.</p>
+<p><img loading="lazy" src="fig_labeleff.png" alt="Label Efficiency"  />
+</p>
+<p><em>Figure 3: Probe AUC vs. number of labeled CLAGN (k). Pretrained representations beat random-init at every budget. The gap is largest at low k, establishing label efficiency as the core advantage of pretraining.</em></p>
+<h3 id="scaling-with-pretraining-data">Scaling with Pretraining Data</h3>
+<table>
+	<thead>
+			<tr>
+					<th>Pretrain Size</th>
+					<th>Train Set</th>
+					<th>Probe AUC</th>
+					<th>Δ vs Baseline</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>5,000</td>
+					<td>6,264</td>
+					<td>0.8334</td>
+					<td>+0.0009</td>
+			</tr>
+			<tr>
+					<td>15,000</td>
+					<td>13,268</td>
+					<td>0.8553</td>
+					<td>+0.0227</td>
+			</tr>
+			<tr>
+					<td>31,000</td>
+					<td>30,474</td>
+					<td>0.8533</td>
+					<td>+0.0208</td>
+			</tr>
+	</tbody>
+</table>
+<p>The representation only begins to outperform hand-crafted features at ~15k curves. At 5k, it&rsquo;s essentially equal (Δ = +0.001). At 31k, performance saturates (0.853 vs 0.855 at 15k).</p>
+<p><img loading="lazy" src="fig_scaling-1.png" alt="Scaling Curve"  />
+</p>
+<p><em>Figure 5: Scaling curve — linear probe AUC vs. number of pretraining light curves. The representation only begins to outperform hand-crafted features at ~15k curves, with performance saturating by that scale. The dashed line shows the hand-crafted feature baseline (0.8325).</em></p>
+<hr>
+<h2 id="why-reconstruction-wins">Why Reconstruction Wins</h2>
+<p>TS-JEPA [5] reports that latent prediction is &ldquo;comparable to reconstruction&rdquo; on synthetic time-series benchmarks. Our results go further: reconstruction <strong>beats</strong> latent prediction for CLAGN detection.</p>
+<p>The reason is <strong>objective–task matching</strong>.</p>
+<p>CLAGN detection rewards preserving the <strong>reconstructible magnitude transition</strong> that defines a changing-look event. JEPA&rsquo;s latent-invariance, which is beneficial for generic representation learning, <strong>discards</strong> the very signal we&rsquo;re looking for.</p>
+<p>Think of it this way:</p>
+<ul>
+<li><strong>Reconstruction</strong> learns: &ldquo;here&rsquo;s how the magnitude changes over time&rdquo;</li>
+<li><strong>JEPA</strong> learns: &ldquo;here&rsquo;s the invariant structure of variability, ignoring noise&rdquo;</li>
+</ul>
+<p>For CLAGN, the signal <strong>is</strong> the magnitude transition. JEPA&rsquo;s invariance is a bug, not a feature.</p>
+<p>This parallels recent findings in medical imaging [19,20]: &ldquo;frozen embeddings discard fine-grained signal.&rdquo; Latent-prediction objectives learn representations that are robust to noise but lose reconstructible structure. Ivezić et al. [20] show that when diagnostically relevant information is globally structured (e.g., liver ultrasounds), JEPA-based methods are optimal — but when signal is spatially localized (e.g., histopathology), reconstruction-based methods win. Our CLAGN signal is globally structured in magnitude space, which is why reconstruction wins.</p>
+<p>The rollout head partially recovers the lost signal (+0.011 over pure JEPA), suggesting that causal next-step prediction in latent space provides a useful inductive bias that bridges reconstruction and pure JEPA.</p>
+<hr>
+<h2 id="representation-structure">Representation Structure</h2>
+<h3 id="pca-rank">PCA Rank</h3>
+<p>Probe AUC peaks at 32–64 PCA components and degrades at 256:</p>
+<table>
+	<thead>
+			<tr>
+					<th>PCA r</th>
+					<th>2</th>
+					<th>4</th>
+					<th>8</th>
+					<th>16</th>
+					<th>32</th>
+					<th>64</th>
+					<th>128</th>
+					<th>256</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Recon</td>
+					<td>0.643</td>
+					<td>0.725</td>
+					<td>0.762</td>
+					<td>0.794</td>
+					<td><strong>0.864</strong></td>
+					<td><strong>0.895</strong></td>
+					<td>0.893</td>
+					<td>0.869</td>
+			</tr>
+	</tbody>
+</table>
+<p>The CLAGN signal lives in a low-dimensional subspace (effective rank ~32–64 of 512-d). Additional dimensions add noise.</p>
+<h3 id="umap-visualization">UMAP Visualization</h3>
+<p><img loading="lazy" src="fig2_umap.png" alt="UMAP Embeddings"  />
+</p>
+<p><em>Figure 4: UMAP of frozen 512-d embeddings. Left: coloured by class (CLAGN vs. control). Right: coloured by median magnitude. CLAGN occupy a distinct region not explained by brightness.</em></p>
+<h3 id="neighborhood-purity">Neighborhood Purity</h3>
+<p>CLAGN&rsquo;s 10 nearest neighbours in embedding space are also CLAGN at a significantly higher rate than controls. The representation clusters CLAGN together.</p>
+<hr>
+<h2 id="technical-details">Technical Details</h2>
+<h3 id="training-on-apple-silicon">Training on Apple Silicon</h3>
+<p>All models trained on Apple Silicon (MPS) with TF32 enabled:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">configure_backend</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">if</span> torch.cuda.is_available():
+</span></span><span style="display:flex;"><span>        torch.backends.cuda.matmul.allow_tf32 = <span style="color:#00a">True</span>
+</span></span><span style="display:flex;"><span>        torch.backends.cudnn.allow_tf32 = <span style="color:#00a">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">elif</span> torch.backends.mps.is_available():
+</span></span><span style="display:flex;"><span>        os.environ[<span style="color:#a50">&#34;PYTORCH_ENABLE_MPS_FALLBACK&#34;</span>] = <span style="color:#a50">&#34;1&#34;</span>
+</span></span></code></pre></div><h3 id="ema-momentum-schedule">EMA Momentum Schedule</h3>
+<p>Momentum scheduled cosinely from 0.997 to 1.0:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">ema_momentum</span>(step, total_steps, m_start=<span style="color:#099">0.997</span>, m_end=<span style="color:#099">1.0</span>):
+</span></span><span style="display:flex;"><span>    progress = step / total_steps
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> m_end - <span style="color:#099">0.5</span> * (m_end - m_start) * (<span style="color:#099">1</span> + math.cos(math.pi * progress))
+</span></span></code></pre></div><h3 id="vicreg-anti-collapse">VICReg Anti-Collapse</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">vicreg_loss</span>(Z, var_target=<span style="color:#099">1.0</span>, cov_weight=<span style="color:#099">0.01</span>):
+</span></span><span style="display:flex;"><span>    batch, dim = Z.shape
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Variance term</span>
+</span></span><span style="display:flex;"><span>    var = torch.var(Z, dim=<span style="color:#099">0</span>, unbiased=<span style="color:#00a">True</span>)
+</span></span><span style="display:flex;"><span>    var_loss = ((var - var_target) ** <span style="color:#099">2</span>).mean()
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Covariance term (off-diagonal only)</span>
+</span></span><span style="display:flex;"><span>    cov = torch.cov(Z.T)  <span style="color:#aaa;font-style:italic"># (dim, dim)</span>
+</span></span><span style="display:flex;"><span>    cov_loss = cov.pow(<span style="color:#099">2</span>).sum() - var.pow(<span style="color:#099">2</span>).sum()  <span style="color:#aaa;font-style:italic"># remove diagonal</span>
+</span></span><span style="display:flex;"><span>    cov_loss /= dim * (dim - <span style="color:#099">1</span>)  <span style="color:#aaa;font-style:italic"># normalize by off-diagonal count</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> var_loss + cov_weight * cov_loss
+</span></span></code></pre></div><h3 id="data-pipeline">Data Pipeline</h3>
+<ol>
+<li><strong>Catalog:</strong> Cross-match CLAGN catalog with SDSS DR16 quasars</li>
+<li><strong>Download:</strong> ZTF DR23 r-band photometry via IRSA, quality cuts (catflags, magerr &lt; 0.1, ≥120 epochs)</li>
+<li><strong>Cache:</strong> 31,866 light curves in parquet format</li>
+<li><strong>Evaluation:</strong> 6,960 objects (373 CLAGN, 6,587 controls, 5.4% base rate)</li>
+</ol>
+<hr>
+<h2 id="implications">Implications</h2>
+<h3 id="for-astronomy">For Astronomy</h3>
+<p>The pipeline is LSST-ready. Rubin Observatory will produce ~100 billion light curves over 10 years. Our saturating scaling curve suggests that beyond ~15k curves, architectural improvements or different objectives may be needed to continue scaling. But the saturation point is easily exceeded for LSST. Recent work on multiband light-curve transformers [11] and vision Transformers for light curves [12] suggests that multi-band fusion could push performance further.</p>
+<h3 id="for-self-supervised-learning">For Self-Supervised Learning</h3>
+<p>The key insight — that the pretraining objective determines what signal is preserved — has implications beyond astronomy. When using self-supervised representations for downstream discovery, the pretraining objective should be chosen to preserve the signal relevant to the downstream task. JEPA&rsquo;s noise-invariance is not universally beneficial.</p>
+<h3 id="for-time-series-representation-learning">For Time-Series Representation Learning</h3>
+<p>Our saturating scaling curve suggests a &ldquo;tipping point&rdquo; at ~10k–15k curves. Below this scale, hand-crafted features are competitive. Above this scale, representations pull ahead but then saturate. This is consistent with the &ldquo;lazy training&rdquo; regime of overparameterized neural networks.</p>
+<hr>
+<h2 id="references">References</h2>
+<p>[1] Assran et al. &ldquo;Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture.&rdquo; CVPR 2023. arXiv:2205.01068.</p>
+<p>[2] Assran et al. &ldquo;V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning.&rdquo; arXiv 2025. arXiv:2506.09985.</p>
+<p>[3] Garcia &amp; Isik. &ldquo;Behavioral Geometric Supervision Aligns Video Foundation Models with Human Social Perception.&rdquo; arXiv 2025. arXiv:2510.01502.</p>
+<p>[4] Bardes, Ponce &amp; LeCun. &ldquo;VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning.&rdquo; ICLR 2022. arXiv:2105.04906.</p>
+<p>[5] Ennadir, Golkar &amp; Sarra. &ldquo;Joint Embeddings Go Temporal.&rdquo; NeurIPS 2024 Workshop on Time Series in the Age of Large Models. arXiv:2509.25449.</p>
+<p>[6] Li et al. &ldquo;StarEmbed: Benchmarking Time Series Foundation Models on Astronomical Observations of Variable Stars.&rdquo; ICML 2026. arXiv:2510.06200.</p>
+<p>[7] Donoso-Oliva et al. &ldquo;ASTROMER: A Transformer-Based Embedding for the Representation of Light Curves.&rdquo; A&amp;A 670, A54 (2023). arXiv:2205.01677.</p>
+<p>[8] Donoso-Oliva et al. &ldquo;Astromer 2: A Foundational Model for Light Curve Embeddings.&rdquo; A&amp;A 707, A170 (2026). arXiv:2502.02717.</p>
+<p>[9] Tan et al. &ldquo;ASTROCO: Self-Supervised Conformer-Style Transformers for Light-Curve Embeddings.&rdquo; NeurIPS 2025 Workshop on ML and the Physical Sciences. arXiv:2509.24134.</p>
+<p>[10] Zuo et al. &ldquo;FALCO: A Foundation Model of Astronomical Light Curves for Time-Domain Astronomy.&rdquo; AJ 171, 247 (2026). arXiv:2504.20290.</p>
+<p>[11] Chiong, Becker &amp; Protopapas. &ldquo;Multivariate Time Series Transformer Embeddings for Light Curves of Periodic Variable Stars.&rdquo; A&amp;A 712, A168 (2026). arXiv:2506.11637.</p>
+<p>[12] Moreno-Cartagena et al. &ldquo;Leveraging Pre-trained Vision Transformers for Multi-Band Photometric Light Curve Classification.&rdquo; A&amp;A 703, A41 (2025). arXiv:2502.20479.</p>
+<p>[13] Cádiz-Leyton et al. &ldquo;Uncertainty Estimation for Time Series Classification: Exploring Predictive Uncertainty in Transformer-Based Models for Variable Stars.&rdquo; A&amp;A 699, A168 (2025). arXiv:2412.10528.</p>
+<p>[14] Rui. &ldquo;Domain-Informed Multi-View Self-Distillation for Astronomical Light-Curve Representation Learning with JEPA.&rdquo; arXiv 2026. arXiv:2606.28446.</p>
+<p>[15] Guo et al. &ldquo;Changing-Look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. I. Sample from the Early Data Release.&rdquo; ApJ 964, 139 (2024).</p>
+<p>[16] Guo et al. &ldquo;Changing-Look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. II. Statistical Properties from the First Data Release.&rdquo; ApJ 981, 54 (2025).</p>
+<p>[17] Guo et al. &ldquo;Changing-Look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. IV. Broad Emission Line Evolution Sequence Among Hα, Mg II, and Hβ.&rdquo; ApJ (2025). arXiv:2511.15275.</p>
+<p>[18] Nakazono et al. &ldquo;CLAS+: A Large Catalog of Changing-Look AGN Candidates Selected through S-PLUS Narrow-Band Photometry.&rdquo; ApJ (2026). arXiv:2609.03232.</p>
+<p>[19] Ergün et al. &ldquo;Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI.&rdquo; arXiv 2026. arXiv:2606.13315.</p>
+<p>[20] Ivezić et al. &ldquo;Pretext Matters: An Empirical Study of SSL Methods in Medical Imaging.&rdquo; arXiv 2026. arXiv:2603.22649.</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    &copy; 2026 Yash Thube
+    <span>
+    &middot;  Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

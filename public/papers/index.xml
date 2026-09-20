@@ -1,45 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Papers on Rosa van den Ende</title>
-    <link>https://rosavandenende.github.io/papers/</link>
-    <description>Recent content in Papers on Rosa van den Ende</description>
+    <title>Projects on Yash Thube</title>
+    <link>https://thubZai.github.io/papers/</link>
+    <description>Recent content in Projects on Yash Thube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://rosavandenende.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>Yash Thube</managingEditor>
+    <webMaster>Yash Thube</webMaster>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thubZai.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Diffusion in Dynamic Networks with Continuous Inputs to Allocate Responsibility</title>
-      <link>https://rosavandenende.github.io/papers/paper1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper1/</guid>
-      <description>We investigate how responsibility for any negative effect spreads in a dynamic network. Not just responsibility for carbon emissions, but also for example systemic risk.</description>
+      <title>LC-JEPA: What Pretraining Objectives Keep and Discard</title>
+      <link>https://thubZai.github.io/papers/paper00/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper00/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/thubZ09/lcjepa&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Changing-look AGN (CLAGN) are quasars that switch spectral type over months to years — direct evidence of an accretion-state transition around a supermassive black hole. They&amp;rsquo;re rare (~1,000 known) and almost all of them were found by accident, in spectral repeat visits nobody scheduled specifically to catch one.&lt;/p&gt;
+&lt;p&gt;If the transition leaves a signature in the &lt;em&gt;photometry&lt;/em&gt; — the light curve alone, no spectrum required — you could search for CLAGN systematically across every quasar a survey has ever imaged, instead of waiting to get lucky.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Network-based allocation of responsibility for GHG emissions</title>
-      <link>https://rosavandenende.github.io/papers/paper2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper2/</guid>
-      <description>In this paper we allocate responsibilities for GHG emissions in a network.</description>
+      <title>Paper Implementations</title>
+      <link>https://thubZai.github.io/papers/paper1/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper1/</guid>
+      <description>PyTorch implementations of research papers, aimed at deepening my understanding of the underlying concepts.</description>
     </item>
     
     <item>
-      <title>Strategic environmental responsibility in networks</title>
-      <link>https://rosavandenende.github.io/papers/paper4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper4/</guid>
-      <description>[Work in progress] We evaluate the effect of changing the underlying network structure on the responsibility allocation, and we investigate how we can use this to achieve the emisison reduction goals of the Paris Agreement. </description>
+      <title>Pathological Truth Bias in Vision-Language Models</title>
+      <link>https://thubZai.github.io/papers/paper000/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper000/</guid>
+      <description>MATS, a behavioral audit for vision language models, identifies systematic failures in spatial consistency and suggests repair paths through activation patching.</description>
     </item>
     
     <item>
-      <title>The quantum state reduction of general intital states through spontaneous unitarity violation</title>
-      <link>https://rosavandenende.github.io/papers/paper3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosavandenende.github.io/papers/paper3/</guid>
-      <description>This paper shows other things. Published in Journal Name, 2015.</description>
+      <title>Multimodal Research Hub — Vision-Language Models (VLMs)</title>
+      <link>https://thubZai.github.io/papers/paper2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper2/</guid>
+      <description>A living resource for Vision-Language Models &amp;amp; multimodal learning.</description>
+    </item>
+    
+    <item>
+      <title>SSL-Vision</title>
+      <link>https://thubZai.github.io/papers/paper4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper4/</guid>
+      <description>Implementation of four self-supervised learning (SSL) algorithms; SimCLR, MoCo-v2, BYOL, and DINO on the CIFAR-10 dataset using a ResNet-18 backbone. All scripts are designed to run on Google Colab Free Tier (single GPU, ~12 GB RAM) with CIFAR-10.</description>
+    </item>
+    
+    <item>
+      <title>A lightweight manifold constraint for PyTorch planners</title>
+      <link>https://thubZai.github.io/papers/paper5/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper5/</guid>
+      <description>LatentLinter is a lightweight PyTorch manifold constraint that penalizes out-of-distribution (OOD) latent states and stabilizes gradient planners.</description>
+    </item>
+    
+    <item>
+      <title>Task-Aware Segment Anything with LoRA</title>
+      <link>https://thubZai.github.io/papers/paper3/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <author>Yash Thube</author>
+      <guid>https://thubZai.github.io/papers/paper3/</guid>
+      <description>A lightweight hypernetwork that generates LoRA adapters for the Segment Anything Model (SAM) based on natural language task descriptions.</description>
     </item>
     
   </channel>
